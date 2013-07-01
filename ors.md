@@ -1,5 +1,10 @@
 # Open Regional Science
 
+**Sergio J. Rey**  
+**Arizona State University**  
+
+**DRAFT**
+
 ## Introduction
 
 The title of this talk could have multiple meanings. One would use *Open* as
