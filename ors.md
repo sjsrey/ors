@@ -23,10 +23,38 @@ Start by defining terms. Since I've already declared my choice of xx for
 *Open* that leaves two more terms to define before getting to the body of my
 talk. 
 
+Scientific publishing - issues - lead to reproducibility
+
 This talk extends some themes I have been developing in previous work
 [@Rey:2009xy; @Rey2012osgres].
 
 # Regional Science
+
+I, and I suspect many of you, take the *science* part of regional science seriously. We see science as one of the best constructions of human kind, running close to beer. We hold it in such high esteem as science as the noble goals helping us to:
+
+- understand our world
+- uncover new knowledge
+- improve our realities for the betterment of human kind
+
+Defining science can be done many ways, but a common approach is to break science down into components: theory, methods and data. 
+
+Origins in Descarte's Discourse on Methods in the 1637. From the beginning the concept of reproducibility was at the core. As  [@Schroeder:2013uq] notes the motto of the Royal Socieity 1671
+
+>Nullius in Verba
+>"take nobody's word for it"
+
+Publishing as the letters in the society
+
+Evolution of scientific publication.
+
+Complexity in doing science, computation burden and related technological developments are challenging the traditional scientific publishing model. No longer does a regular lengthed paper in a hardbound journal adequately capture the scientific process underlying a research effort.
+
+Reproducibility is almost invariably not possible in the current model
+
+
+Career pressures sustain the curent model. Publish or perish has been the mantra we have adopted, leaving little or no time for ensuring that what we publish could in fact be reproduced by future scholars.
+
+It should not come as surprise that the state of reproduciblity is so dismal.
 
 Define science - its purpose, impact and future. 
 Define regional science
@@ -42,9 +70,35 @@ key dimensions of the open paradigm
 
 
 
+## Scientific Publishing - Where we are
+
+Time to publish on the web
+- Typically 1 hour
+- small marginal costs
+- supports data and software pblication
+
+contrast this with commercial publish. Time to publish an article from the date of submission typically is 1-2 years. The form of journals means that software and data are generally not included as part of the publication. And, the costs of commercial publishing are high, both on the production side of things where estimates are and avverage of 500 Euros per paper, but also on the access side of the coin where costs to read the same paper average 30 Euros. XXXGet statistics and sources here.
+
+Subscription costs and Universities cancelling subscriptions. Elsevier boycott
+UK open access mandate.
+
+Curated or captured science is the result. Publishers own the copyright of the paper and have enclosed the theory within the confines of the article. Software and data are generally not to be found, even in cases where the paper access costs can be borne. 
+
+Summary
+
+Too much attention on documents as the only research artifact - data and software are not part of the discussion. Meta-analysis of research areas becomes prohibitively expensive - limits synthesis of knowledge. Science has been captured by commercial interests. All of this leads to major problems of irreproducibility. Essentially what is being compriised is:
+
+>Science's capacity for self-correction comes from its openness to scruitiny and challenges
+
+[@Boulton:2012kx]
+
+If openennes is in question, science is in question.
+
+
 
 ## Opportunities: Open Science
 
+A prominent theme in the recent literature on open science is reproducibility.
 General issues with the commercialization of science
 
 lay out the problem
@@ -58,6 +112,13 @@ closed science depletion of a common resource
 
 
 open funding and kick starter crowdfunding initiatives
+
+For science to be truly open, three components need to be operative:
+- Open Source
+- Open Access
+- Open Data
+
+[@Schroeder:2013uq]
 
 ### Open Source
 
@@ -183,7 +244,7 @@ shallow
 
 Linus' Law: given enough eyeballs, all bugs are shallow
 
-
+data archives needed
 
 # Opportunities
 

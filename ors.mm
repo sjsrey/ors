@@ -49,7 +49,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="1"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="3"/>
 <node TEXT="purpose of science" POSITION="right" ID="ID_1359902778" CREATED="1372343254076" MODIFIED="1372343259182">
 <edge COLOR="#ff0000"/>
 <node TEXT="production of new knowledge" ID="ID_499091118" CREATED="1372344157133" MODIFIED="1372344163464"/>
@@ -225,6 +225,13 @@
 <node TEXT="learn from our mistakes" ID="ID_1456326917" CREATED="1378906381295" MODIFIED="1378906384900">
 <node TEXT="Dennet book and the importance of making mistakes as a way to learn. Link this to openness and publication bias" ID="ID_1269257663" CREATED="1378906394025" MODIFIED="1378906395453"/>
 </node>
+</node>
+</node>
+<node TEXT="watched video again" POSITION="left" ID="ID_539399349" CREATED="1380110403054" MODIFIED="1380110408569">
+<edge COLOR="#00ff00"/>
+<node TEXT="scientisits become the new publishers" ID="ID_1828708833" CREATED="1380110334215" MODIFIED="1380110412000"/>
+<node TEXT="open source scientific software companies" ID="ID_509407197" CREATED="1380110413447" MODIFIED="1380110430468">
+<node TEXT="kitware" ID="ID_98398626" CREATED="1380110420086" MODIFIED="1380110422115"/>
 </node>
 </node>
 </node>
