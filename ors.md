@@ -16,7 +16,7 @@ Still another set of alternatives would see different punctuations of the tile, 
 
 As should be clear in what follows, the thrust of my argument is that the verb and exclamation point interpretations are the correct ones. Indeed my purpose in this talk is to situate regional science within the paradigm of open science by arguing that our future should be linked to open data, open modeling, open software, open collaboration, open publication, open funding and open education. open science opportunities related to [1] technology-driven developments to address big data challenges, [2] crowd powered / citizen science; [3] educational developments
 
-In order to do so I first outline what exactly constitutes open science and culture and the opportunities they may afford us. This is followed by an examination of a number of challenges standing before us that are responsibile for the gap between potential and reality. I close the talk with some thoughts about the likely future for open regional science.
+In order to do so I first outline what exactly constitutes open science and culture. This is followed by a more detailed examination of each of the components of open science and the extent to which they are operative in regional science with specific attention given to cases where there is a gap between potential and the opportunities they may afford us. I close the talk with some thoughts about the likely future for open regional science.
 
 
 Start by defining terms. Since I've already declared my choice of xx for
@@ -28,7 +28,7 @@ Scientific publishing - issues - lead to reproducibility
 This talk extends some themes I have been developing in previous work
 [@Rey:2009xy; @Rey2012osgres].
 
-# Regional Science
+## Science: Captured or Open
 
 I, and I suspect many of you, take the *science* part of regional science seriously. We see science as one of the best constructions of human kind, running close to beer. We hold it in such high esteem as science as the noble goals helping us to:
 
@@ -43,7 +43,9 @@ Origins in Descarte's Discourse on Methods in the 1637. From the beginning the c
 >Nullius in Verba
 >"take nobody's word for it"
 
-Publishing as the letters in the society
+Publishing as the letters in the society as a way to hasten dissemination relative to book publication. 
+
+Use of three referees as a model for the review process dates back to this period.
 
 Evolution of scientific publication.
 
@@ -78,6 +80,7 @@ Time to publish on the web
 - supports data and software pblication
 
 contrast this with commercial publish. Time to publish an article from the date of submission typically is 1-2 years. The form of journals means that software and data are generally not included as part of the publication. And, the costs of commercial publishing are high, both on the production side of things where estimates are and avverage of 500 Euros per paper, but also on the access side of the coin where costs to read the same paper average 30 Euros. XXXGet statistics and sources here.
+[@Schroeder:2013uq]
 
 Subscription costs and Universities cancelling subscriptions. Elsevier boycott
 UK open access mandate.
@@ -113,12 +116,7 @@ closed science depletion of a common resource
 
 open funding and kick starter crowdfunding initiatives
 
-For science to be truly open, three components need to be operative:
-- Open Source
-- Open Access
-- Open Data
-
-[@Schroeder:2013uq]
+For science to be truly open, two components need to be operative. *Open data* constitutes available, intelligible, asssessible and useable data.  *Open access*  to scientific publications and knowledge allows the realization of the building on shoulders of giants XXXget quote. Accessbility is more than the ability to acquire since a key impediment to scientific progress is that much published research is unintelligible beyond the origin specialist domain. This effective communication of results and methods is paramount [@Boulton:2012kx].
 
 ### Open Source
 
@@ -127,8 +125,7 @@ For science to be truly open, three components need to be operative:
 ### Open Data
 
 
-Open Data Charter  [@Eaves:2013fk] is a recognition that in addition to
-fostering innovation and transparency, open data can also drive public policy.
+Open Data Charter  [@Eaves:2013fk] is a recognition that in addition to fostering innovation and transparency, open data can also drive public policy.
 
 US Government opendatanow.com geoplatform.gov geo.data.gov
 
@@ -203,7 +200,7 @@ Give overview of the process
 
 Web book of regional science as an exemplar
 
-## Challenges 
+
 
 ### Institutions
 
@@ -233,14 +230,26 @@ austerity debacle
 ## Peer Review
 
 
-## Data Hoarding
+## Open Data
+In order for the network effects of open science to kick in a necessary condition will be that data underlying research projects be made accessibile to the wider research community. Unfortunately, current institutional constraints and individual practices are standing in the way of realizing this.
 
-census research centers
+### Privacy Concerns
 
-recognize confidentiality concerns
+There are important concerns regarding the protection of personal information on the one hand, and the rich set of empirical analyses that micro data support on the other. A number of strategies have been explored to strike this balance. Anonymization of public records attempt to minize the risk of revealing information about individuals. However, this has its limit as a number of high profile failures have demonstrated.
 
-problem of replication and network effects - with enough eyes all bugs are
-shallow
+One example being the case of the State of Massachusetts Group Insurance Commission (GIC) responsible for purchasing health insurance for state employees [@Sweeney:2005uq]. As part of that effort GIC anonymized data by removal of names, addresses, and Social Security numbers before releasing to researchers. What remained in the released data were ZIP code, birth date and gender of each person along with diagnoses and prescription information.
+
+A researcher was able to purchase a voter registration list for Cambridge for $20 that contained the name, address, ZIP code, birth date and gender of each voter. Linking this with the GIC data made it possible to identify the medical records for the state govener, since only six people had the same birth date, of these three were men, and only one of these had the same ZIP code.
+
+### Data Hoarding
+Clearly there are problems with anonymization procedures and a very active research agenda is developing around privitatization XXXcites. An alternative to anonymization is the use of
+save havens as secure sites for data containing sensitive person information with access being granted to authorized researchers. In the US, Census Research Centers play this role and offer remarkable opportunities for regional scientists to have access to micro data subject to a number of restrictions designed to ensure confidentiality. XXXrefs and details see mms proposal on numbers
+
+Although the CRCs are  successfull protecting privacy concerns I think it important to keep in mind that they also place limits on the network effect and science's self-correcting mechaism. This is because replication of studies that come out of CRC research is difficult if not impossible as any researcher seeking to do so requires access to the same data used in the original study. That access is only granted by the CRC which faces difficult choices in determining what proposals get approved for access, and given the choice between proposals for new novel studies versus studies that seek to replicate previous studies, it is conceivable that the former may be viewed more favorably.
+
+
+
+individual hoarding
 
 Linus' Law: given enough eyeballs, all bugs are shallow
 
