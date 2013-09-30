@@ -1,7 +1,12 @@
 % Open Regional Science[^talk]
 % Sergio J. Rey[^inst]
 
+[^talk]: Draft Presidential Address to the Western Regional Science
+Association, February 2014.
 
+[^inst]: GeoDa Center for Geospatial Analysis and Computation, School of
+Geographical Sciences and Urban Planning, Arizona State University.
+<srey@asu.edu>
 
 **DRAFT**
 
@@ -296,10 +301,5 @@ To close this talk I think regional scientists (actually all scientists) would d
 # References
 
 
-[^talk]: Draft Presidential Address to the Western Regional Science
-Association, February 2014.
 
-[^inst]: GeoDa Center for Geospatial Analysis and Computation, School of
-Geographical Sciences and Urban Planning, Arizona State University.
-<srey@asu.edu>
 
