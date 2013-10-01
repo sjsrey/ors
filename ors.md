@@ -39,7 +39,7 @@ Scientific publishing - issues - lead to reproducibility
 This talk extends some themes I have been developing in previous work
 [@Rey:2009xy; @Rey2012osgres].
 
-## Science: Captured or Open
+# Science: Captured or Open
 
 I, and I suspect many of you, take the *science* part of regional science seriously. We see science as one of the best constructions of human kind, running close to beer. We hold it in such high esteem as science as the noble goals helping us to:
 
@@ -60,13 +60,13 @@ Both the format and the process of early scienntific publishing had self-correct
 Use of three referees as a model for the review process dates back to this period.
 Defining science can be done many ways, but a common approach is to break science down into components: theory, methods and data.  
 
-### Commercialization
+## Commercialization
 Outputs and components of the scientific process being increasingly seen as commercially valuable.
 data
 patents algorithms
 publishing
 
-### Scientific Publishing 
+## Scientific Publishing 
 Time to publish on the web
 - Typically 1 hour
 - small marginal costs
@@ -102,7 +102,7 @@ Reproducibility is almost invariably not possible in the current model
 Career pressures sustain the curent model. Publish or perish has been the mantra we have adopted, leaving little or no time for ensuring that what we publish could in fact be reproduced by future scholars.
 
 It should not come as surprise that the state of reproduciblity is so dismal.
-### Reproducibility, fraud
+## Reproducibility, fraud
 
 
 
@@ -129,29 +129,35 @@ Reinhart and Rogoff case is a mixture of spreadsheet errors, omission of availab
 One ray of shining light is that the heros of these stories often tend to be graduate students who uncover the fraud or questionable practices.
 
 
-###  Data Hoarding
+##  Data Hoarding
 
-In order for the network effects of open science to kick in a necessary condition will be that data underlying research projects be made accessibile to the wider research community. Unfortunately, current institutional constraints and individual practices are standing in the way of realizing this.
+In order for the network effects of open science to kick in a necessary condition will be that data underlying research projects be made accessible to the wider research community. Unfortunately, current institutional constraints and individual practices are standing in the way of realizing this.
 
-#### Privacy Concerns
+### Privacy Concerns
 
-There are important concerns regarding the protection of personal information on the one hand, and the rich set of empirical analyses that micro data support on the other. A number of strategies have been explored to strike this balance. Anonymization of public records attempt to minize the risk of revealing information about individuals. However, this has its limit as a number of high profile failures have demonstrated.
+There are important concerns regarding the protection of personal information on the one hand, and the rich set of empirical analyses that micro data support on the other. A number of strategies have been explored to strike this balance. Anonymization of public records attempt to minimize the risk of revealing information about individuals. However, this has its limit as a number of high profile failures have demonstrated.
 
 One example being the case of the State of Massachusetts Group Insurance Commission (GIC) responsible for purchasing health insurance for state employees [@Sweeney:2005uq]. As part of that effort GIC anonymized data by removal of names, addresses, and Social Security numbers before releasing to researchers. What remained in the released data were ZIP code, birth date and gender of each person along with diagnoses and prescription information.
 
 A researcher was able to purchase a voter registration list for Cambridge for $20 that contained the name, address, ZIP code, birth date and gender of each voter. Linking this with the GIC data made it possible to identify the medical records for the state govener, since only six people had the same birth date, of these three were men, and only one of these had the same ZIP code.
 
-#### Data Hoarding
+### Data Silos
 Clearly there are problems with anonymization procedures and a very active research agenda is developing around privitatization XXXcites. An alternative to anonymization is the use of
 save havens as secure sites for data containing sensitive person information with access being granted to authorized researchers. In the US, Census Research Centers play this role and offer remarkable opportunities for regional scientists to have access to micro data subject to a number of restrictions designed to ensure confidentiality. XXXrefs and details see mms proposal on numbers
 
-Although the CRCs are  successfull protecting privacy concerns I think it important to keep in mind that they also place limits on the network effect and science's self-correcting mechaism. This is because replication of studies that come out of CRC research is difficult if not impossible as any researcher seeking to do so requires access to the same data used in the original study. That access is only granted by the CRC which faces difficult choices in determining what proposals get approved for access, and given the choice between proposals for new novel studies versus studies that seek to replicate previous studies, it is conceivable that the former may be viewed more favorably.
+Although the CRCs are  successful protecting privacy concerns I think it important to keep in mind that they also place limits on the network effect and science's self-correcting mechanism. This is because replication of studies that come out of CRC research is difficult if not impossible as any researcher seeking to do so requires access to the same data used in the original study. That access is only granted by the CRC which faces difficult choices in determining what proposals get approved for access, and given the choice between proposals for new novel studies versus studies that seek to replicate previous studies, it is conceivable that the former may be viewed more favorably.
 
+Closely related to the issues surrounding CRCs are large data infrastructure projects funded by a variety of federal sources. These long running projects such as NHGIS, XXX have served a wide array of social scientists by developing comprehensive GIS datasets that span multiple time periods and spatial resolutions. The investments made in these projects have clearly yielded important benefits, and I in no way am criticizing the efforts of researchers at NHGIS. I am, however, raising the question of alternative models for data infrastructure projects that involve a diversity of institutions that in turn may result in even greater returns. Those models have not really been explored as there seems to be a form of institutional lock-in as the same institutions continue to secure funding to build on previous awards. 
 
+Data constructed with public funds raises a vexing set of questions surrounding public access to those data. Court cases in NY and Orange county as examples of these issues.
 
-individual hoarding
+Licensing data as and with software
 
-### Modeling Silos
+Data hoarding is not limited to institutions as the problem can be found at the individual level as well. 
+
+Tradeoff between rewards for investment of time and resources in constructing or acquiring unique data sets on the one hand, and the cost in the form of opportunity costs from the scientist restricting access to the data by the wider scientific community. If the data is really wonderful, just image what might flow from releasing it to the field.
+
+### Modeling Islands
 Since the early days of regional science Walter Isard envisioned that integration would be a hallmark of our discipline. Channels of synthesis, efforts at integration, integrated modeling [@Hewings:2004fk].
 
 It is sobering to contrast that grand vision with today's state of our modeling science. To a very real extent, integration of different modeling efforts has fallen far short of this vision. Rather than a rich ecosystem  of interconnected modeling components the silo business model appears to have won the day.  In part this reflects the economics of the regional modeling business were the development, continued enhancement and support of modeling frameworks requires stable and constant financial support.  Logically that support can be attracted through marketing efforts.
@@ -168,13 +174,30 @@ Link to commercialization of science argument
 
 
 
-## Open Science
-### Open Source
-### Open Publication
-### Open Data
-### Open Models
-### Open Collaboration
-Publish early and publish often. Recall that the problems with publication pressures leading to dubious, in the worst case, or sloppy in the best, scholarly pratices. Data analysis is not easy, and honest mistakes can and are made. Uncovering those mistakes is also not easy, especially in our current publishing system. The lack of replication infrastructure is a major impediment to identifying errors of both nefarious and honest species.
+# Open Science
+## Open Source
+## Open Publication
+## Open Data
+## Open Models
+## Open Collaboration: Release Early and Release Often
+ Recall that the problems with publication pressures leading to dubious, in the worst case, or sloppy in the best, scholarly practices. Data analysis is not easy, and honest mistakes can and are made. Uncovering those mistakes is also not easy, especially in our current publishing system. The lack of replication infrastructure is a major impediment to identifying errors of both nefarious and honest species.
+
+One possible antidote for this problem is to adopt  more open forms of collaboration. These would tap into  Linus's Law [@Himanen:2001dy]:
+> Given enough eyeballs all bugs are shallow
+
+In other words sunshine can be a strong disenfectant for the presence of scientific error as it strengthens the self-correction mechanism.
+
+There are a range of open collaboration models that are possible differing in the extent to which the collaboration is implicit versus explicit. An example of the implicit approach can be seen in this manuscript as I opted to make the entire writing process transparent by placing the drafts on GitHub.[^ors] By doing so, I have made the materials available to whoever is interested in reading the evolving manuscript. Readers who take the time to submit bug reports, or pull requests containing suggestions for additions, deletions and edits would represent collaborators. 
+
+[^ors]: The GitHub repository for the paper is at https://github.com/sjsrey/ors
+
+While accessing feedback through the implicit collaboration model is a potential benefit, I think the real value in this model is that it captures the full evolution of the research artifact. From a technical standpoint GitHub enables a tracking of the history of all the files in a project, not to mention off-site backup. At the same time, deciding to open up your project at a very early stage does have a subtle, but important, influence on how you approach your work. In the end, it does not really matter to me whether collaborators are realized in bug reports (or feature requests) - just knowing that potentially there are readers externalizes Adam Smith's impartial observer [@Smith:2001fk]. And it does so very early in the process rather than at the final stage of manuscript submission.
+
+More along the spectrum towards the formal collaboration model is the example of 
+
+ XXXLink to open publishing model - maybe a better distinction is between formal and informal collaboration - the former being referees assigned to a paper while informal is open to anyone who contributes to improving the manuscript.
+
+
 
 
 
@@ -201,7 +224,7 @@ For science to be truly open, two components need to be operative. *Open data* c
 
 
 
-Linus' Law: given enough eyeballs, all bugs are shallow
+
 
 data archives needed
 
@@ -223,9 +246,6 @@ OGC, City GML, Water ML, open modeling initiative (all hands meeting)
 
 ### Open Collaboration
 
-release early release often
-
-workflow in a github repository
 
 ### Open Publishing
 
