@@ -153,9 +153,9 @@ Data constructed with public funds raises a vexing set of questions surrounding 
 
 Licensing data as and with software
 
-Data hoarding is not limited to institutions as the problem can be found at the individual level as well. 
+Data hoarding is not limited to institutions as the problem can be found at the individual level as well. Our existing tenure and reward systems stress the number of publications produced and for researchers who have invested time and resources in constructing or acquiring unique data sets it is logical to seek a return on that investment by maximizing their exclusive use of the data. However, the individual scholar model doesn't really scale well and the opportunity costs from the scientist restricting access to the data by the wider scientific community have to be considered. After all, if the data is really wonderful, just image what might flow from releasing it to the field.
 
-Tradeoff between rewards for investment of time and resources in constructing or acquiring unique data sets on the one hand, and the cost in the form of opportunity costs from the scientist restricting access to the data by the wider scientific community. If the data is really wonderful, just image what might flow from releasing it to the field.
+This doesn't have to be a zero sum game where the private gains are sacrificed for social goods - we can tweak the reward structure and attribution norms to make data provision a first class contribution to the scientific process. In other words, rather than the single scholar producing say a series of 5 papers with the exclusive use of the data, she produces one article and releases the data. This in turn empowers a larger group of scholars to generate vastly more than 5 papers using the same data, with each of these papers siting the single paper produced by the data generating/contribuing scholar. Her H-index would grow exponentially in this world rather than linearly in the hoarding model.
 
 ### Modeling Islands
 Since the early days of regional science Walter Isard envisioned that integration would be a hallmark of our discipline. Channels of synthesis, efforts at integration, integrated modeling [@Hewings:2004fk].
@@ -175,9 +175,40 @@ Link to commercialization of science argument
 
 
 # Open Science
-## Open Source
-## Open Publication
-## Open Data
+## Open Source ##
+
+
+data, software, articles all need to be part of the scientific record and in open forms.
+## Open Publication ##
+
+meta analyses on fully explorable scientific records
+
+Advances in cyberinfrasture are having impacts not just on how we *do* science but are likely to shape the ways we *report* science. The traditional vessel of reporting findings has been the regular journal article, which has served us well but as pointed out above, is showing its age. Tapping the possibilities of electronic publication opens up new ways to explore the scientific literature. As journal articles become *live* the ability to do more comprehensive analysis of the literature can be realized. Mining the relationships between publications, institutions, and knowledge domains can provide a richer narrative of science than what has been possible prior to the Web 2.0 age [@Ahlqvist:2013vn]. 
+
+In the open publication model, I've articles also provide an entry point to access the data and methods that underlie an article. This lowers the barriers to replication of reported work by other scientists. 
+
+It is exciting to contemplate the impact that this could have on research in regional science. Take the case of the literature on regional convergence  where a number of meta-analyses have attempted a synthesis of what we know about the processes of regional growth XXXcites. These entail an enormous amount of traditional literature review and careful extraction of estimation results from previous studies, the latter then used as inputs in meta-regressions to quantify the relationship between say speed of convergence and aspects of research design employed in the individual studies. But consider a meta-analysis on steroids where what is available to the meta-researcher is not just data in the form of the final estimation results of previous papers, but rather the original data, estimation code and software and ancillary materials used to generate the reported estimation results.
+
+Specification searches can now be honestly reported in the  literature, giving us a 
+
+publication bias
+
+limited view of the research processs
+
+Specification searches 
+
+growing importance of grey literature
+
+journal publications playing the role of providing an authoritative stamp 
+
+issues of copyright and access have to be addressed for this model to become realized. Indeed, the technical solutions to implement the open publishing models are already with us. The major stumbling blocks are institutional  [@Ahlqvist:2013vn].
+
+
+## Open Data ##
+
+
+The increasing availability of open data is playing a pivotal role in the  the evolution of the so called *fourth paradigm of science*.  The classic pairing of experiment and theory (first and second paradigms) where married to the third paradigm of large-scale computational simulation in the mid-20th century. In this triad, data has provided observations about phenomena and was either collected to test particular theories or generated as output in process based simulations about those phenomena. In the fourth paradigm, data takes a more leading role in that application of exploratory and data mining technologies to massive and heterogeneous datasets are increasingly being used to generate, rather than test, new hypotheses.
+Indeed the central role of data in this context is reflected in an alternative name for this fourth paradigm:  *data-intensive science* [@Tolle:2011fk].
 ## Open Models
 ## Open Collaboration: Release Early and Release Often
  Recall that the problems with publication pressures leading to dubious, in the worst case, or sloppy in the best, scholarly practices. Data analysis is not easy, and honest mistakes can and are made. Uncovering those mistakes is also not easy, especially in our current publishing system. The lack of replication infrastructure is a major impediment to identifying errors of both nefarious and honest species.
@@ -240,12 +271,16 @@ UrbanSim as an exception
 Interoperabiity and open modeling are vital to our ability to move regional
 science into the high performance computing era.
 
+open science piece on challenges of urban systems
+
+integration of multi scalar processes - regional grown and intraurban spatial structure.
 
 OGC, City GML, Water ML, open modeling initiative (all hands meeting)
 
 
 ### Open Collaboration
 
+what open questions in regional science should we be addressing
 
 ### Open Publishing
 
@@ -291,14 +326,6 @@ austerity debacle
 
 
 ## Peer Review
-
-
-
-
-# Opportunities
-
-
-## A Way Forward
 
 
 ## Open Community
