@@ -174,12 +174,23 @@ Link to commercialization of science argument
 
 
 
-# Open Science
-## Open Source ##
+# Open Science 
+Define pillars of open science
+Draws from inspiration from the open source revolution
+Goes by different names
+Outline what is to come in this section
 
+
+## Open Source 
+
+key aspects
+freedoms
+exemplars
+
+
+## Open Publication 
 
 data, software, articles all need to be part of the scientific record and in open forms.
-## Open Publication ##
 
 meta analyses on fully explorable scientific records
 
@@ -204,12 +215,30 @@ journal publications playing the role of providing an authoritative stamp
 issues of copyright and access have to be addressed for this model to become realized. Indeed, the technical solutions to implement the open publishing models are already with us. The major stumbling blocks are institutional  [@Ahlqvist:2013vn].
 
 
-## Open Data ##
+## Open Data 
 
 
-The increasing availability of open data is playing a pivotal role in the  the evolution of the so called *fourth paradigm of science*.  The classic pairing of experiment and theory (first and second paradigms) where married to the third paradigm of large-scale computational simulation in the mid-20th century. In this triad, data has provided observations about phenomena and was either collected to test particular theories or generated as output in process based simulations about those phenomena. In the fourth paradigm, data takes a more leading role in that application of exploratory and data mining technologies to massive and heterogeneous datasets are increasingly being used to generate, rather than test, new hypotheses.
+The increasing availability of open data is playing a pivotal role in the  the evolution of the so called *fourth paradigm of science*.  The classic pairing of experiment and theory (first and second paradigms) were married to the third paradigm of large-scale computational simulation in the mid-20th century. In this triad, data has provided observations about phenomena and was either collected to test particular theories or generated as output in process based simulations about those phenomena. In the fourth paradigm, data takes a more leading role in that application of exploratory and data mining technologies to massive and heterogeneous datasets are increasingly being used to generate, rather than test, new hypotheses.
 Indeed the central role of data in this context is reflected in an alternative name for this fourth paradigm:  *data-intensive science* [@Tolle:2011fk].
-## Open Models
+
+esda
+
+regional science way behind here
+
+economics blinders
+
+
+## Open Models ##
+
+urbansim
+
+ogc standards and interoperability
+
+micro-macro integration
+
+coupled systems
+
+
 ## Open Collaboration: Release Early and Release Often
  Recall that the problems with publication pressures leading to dubious, in the worst case, or sloppy in the best, scholarly practices. Data analysis is not easy, and honest mistakes can and are made. Uncovering those mistakes is also not easy, especially in our current publishing system. The lack of replication infrastructure is a major impediment to identifying errors of both nefarious and honest species.
 
@@ -224,9 +253,18 @@ There are a range of open collaboration models that are possible differing in th
 
 While accessing feedback through the implicit collaboration model is a potential benefit, I think the real value in this model is that it captures the full evolution of the research artifact. From a technical standpoint GitHub enables a tracking of the history of all the files in a project, not to mention off-site backup. At the same time, deciding to open up your project at a very early stage does have a subtle, but important, influence on how you approach your work. In the end, it does not really matter to me whether collaborators are realized in bug reports (or feature requests) - just knowing that potentially there are readers externalizes Adam Smith's impartial observer [@Smith:2001fk]. And it does so very early in the process rather than at the final stage of manuscript submission.
 
-More along the spectrum towards the formal collaboration model is the example of 
+As an example of moving towards the more explicit form of open collaboration is the Polymath Project developed by [@Gowers:2009fk]. Inspired by the open source practices seen in the Linux project and Wikipedia Gowers began the project on his blog by beginning with a description of the problem: namely to develop a prove of the Hales-Jewett Theorem in the realm of combinatorics. He also provided a links for background materials and rules of engagement designed to encourage peoples engagement and collaboration.
 
- XXXLink to open publishing model - maybe a better distinction is between formal and informal collaboration - the former being referees assigned to a paper while informal is open to anyone who contributes to improving the manuscript.
+The project began on February 1 of 2009, and had its first contribution 7 hours latter from a UBC mathematician. Comments quickly followed from a diverse array of individuals spanning the spectrum from an Arizona high school math teacher to a winner of a Fields Medal. Shortly after one month from beginning the project accumulated over 800 contributions representing 170,000 words and by early March the collective effort had generated an elementary proof. 
+
+This initial success of the Polymath project has been extended to other math problems, and similar open source collaborative models have been employed in other fields including biology, physics and computer science.  More broadly, one can point to the popularity of sites such as StackExchange which is a community-powered question and answer forum where programs frequent in seeking help on problems, as evidence that this approach scales well. The adoption of these models provide new pathways for pushing the limits of our problem solving abilities. At the same time, the raise a number of questions as they represent a very different way to do science.
+
+On a project with hundreds, or possibly thousands, of contributors the specification of authorship is unclear. In the Polymath project the approach has to employ a group pseudonym (similar to a corporate author) and then link back to the full record on the blog.  Preserving that record is also an open challenge since if the site is no longer maintained the record would vanish. It is early days in the field of digital preserve ration but there is some prior art in the US Library of Congress to preserve a selection of legal blogs.  Ironically, in the same issue of Nature the article [@Neylon:2009uq] following the Gower piece was arguing for the alluring powers of Google Wave as a platform for scientists to use in open collaboration. I remember the excitement and buzz around Google Wave very well as we went all in on it during the early phases of PySAL. Unfortunately, as google is want to do, they killed Google wave.
+
+
+The separation lines between the different components of open science are at times blurry. In the case of the PolyMath project, there is a little of everything at work - Gower and his colleagues decided to rely on open collaboration by publishing early (day one problem statement) and often (170,000 words). The wiki and blog captured the full record of problem development, discussion, false starts, dead ends and ultimately solution, clearly a case of the live research article if ever there was one (open publication). As these materials are freely available to any interested party possessing Internet connectivity it is an exemplar of open access.
+
+
 
 
 
