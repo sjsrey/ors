@@ -21,7 +21,7 @@ As should be clear in what follows, the thrust of my argument is that the verb a
 
 
 
-The goal of this talk is t
+The goal of this talk is to
 Open science and culture arises from the open source software development
 revolution.
 
@@ -53,15 +53,15 @@ goals helping us to:
 
 Formal science has its origins in Descarte's Discourse on Methods in 1637.
 From the beginning the concept of reproducibility was at the core. As
-[@Schroeder:2013uq] notes the motto of the Royal Socieity 1671
+[@Schroeder:2013uq] notes the motto of the Royal Society 1671
 
 >Nullius in Verba[^verba]
 
 [^verba]: "Take nobody's word for it."
 
-A key development in the advancement of early science was the decision by the Royal Socieity to publish results in the form of letters as a way to hasten dissemination relative to book publication. Alongside this, the tradition of relying on  three referees for each submitted letter began then and remains with us today.
+A key development in the advancement of early science was the decision by the Royal Society to publish results in the form of letters as a way to hasten dissemination relative to book publication. Alongside this, the tradition of relying on  three referees for each submitted letter began then and remains with us today.
 
-Both the format and the process of early scienntific publishing had self-correction baked into them from the beginning. 
+Both the format and the process of early scientific publishing had self-correction baked into them from the beginning. 
 
 Use of three referees as a model for the review process dates back to this period.
 Defining science can be done many ways, but a common approach is to break science down into components: theory, methods and data.  
@@ -76,7 +76,7 @@ publishing
 Time to publish on the web
 - Typically 1 hour
 - small marginal costs
-- supports data and software pblication
+- supports data and software publication
 
 contrast this with commercial publish. Time to publish an article from the date of submission typically is 1-2 years. The form of journals means that software and data are generally not included as part of the publication. And, the costs of commercial publishing are high, both on the production side of things where estimates are and average of 500 Euros per paper, but also on the access side of the coin where costs to read the same paper average 30 Euros. XXXGet statistics and sources here.
 [@Schroeder:2013uq]
@@ -88,32 +88,32 @@ Curated or captured science is the result. Publishers own the copyright of the p
 
 Summary
 
-Too much attention on documents as the only research artifact - data and software are not part of the discussion. Meta-analysis of research areas becomes prohibitively expensive - limits synthesis of knowledge. Science has been captured by commercial interests. All of this leads to major problems of irreproducibility. Essentially what is being compriised is:
+Too much attention on documents as the only research artifact - data and software are not part of the discussion. Meta-analysis of research areas becomes prohibitively expensive - limits synthesis of knowledge. Science has been captured by commercial interests. All of this leads to major problems of irreproducibility. Essentially what is being comprised is:
 
->Science's capacity for self-correction comes from its openness to scruitiny and challenges
+>Science's capacity for self-correction comes from its openness to scrutiny and challenges
 
 [@Boulton:2012kx]
 
-If openennes is in question, science is in question.
+If openness is in question, science is in question.
 
 
 
 Evolution of scientific publication.
 
-Complexity in doing science, computation burden and related technological developments are challenging the traditional scientific publishing model. No longer does a regular lengthed paper in a hardbound journal adequately capture the scientific process underlying a research effort.
+Complexity in doing science, computation burden and related technological developments are challenging the traditional scientific publishing model. No longer does a regular length paper in a hardbound journal adequately capture the scientific process underlying a research effort.
 
 Reproducibility is almost invariably not possible in the current model
 
 
-Career pressures sustain the curent model. Publish or perish has been the mantra we have adopted, leaving little or no time for ensuring that what we publish could in fact be reproduced by future scholars.
+Career pressures sustain the current model. Publish or perish has been the mantra we have adopted, leaving little or no time for ensuring that what we publish could in fact be reproduced by future scholars.
 
-It should not come as surprise that the state of reproduciblity is so dismal.
+It should not come as surprise that the state of reproducibility is so dismal.
 ## Reproducibility, fraud
 
 
 
 
-Against these high profile cases of scientific fraud we must be cognizant of less well recognized, but arguably more widespread and therefor damaging forms of questionable scientific practices such as post-hoc theorizing, data fishing and so called p-hacking .  Estimates of the prevalence of dubious practices in pyschological research, such as collecting more data after seeeing whether results were significant or excluding data after looking at the impact of doing so, approach 100\% suggesting that rather than the exception, questionable research practices may constitute the "de facto research norm" [@John:2012fk pp. 525].
+Against these high profile cases of scientific fraud we must be cognizant of less well recognized, but arguably more widespread and therefor damaging forms of questionable scientific practices such as post-hoc theorizing, data fishing and so called p-hacking .  Estimates of the prevalence of dubious practices in psychological research, such as collecting more data after seeing whether results were significant or excluding data after looking at the impact of doing so, approach 100\% suggesting that rather than the exception, questionable research practices may constitute the "de facto research norm" [@John:2012fk pp. 525].
 
 Are the social sciences any different from biomedical and other fields regarding misconduct? 
 
@@ -121,18 +121,18 @@ I doubt it.
 
 At IRSR we have noticed an alarming increase in the number of blatant cases of double-submissions. As part of the submission process authors are required to check a box that indicates the manuscript is their original work and is not under consideration at any other journal. Most other journals have the same requirements so in the cases where this practice is caught, the offending authors have lied at least twice.
 
-Prominent cases of plagerism, data cooking and fraud are replete in the social sciences. Frank Fischer, a political scientist at Rutgers, was accused by a graduate student and Alan Sokal [^sokal] of plagerism. Similar to the case of Doris Kearns Goodwin, the accused claimed that it was a case of sloppieness on their part rather than outright plagerism.[^gelman]
+Prominent cases of plagiarism, data cooking and fraud are replete in the social sciences. Frank Fischer, a political scientist at Rutgers, was accused by a graduate student and Alan Sokal [^sokal] of plagiarism. Similar to the case of Doris Kearns Goodwin, the accused claimed that it was a case of sloppiness on their part rather than outright plagiarism.[^gelman]
 
-[^gelman]: For a running commentary of plagerism in the social sciences see the blog of Andrew Gelman at http://andrewgelman.com.
+[^gelman]: For a running commentary of plagiarism in the social sciences see the blog of Andrew Gelman at http://andrewgelman.com.
 
-Reinhart and Rogoff case is a mixture of spreadsheet errors, omission of available data, favorable weighting and transcription. Followup studies have shown the magintude of the effect is reduced when these changes are incorporated, but not the sign. See [@Herndon:2013uq].
+Reinhart and Rogoff case is a mixture of spreadsheet errors, omission of available data, favorable weighting and transcription. Follow-up studies have shown the magnitude of the effect is reduced when these changes are incorporated, but not the sign. See [@Herndon:2013uq].
 
 
 
 
 [^sokal]: The namesake of the *Sokal affair* in which the author submitted a completely nonsensical manuscript entitled "Transgressing the Boundaries: Towards a Transformative Hermeneutics of Quantum Gravity" to the journal *Social Text*.  After the paper was published Sokal revealed the hoax.
 
-One ray of shining light is that the heros of these stories often tend to be graduate students who uncover the fraud or questionable practices.
+One ray of shining light is that the heroes of these stories often tend to be graduate students who uncover the fraud or questionable practices.
 
 
 ##  Data Hoarding
@@ -145,10 +145,10 @@ There are important concerns regarding the protection of personal information on
 
 One example being the case of the State of Massachusetts Group Insurance Commission (GIC) responsible for purchasing health insurance for state employees [@Sweeney:2005uq]. As part of that effort GIC anonymized data by removal of names, addresses, and Social Security numbers before releasing to researchers. What remained in the released data were ZIP code, birth date and gender of each person along with diagnoses and prescription information.
 
-A researcher was able to purchase a voter registration list for Cambridge for $20 that contained the name, address, ZIP code, birth date and gender of each voter. Linking this with the GIC data made it possible to identify the medical records for the state govener, since only six people had the same birth date, of these three were men, and only one of these had the same ZIP code.
+A researcher was able to purchase a voter registration list for Cambridge for $20 that contained the name, address, ZIP code, birth date and gender of each voter. Linking this with the GIC data made it possible to identify the medical records for the state governor, since only six people had the same birth date, of these three were men, and only one of these had the same ZIP code.
 
 ### Data Silos
-Clearly there are problems with anonymization procedures and a very active research agenda is developing around privitatization XXXcites. An alternative to anonymization is the use of
+Clearly there are problems with anonymization procedures and a very active research agenda is developing around privatization XXXcites. An alternative to anonymization is the use of
 save havens as secure sites for data containing sensitive person information with access being granted to authorized researchers. In the US, Census Research Centers play this role and offer remarkable opportunities for regional scientists to have access to micro data subject to a number of restrictions designed to ensure confidentiality. XXXrefs and details see mms proposal on numbers
 
 Although the CRCs are  successful protecting privacy concerns I think it important to keep in mind that they also place limits on the network effect and science's self-correcting mechanism. This is because replication of studies that come out of CRC research is difficult if not impossible as any researcher seeking to do so requires access to the same data used in the original study. That access is only granted by the CRC which faces difficult choices in determining what proposals get approved for access, and given the choice between proposals for new novel studies versus studies that seek to replicate previous studies, it is conceivable that the former may be viewed more favorably.
@@ -161,7 +161,7 @@ Licensing data as and with software
 
 Data hoarding is not limited to institutions as the problem can be found at the individual level as well. Our existing tenure and reward systems stress the number of publications produced and for researchers who have invested time and resources in constructing or acquiring unique data sets it is logical to seek a return on that investment by maximizing their exclusive use of the data. However, the individual scholar model doesn't really scale well and the opportunity costs from the scientist restricting access to the data by the wider scientific community have to be considered. After all, if the data is really wonderful, just image what might flow from releasing it to the field.
 
-This doesn't have to be a zero sum game where the private gains are sacrificed for social goods - we can tweak the reward structure and attribution norms to make data provision a first class contribution to the scientific process. In other words, rather than the single scholar producing say a series of 5 papers with the exclusive use of the data, she produces one article and releases the data. This in turn empowers a larger group of scholars to generate vastly more than 5 papers using the same data, with each of these papers siting the single paper produced by the data generating/contribuing scholar. Her H-index would grow exponentially in this world rather than linearly in the hoarding model.
+This doesn't have to be a zero sum game where the private gains are sacrificed for social goods - we can tweak the reward structure and attribution norms to make data provision a first class contribution to the scientific process. In other words, rather than the single scholar producing say a series of 5 papers with the exclusive use of the data, she produces one article and releases the data. This in turn empowers a larger group of scholars to generate vastly more than 5 papers using the same data, with each of these papers siting the single paper produced by the data generating/contributing scholar. Her H-index would grow exponentially in this world rather than linearly in the hoarding model.
 
 ### Modeling Islands
 Since the early days of regional science Walter Isard envisioned that integration would be a hallmark of our discipline. Channels of synthesis, efforts at integration, integrated modeling [@Hewings:2004fk].
@@ -200,7 +200,7 @@ data, software, articles all need to be part of the scientific record and in ope
 
 meta analyses on fully explorable scientific records
 
-Advances in cyberinfrasture are having impacts not just on how we *do* science but are likely to shape the ways we *report* science. The traditional vessel of reporting findings has been the regular journal article, which has served us well but as pointed out above, is showing its age. Tapping the possibilities of electronic publication opens up new ways to explore the scientific literature. As journal articles become *live* the ability to do more comprehensive analysis of the literature can be realized. Mining the relationships between publications, institutions, and knowledge domains can provide a richer narrative of science than what has been possible prior to the Web 2.0 age [@Ahlqvist:2013vn]. 
+Advances in cyberinfrastructure are having impacts not just on how we *do* science but are likely to shape the ways we *report* science. The traditional vessel of reporting findings has been the regular journal article, which has served us well but as pointed out above, is showing its age. Tapping the possibilities of electronic publication opens up new ways to explore the scientific literature. As journal articles become *live* the ability to do more comprehensive analysis of the literature can be realized. Mining the relationships between publications, institutions, and knowledge domains can provide a richer narrative of science than what has been possible prior to the Web 2.0 age [@Ahlqvist:2013vn]. 
 
 In the open publication model, I've articles also provide an entry point to access the data and methods that underlie an article. This lowers the barriers to replication of reported work by other scientists. 
 
@@ -210,7 +210,7 @@ Specification searches can now be honestly reported in the  literature, giving u
 
 publication bias
 
-limited view of the research processs
+limited view of the research processes
 
 Specification searches 
 
@@ -224,7 +224,7 @@ issues of copyright and access have to be addressed for this model to become rea
 ## Open Data 
 
 
-The increasing availability of open data is playing a pivotal role in the  the evolution of the so called *fourth paradigm of science*.  The classic pairing of experiment and theory (first and second paradigms) were married to the third paradigm of large-scale computational simulation in the mid-20th century. In this triad, data has provided observations about phenomena and was either collected to test particular theories or generated as output in process based simulations about those phenomena. In the fourth paradigm, data takes a more leading role in that application of exploratory and data mining technologies to massive and heterogeneous datasets are increasingly being used to generate, rather than test, new hypotheses.
+The increasing availability of open data is playing a pivotal role in the evolution of the so called *fourth paradigm of science*.  The classic pairing of experiment and theory (first and second paradigms) were married to the third paradigm of large-scale computational simulation in the mid-20th century. In this triad, data has provided observations about phenomena and was either collected to test particular theories or generated as output in process based simulations about those phenomena. In the fourth paradigm, data takes a more leading role in that application of exploratory and data mining technologies to massive and heterogeneous datasets are increasingly being used to generate, rather than test, new hypotheses.
 Indeed the central role of data in this context is reflected in an alternative name for this fourth paradigm:  *data-intensive science* [@Tolle:2011fk].
 
 esda
@@ -236,7 +236,7 @@ economics blinders
 
 ## Open Models ##
 
-urbansim
+Urban-sim
 
 ogc standards and interoperability
 
@@ -251,7 +251,7 @@ coupled systems
 One possible antidote for this problem is to adopt  more open forms of collaboration. These would tap into  Linus's Law [@Himanen:2001dy]:
 > Given enough eyeballs all bugs are shallow
 
-In other words sunshine can be a strong disenfectant for the presence of scientific error as it strengthens the self-correction mechanism.
+In other words sunshine can be a strong disinfectant for the presence of scientific error as it strengthens the self-correction mechanism.
 
 There are a range of open collaboration models that are possible differing in the extent to which the collaboration is implicit versus explicit. An example of the implicit approach can be seen in this manuscript as I opted to make the entire writing process transparent by placing the drafts on GitHub.[^ors] By doing so, I have made the materials available to whoever is interested in reading the evolving manuscript. Readers who take the time to submit bug reports, or pull requests containing suggestions for additions, deletions and edits would represent collaborators. 
 
@@ -263,7 +263,7 @@ As an example of moving towards the more explicit form of open collaboration is 
 
 The project began on February 1 of 2009, and had its first contribution 7 hours latter from a UBC mathematician. Comments quickly followed from a diverse array of individuals spanning the spectrum from an Arizona high school math teacher to a winner of a Fields Medal. Shortly after one month from beginning the project accumulated over 800 contributions representing 170,000 words and by early March the collective effort had generated an elementary proof. 
 
-This initial success of the Polymath project has been extended to other math problems, and similar open source collaborative models have been employed in other fields including biology, physics and computer science.  More broadly, one can point to the popularity of sites such as StackExchange which is a community-powered question and answer forum where programs frequent in seeking help on problems, as evidence that this approach scales well. The adoption of these models provide new pathways for pushing the limits of our problem solving abilities. At the same time, the raise a number of questions as they represent a very different way to do science.
+This initial success of the Polymath project has been extended to other math problems, and similar open source collaborative models have been employed in other fields including biology, physics and computer science.  More broadly, one can point to the popularity of sites such as Stack Exchange which is a community-powered question and answer forum where programs frequent in seeking help on problems, as evidence that this approach scales well. The adoption of these models provide new pathways for pushing the limits of our problem solving abilities. At the same time, the raise a number of questions as they represent a very different way to do science.
 
 On a project with hundreds, or possibly thousands, of contributors the specification of authorship is unclear. In the Polymath project the approach has to employ a group pseudonym (similar to a corporate author) and then link back to the full record on the blog.  Preserving that record is also an open challenge since if the site is no longer maintained the record would vanish. It is early days in the field of digital preserve ration but there is some prior art in the US Library of Congress to preserve a selection of legal blogs.  Ironically, in the same issue of Nature the article [@Neylon:2009uq] following the Gower piece was arguing for the alluring powers of Google Wave as a platform for scientists to use in open collaboration. I remember the excitement and buzz around Google Wave very well as we went all in on it during the early phases of PySAL. Unfortunately, as google is wont to do, they killed Google wave.
 
@@ -291,7 +291,7 @@ closed science depletion of a common resource
 
 open funding and kick starter crowdfunding initiatives
 
-For science to be truly open, two components need to be operative. *Open data* constitutes available, intelligible, asssessible and useable data.  *Open access*  to scientific publications and knowledge allows the realization of the building on shoulders of giants XXXget quote. Accessbility is more than the ability to acquire since a key impediment to scientific progress is that much published research is unintelligible beyond the origin specialist domain. This effective communication of results and methods is paramount [@Boulton:2012kx].
+For science to be truly open, two components need to be operative. *Open data* constitutes available, intelligible, accessible and usable data.  *Open access*  to scientific publications and knowledge allows the realization of the building on shoulders of giants XXXget quote. Accessibility is more than the ability to acquire since a key impediment to scientific progress is that much published research is unintelligible beyond the origin specialist domain. This effective communication of results and methods is paramount [@Boulton:2012kx].
 
 ### Open Source
 
@@ -312,12 +312,12 @@ US Government opendatanow.com geoplatform.gov geo.data.gov
 UrbanSim as an exception
 
 
-Interoperabiity and open modeling are vital to our ability to move regional
+Interoperability and open modeling are vital to our ability to move regional
 science into the high performance computing era.
 
 open science piece on challenges of urban systems
 
-integration of multi scalar processes - regional grown and intraurban spatial structure.
+integration of multi scalar processes - regional grown and intra-urban spatial structure.
 
 OGC, City GML, Water ML, open modeling initiative (all hands meeting)
 
@@ -328,7 +328,7 @@ what open questions in regional science should we be addressing
 
 ### Open Publishing
 
-There are signs that alternative open models for scientific publishing are beginning to get traction. A recent example that I had exerience with was the publication of the conference proceedings for the 2013 Scientific Computing with Python (SciPy2013) conference. The entire process was produced using open source tools, including GitHub for file submission, reviewing and ultimately publishing. Authors were provided with templates to build their papers and these templates using *ReStructuredText* were made available via a *forking* of the proceedings GitHub repository. When their paper was ready for submission, the authors issued a *pull request*. Once the pull request was merged, the editors contacted referees via a web form and the reviews were then integrated into the GitHub repository. Authors were then asked to respond to the comments and submit a new pull request for the revised version. The final accepted versions of the papers were published in the proceedings [@scipy:2013vn] as an open-access publication distributed under the terms of the *Creative Commons Attribution License*.
+There are signs that alternative open models for scientific publishing are beginning to get traction. A recent example that I had experience with was the publication of the conference proceedings for the 2013 Scientific Computing with Python (SciPy2013) conference. The entire process was produced using open source tools, including GitHub for file submission, reviewing and ultimately publishing. Authors were provided with templates to build their papers and these templates using *ReStructuredText* were made available via a *forking* of the proceedings GitHub repository. When their paper was ready for submission, the authors issued a *pull request*. Once the pull request was merged, the editors contacted referees via a web form and the reviews were then integrated into the GitHub repository. Authors were then asked to respond to the comments and submit a new pull request for the revised version. The final accepted versions of the papers were published in the proceedings [@scipy:2013vn] as an open-access publication distributed under the terms of the *Creative Commons Attribution License*.
 
 Several aspects of this process are worth noting. The process relied on technologies that were already familiar to this community of scholars who use code repositories for collaboration on the development of scientific software on a regular basis.  In addition to the technologies,  the traditional roles of author, reviewer, and editor were mapped into those of participants in an open source software development model is innovative. In this model developers (authors) wishing to contribute a new software feature (article) to a field issue a pull request (submission) to the project (journal). That pull request (manuscript submission) is then reviewed by the community (editor and reviewers) and bug reports (referee reports) are submitted. The developer (author) then incorporates the feedback from the bug report (reviews) into the manuscript and updates the pull request (revision submission). 
 
@@ -350,7 +350,7 @@ Web book of regional science as an exemplar
 
 ### Institutions
 
-Academia second most conservative instution every invented, next to opera
+Academia second most conservative institution every invented, next to opera
 
 Academic reward system
 
@@ -378,7 +378,7 @@ notion of "open people"
 
 importance of community
 
-strength of regional science is its interdisciplanary outlook
+strength of regional science is its interdisciplinary outlook
 
 ## Conclusion
 
