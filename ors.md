@@ -10,6 +10,8 @@ Geographical Sciences and Urban Planning, Arizona State University.
 
 **INCOMPLETE DRAFT**
 
+**NOT FOR QUOTATION WITHOUT PERMISSION OF THE AUTHOR**
+
 
 # Introduction
 
@@ -17,30 +19,16 @@ The title of this talk could have multiple meanings. If one were to  use *Open* 
 
 Still another set of alternatives would see different punctuations of the tile, with a question mark as in *Open Regional Science?* or an exclamation point *Open Regional Science!*. The former questioning whether regional science is truly open, the latter more of a challenge.
 
-As should be clear in what follows, the thrust of my argument is that the verb and exclamation point interpretations are the correct ones. Indeed my purpose in this talk is to situate regional science within the paradigm of open science by arguing that our future should be linked to open data, open modeling, open software, open collaboration, open publication, open funding and open education. open science opportunities related to [1] technology-driven developments to address big data challenges, [2] crowd powered / citizen science; [3] educational developments
+As should be clear in what follows, the thrust of my argument is that the verb and exclamation point interpretations are the correct ones.  My reason for adopting this path are two-fold. First I have seen first hand the impact that open source has had on scientific software development, primarily through me experiences with the packages STARS and PySAL. While software was my point of entry into this open world, the impacts have spread beyond better software development models to influence many aspects of my day to day existence as an academic regional scientists.   These benefits, which I outline in more detail below, have been profoundly positive. Second, I feel that we as the regional science community have been largely disengaged from developments in open science, an important offspring of the open source revolution. I am excited about the possibilities that such an engagement could have on the future of regional science and want to do all that I can to deepen and hasten that development.
 
 
-
-The goal of this talk is to
-Open science and culture arises from the open source software development
-revolution.
-
-Culture is broader than just open source software [@Sui:2013kx]
-To engage regional science with open science I organize the talk around the
-key dimensions of the open paradigm
-In order to do so I first outline what the current state of affairs is regarding science, the commercialization of science and problems that we face as a community of scholars as a result of this commercialization.  This is followed by a more detailed examination of each of the components of open science and the extent to which they are operative in regional science with specific attention given to cases where there is a gap between potential and the opportunities they may afford us. I close the talk with some thoughts about the likely future for open regional science.
+To do so I will contrast two worlds of science. The first, and the one we regional scientists currently find ourselves embedded within, is what I called *captured science*. While this is our status quo, it is not generally what holds in the broader scientific community were a second and new type of science is operative. This is what I will call *open science*.  My purpose in this talk is to situate regional science within the paradigm of open science by arguing that our future should be linked to open data, open modeling, open software, open collaboration, open publication, open funding and open education. open science opportunities related to [1] technology-driven developments to address big data challenges, [2] crowd powered / citizen science; [3] educational developments
 
 
-Start by defining terms. Since I've already declared my choice of xx for
-*Open* that leaves two more terms to define before getting to the body of my
-talk. 
+I will begin by outlining what exactly I mean by captured science, outlining the key characteristics of this world and pointing to some of the challenges and constraints we face. Some of these issues may be familiar to many of us but I think we, as a community, have not had a healthy open discussion about their implications. I next move on to consider an alternative model of open science, what its components are and how regional science might benefit from migrating to this mode of operation and away from the current status quo. I close the talk with some thoughts about the likely future for open regional science.
 
-Scientific publishing - issues - lead to reproducibility
 
-This talk extends some themes I have been developing in previous work
-[@Rey:2009xy; @Rey2012osgres].
-
-# Science: Captured or Open
+# Captured Science
 
 I, and I suspect many of you, take the *science* part of regional science
 seriously. We see science as one of the best constructions of human kind,
@@ -66,7 +54,7 @@ Both the format and the process of early scientific publishing had self-correcti
 Use of three referees as a model for the review process dates back to this period.
 Defining science can be done many ways, but a common approach is to break science down into components: theory, methods and data.  
 
-## Commercialization
+## Commercialization of Science
 Outputs and components of the scientific process being increasingly seen as commercially valuable.
 data
 patents algorithms
@@ -95,7 +83,6 @@ Too much attention on documents as the only research artifact - data and softwar
 [@Boulton:2012kx]
 
 If openness is in question, science is in question.
-
 
 
 Evolution of scientific publication.
@@ -135,7 +122,7 @@ Reinhart and Rogoff case is a mixture of spreadsheet errors, omission of availab
 One ray of shining light is that the heroes of these stories often tend to be graduate students who uncover the fraud or questionable practices.
 
 
-##  Data Hoarding
+## Data Hoarding
 
 In order for the network effects of open science to kick in a necessary condition will be that data underlying research projects be made accessible to the wider research community. Unfortunately, current institutional constraints and individual practices are standing in the way of realizing this.
 
@@ -179,46 +166,18 @@ Link to commercialization of science argument
 
 
 
-
 # Open Science 
 Define pillars of open science
 Draws from inspiration from the open source revolution
 Goes by different names
 Outline what is to come in this section
 
-
 ## Open Source 
 
+[@Rey:2009xy]
 key aspects
 freedoms
 exemplars
-
-
-## Open Publication 
-
-data, software, articles all need to be part of the scientific record and in open forms.
-
-meta analyses on fully explorable scientific records
-
-Advances in cyberinfrastructure are having impacts not just on how we *do* science but are likely to shape the ways we *report* science. The traditional vessel of reporting findings has been the regular journal article, which has served us well but as pointed out above, is showing its age. Tapping the possibilities of electronic publication opens up new ways to explore the scientific literature. As journal articles become *live* the ability to do more comprehensive analysis of the literature can be realized. Mining the relationships between publications, institutions, and knowledge domains can provide a richer narrative of science than what has been possible prior to the Web 2.0 age [@Ahlqvist:2013vn]. 
-
-In the open publication model, I've articles also provide an entry point to access the data and methods that underlie an article. This lowers the barriers to replication of reported work by other scientists. 
-
-It is exciting to contemplate the impact that this could have on research in regional science. Take the case of the literature on regional convergence  where a number of meta-analyses have attempted a synthesis of what we know about the processes of regional growth XXXcites. These entail an enormous amount of traditional literature review and careful extraction of estimation results from previous studies, the latter then used as inputs in meta-regressions to quantify the relationship between say speed of convergence and aspects of research design employed in the individual studies. But consider a meta-analysis on steroids where what is available to the meta-researcher is not just data in the form of the final estimation results of previous papers, but rather the original data, estimation code and software and ancillary materials used to generate the reported estimation results.
-
-Specification searches can now be honestly reported in the  literature, giving us a 
-
-publication bias
-
-limited view of the research processes
-
-Specification searches 
-
-growing importance of grey literature
-
-journal publications playing the role of providing an authoritative stamp 
-
-issues of copyright and access have to be addressed for this model to become realized. Indeed, the technical solutions to implement the open publishing models are already with us. The major stumbling blocks are institutional  [@Ahlqvist:2013vn].
 
 
 ## Open Data 
@@ -234,7 +193,7 @@ regional science way behind here
 economics blinders
 
 
-## Open Models ##
+## Open Models
 
 Urban-sim
 
@@ -369,6 +328,33 @@ Concerns about scientific software [@Joppa17052013; @Yalta:2010xq].
 austerity debacle
 
 
+## Open Publication 
+
+data, software, articles all need to be part of the scientific record and in open forms.
+
+meta analyses on fully explorable scientific records
+
+Advances in cyberinfrastructure are having impacts not just on how we *do* science but are likely to shape the ways we *report* science. The traditional vessel of reporting findings has been the regular journal article, which has served us well but as pointed out above, is showing its age. Tapping the possibilities of electronic publication opens up new ways to explore the scientific literature. As journal articles become *live* the ability to do more comprehensive analysis of the literature can be realized. Mining the relationships between publications, institutions, and knowledge domains can provide a richer narrative of science than what has been possible prior to the Web 2.0 age [@Ahlqvist:2013vn]. 
+
+In the open publication model, I've articles also provide an entry point to access the data and methods that underlie an article. This lowers the barriers to replication of reported work by other scientists. 
+
+It is exciting to contemplate the impact that this could have on research in regional science. Take the case of the literature on regional convergence  where a number of meta-analyses have attempted a synthesis of what we know about the processes of regional growth XXXcites. These entail an enormous amount of traditional literature review and careful extraction of estimation results from previous studies, the latter then used as inputs in meta-regressions to quantify the relationship between say speed of convergence and aspects of research design employed in the individual studies. But consider a meta-analysis on steroids where what is available to the meta-researcher is not just data in the form of the final estimation results of previous papers, but rather the original data, estimation code and software and ancillary materials used to generate the reported estimation results.
+
+Specification searches can now be honestly reported in the  literature, giving us a 
+
+publication bias
+
+limited view of the research processes
+
+Specification searches 
+
+growing importance of grey literature
+
+journal publications playing the role of providing an authoritative stamp 
+
+issues of copyright and access have to be addressed for this model to become realized. Indeed, the technical solutions to implement the open publishing models are already with us. The major stumbling blocks are institutional  [@Ahlqvist:2013vn].
+
+
 ## Peer Review
 
 
@@ -380,7 +366,7 @@ importance of community
 
 strength of regional science is its interdisciplinary outlook
 
-## Conclusion
+# Conclusion
 
 Way forward will represent a mixture of open and proprietary regional science. This hybrid model will, however, represent a rebalancing of many components of regional science as it engages with open science. Our choice is whether that engagement takes an active or passive form.
 
