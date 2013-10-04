@@ -8,7 +8,8 @@ Association, February 2014.
 Geographical Sciences and Urban Planning, Arizona State University.
 <srey@asu.edu>
 
-**DRAFT**
+**INCOMPLETE DRAFT**
+
 
 # Introduction
 
@@ -41,13 +42,18 @@ This talk extends some themes I have been developing in previous work
 
 # Science: Captured or Open
 
-I, and I suspect many of you, take the *science* part of regional science seriously. We see science as one of the best constructions of human kind, running close to beer. We hold it in such high esteem as science as the noble goals helping us to:
+I, and I suspect many of you, take the *science* part of regional science
+seriously. We see science as one of the best constructions of human kind,
+running close to beer. We hold it in such high esteem as science has the noble
+goals helping us to:
 
 - understand our world
 - uncover new knowledge
 - improve our realities for the betterment of human kind
 
-Formal science has its origins in Descarte's Discourse on Methods in the 1637. From the beginning the concept of reproducibility was at the core. As  [@Schroeder:2013uq] notes the motto of the Royal Socieity 1671
+Formal science has its origins in Descarte's Discourse on Methods in 1637.
+From the beginning the concept of reproducibility was at the core. As
+[@Schroeder:2013uq] notes the motto of the Royal Socieity 1671
 
 >Nullius in Verba[^verba]
 
@@ -259,7 +265,7 @@ The project began on February 1 of 2009, and had its first contribution 7 hours 
 
 This initial success of the Polymath project has been extended to other math problems, and similar open source collaborative models have been employed in other fields including biology, physics and computer science.  More broadly, one can point to the popularity of sites such as StackExchange which is a community-powered question and answer forum where programs frequent in seeking help on problems, as evidence that this approach scales well. The adoption of these models provide new pathways for pushing the limits of our problem solving abilities. At the same time, the raise a number of questions as they represent a very different way to do science.
 
-On a project with hundreds, or possibly thousands, of contributors the specification of authorship is unclear. In the Polymath project the approach has to employ a group pseudonym (similar to a corporate author) and then link back to the full record on the blog.  Preserving that record is also an open challenge since if the site is no longer maintained the record would vanish. It is early days in the field of digital preserve ration but there is some prior art in the US Library of Congress to preserve a selection of legal blogs.  Ironically, in the same issue of Nature the article [@Neylon:2009uq] following the Gower piece was arguing for the alluring powers of Google Wave as a platform for scientists to use in open collaboration. I remember the excitement and buzz around Google Wave very well as we went all in on it during the early phases of PySAL. Unfortunately, as google is want to do, they killed Google wave.
+On a project with hundreds, or possibly thousands, of contributors the specification of authorship is unclear. In the Polymath project the approach has to employ a group pseudonym (similar to a corporate author) and then link back to the full record on the blog.  Preserving that record is also an open challenge since if the site is no longer maintained the record would vanish. It is early days in the field of digital preserve ration but there is some prior art in the US Library of Congress to preserve a selection of legal blogs.  Ironically, in the same issue of Nature the article [@Neylon:2009uq] following the Gower piece was arguing for the alluring powers of Google Wave as a platform for scientists to use in open collaboration. I remember the excitement and buzz around Google Wave very well as we went all in on it during the early phases of PySAL. Unfortunately, as google is wont to do, they killed Google wave.
 
 
 The separation lines between the different components of open science are at times blurry. In the case of the PolyMath project, there is a little of everything at work - Gower and his colleagues decided to rely on open collaboration by publishing early (day one problem statement) and often (170,000 words). The wiki and blog captured the full record of problem development, discussion, false starts, dead ends and ultimately solution, clearly a case of the live research article if ever there was one (open publication). As these materials are freely available to any interested party possessing Internet connectivity it is an exemplar of open access.
