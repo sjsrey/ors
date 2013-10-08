@@ -12,7 +12,7 @@ Geographical Sciences and Urban Planning, Arizona State University.
 
 **NOT FOR QUOTATION WITHOUT PERMISSION OF THE AUTHOR**
 
-**cOMMENTS wELCOMED**
+**COMMENTS WELCOMED**
 
 
 # Introduction
