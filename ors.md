@@ -32,16 +32,13 @@ I will begin by outlining what exactly I mean by captured science, outlining the
 
 # Captured Science
 
-I, and I suspect many of you, take the *science* part of regional science
-seriously. We see science as one of the best constructions of human kind,
-running close to beer. We hold it in such high esteem as science has the noble
-goals helping us to:
+I, and I suspect many of you, take the *science* part of regional science seriously. We see science as one of the best constructions of human kind, running close to beer. We hold it in such high esteem as science has the noble goals helping us to:
 
 - understand our world
 - uncover new knowledge
 - improve our realities for the betterment of human kind
 
-Formal science has its origins in Descarte's Discourse on Methods in 1637.
+Formal science has its origins in Descarte's Discourse on Methods written in 1637.
 From the beginning the concept of reproducibility was at the core. As
 [@Schroeder:2013uq] notes the motto of the Royal Society 1671
 
@@ -159,9 +156,7 @@ It is sobering to contrast that grand vision with today's state of our modeling 
 
 At the same time, we as a community of regional modelers have paid scant attention to model interoperability. A search of the leading proprietary regional models (REMI, IMPLAN) failed to turn up any references to application programing interfaces (API) which could be used to couple different modeling frameworks together. The finger should not just be pointed at proprietary modeling systems, as the academic community has also largely ignored interoperability concerns.
 
-The lack of interoperability has hindered progress in the area of integrated modeling as much of the research effort has focused on the challenges of fusing existing modeling frameworks using different integration strategies [@Rey:2000df]. If model designers had paid more attention to interoperability, modularity and basic object oriented practices [@Jackson:1994hl] less of the research effort
-would have been spent on refactoring integration strategies and more on enhancing  and applying integrated models to pressing regional economic issues.
-This lack of interoperability is particularly worrisome given the growing recognition of the importance of research on coupled natural-human systems and the need for analytical frameworks to support inquiry. 
+The lack of interoperability has hindered progress in the area of integrated modeling as much of the research effort has focused on the challenges of fusing existing modeling frameworks using different integration strategies [@Rey:2000df]. If model designers had paid more attention to interoperability, modularity and basic object oriented practices [@Jackson:1994hl] less of the research effort would have been spent on refactoring integration strategies and more on enhancing  and applying integrated models to pressing regional economic issues.  This lack of interoperability is particularly worrisome given the growing recognition of the importance of research on coupled natural-human systems and the need for analytical frameworks to support inquiry. 
 
 
 Link to commercialization of science argument
