@@ -65,7 +65,7 @@ Time to publish on the web
 - small marginal costs
 - supports data and software publication
 
-contrast this with commercial publish. Time to publish an article from the date of submission typically is 1-2 years. The form of journals means that software and data are generally not included as part of the publication. And, the costs of commercial publishing are high, both on the production side of things where estimates are and average of 500 Euros per paper, but also on the access side of the coin where costs to read the same paper average 30 Euros. XXXGet statistics and sources here.
+Contrast this with commercial publish. Time to publish an article from the date of submission typically is 1-2 years. The form of journals means that software and data are generally not included as part of the publication. And, the costs of commercial publishing are high, both on the production side of things where estimates are and average of 500 Euros per paper, but also on the access side of the coin where costs to read the same paper average 30 Euros. XXXGet statistics and sources here.
 [@Schroeder:2013uq]
 
 Subscription costs and Universities cancelling subscriptions. Elsevier boycott
@@ -254,7 +254,7 @@ For science to be truly open, two components need to be operative. *Open data* c
 
 
 
-
+ 
 
 
 data archives needed
@@ -265,11 +265,14 @@ US Government opendatanow.com geoplatform.gov geo.data.gov
 
 ### Open Modeling
 
-UrbanSim as an exception
-
-
 Interoperability and open modeling are vital to our ability to move regional
-science into the high performance computing era.
+science into the high performance computing era. Much of our regional science modeling toolkit consists of frameworks that were developed and designed for the single desktop era. In order to tap into the power offered by multiprocessing, cluster and grid computing architectures, a significant refactoring of this code base will be required [@Anselin:2011wt]. While earlier I remarked that the current state of the science in regional modeling consists of individual modeling efforts that are largely isolated from one another, there are some important exceptions that point the way forward towards supporting a genuine form of model integration. The UrbanSim project developed since the mid 1990s is fully open source and released under the GPL. Designed for use in operational planning it has enjoyed wide application across the U.S., Europe, Asia and Africa. The open source aspect has fueled both the application and development of UrbanSim, as researchers seeking to apply the modeling framework in their own projects are free to do so having full access to the source code.  
+
+A second set of exceptions are spatial analytical libraries the are freely available to regional scientists doing spatial econometrics and exploratory spatial data analysis. Although not strictly open source in a licensing sense, Jim LeSage's Spatial Econometric Toolbox was one of the first freely available (as in price and full source code), libraries for spatial econometrics. A full open source stack of spatial data analysis models has been available through the spdep and related packages in the R environment. Finally, PySAL is an open source library for exploratory spatial data analysis and spatial econometrics for the Python language.
+
+
+The key aspect of these libraries is that they provide detailed APIs for their components which allows end users to combine these components in flexible ways 
+
 
 open science piece on challenges of urban systems
 
@@ -373,7 +376,6 @@ To close this talk I think regional scientists (actually all scientists) would d
 
 
 # References
-
 
 
 
