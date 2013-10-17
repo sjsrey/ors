@@ -29,8 +29,7 @@ To do so I will contrast two worlds of science. The first, and the one we region
 
 I will begin by outlining what exactly I mean by captured science, outlining the key characteristics of this world and pointing to some of the challenges and constraints we face. Some of these issues may be familiar to many of us but I think we, as a community, have not had a healthy open discussion about their implications. I next move on to consider an alternative model of open science, what its components are and how regional science might benefit from migrating to this mode of operation and away from the current status quo. I close the talk with some thoughts about the likely future for open regional science.
 
-
-# Captured Science
+# Science: Riches and Challenges
 
 I, and I suspect many of you, take the *science* part of regional science seriously. We see science as one of the best constructions of human kind, running close to beer. We hold it in such high esteem as science has the noble goals helping us to:
 
@@ -46,12 +45,63 @@ From the beginning the concept of reproducibility was at the core. As
 
 [^verba]: "Take nobody's word for it."
 
-A key development in the advancement of early science was the decision by the Royal Society to publish results in the form of letters as a way to hasten dissemination relative to book publication. Alongside this, the tradition of relying on  three referees for each submitted letter began then and remains with us today.
+A key development in the advancement of early science was the decision by the Royal Society to publish results in the form of letters as a way to hasten dissemination relative to book publication. Alongside this, the tradition of relying on  three referees for each submitted letter began then and remains with us today, as both the format and the process of early scientific publishing had self-correction baked into them from the beginning, and the  use of three referees as a model for the review process dates back to this period.
 
-Both the format and the process of early scientific publishing had self-correction baked into them from the beginning. 
+At the risk of a gross simplification, this model has been successful on the whole as the amount of knowledge produced by the scientific process has grown enormously. Indeed, we are now to the point where the age of the romantic notion of the generalist has long been eclipsed and it is simply impossible for any one scientist to be conversant in the ocean of specializations.
 
-Use of three referees as a model for the review process dates back to this period.
-Defining science can be done many ways, but a common approach is to break science down into components: theory, methods and data.  
+The expanse of science has given rise to new specializations that have developed innovative methods for mapping the body of scientific knowledge and its subfields. XXXrefs Although a review of these efforts is beyond the scope of this talk, I want to employ one particular approach to mapping high dimensional data, the body of scientific knowledge being a special case, onto a sphere XXX. This will serve as a metaphor for understanding the relationship between scientific collaborations between groups of scientists from different areas and the distances separating these collaborators in the knowledge space. By doing so, I think regional science has much to offer in the analysis of what is at once both an embarrassment of riches of scientific breakthroughs and the challenges that continued specialization have on the evolution of the scientific frontier. 
+
+As a metaphor consider a map of scientific domains on a sphere where each domain is represented as a simple polygon. The polygons would likely be non uniform, but they would represent and exhaustive and mutually exclusive partitioning of the body of scientific knowledge. Now take the centroid of each domain polygon as a point representing the core of that domain.[^core] We can now measure the distance between each of the domains using say great circle distance:
+
+$d(t)_{i,j} = (\Theta(t)_{i,j}/360) 2 \pi r(t)$
+
+where $\Theta(t)_{i,j}$ is the central angle formed by points $i$ and $j$ on the surface of the sphere and $r(t)$ is the radius of the sphere at time $t$.
+
+
+A generalized form for the level of interaction between two domains $i$ and $j$ at time $t$  could be:
+
+$I(t)_{i,j} = k d(t)_{i,j}^{\alpha(t)}$
+
+where $\alpha$ is the distance decay parameter, and $k$ is a constant. Within regional science, much ink has been spilled on the specification of $\alpha$, and it will take on a central role in the story that follows. The time index reflects the evolution of the associated parameters and distance metrics.
+
+[^core]: I am simplifying things here and assuming that the "core" of a domain is located on the envelope (outer surface of our sphere, rather than internal to the sphere. This is in the spirit of the cutting edge argument where the latest publications are building on previous work.
+
+Let me further posit that the area of our sphere can be a proxy for the amount of scientific knowledge at time $t$:
+
+$A(t) = 4 \pi r(t)^2$
+
+where $r(t)$ is the radius of the sphere at time $t$. One remaining component of my stylized model of knowledge evolution is to tie $r(t)$ to previous levels of interaction:
+
+$r(t) = a + \sum_{l=1}^{t-1} \psi_l \sum_{i}\sum_{j} I(t-l)_{i,j} + \epsilon_{r(t)}$
+
+
+distance will expand with the sphere linearly
+interaction a non-linear function of distance
+
+
+Infill versus expanding domain growth of knowledge (densification versus larger sphere). combination of the two
+
+
+
+generalized model to identify forces at work
+could expand this to let centroids move due to attraction and previous interactions between domains.
+
+expected signs of covariates for $\alpha(t)$
+
+
+
+
+
+# Captured Science
+
+
+
+
+
+
+
+
+
 
 ## Commercialization of Science
 Outputs and components of the scientific process being increasingly seen as commercially valuable.
@@ -94,6 +144,28 @@ Reproducibility is almost invariably not possible in the current model
 Career pressures sustain the current model. Publish or perish has been the mantra we have adopted, leaving little or no time for ensuring that what we publish could in fact be reproduced by future scholars.
 
 It should not come as surprise that the state of reproducibility is so dismal.
+
+### Open Access
+
+A recent development in scientific publishing has been the move to the so called open access publication model.
+Although it can take on different forms, the basic premise is that once a scientific paper has been published it is made freely available to interested readers. The model has gain much momentum, as of 2011 estimates are that some 50\% of all scientific papers publsihed are in some form of open access.  It is useful to take a look at the pressures that have driven its evolution. 
+
+Three general forces have been responsible for open access coming into being. First, and most prominently, is the widespread disenchantment by the academic community with the traditinoal commercial publising model. Reflected in such documents as *The Cost of Knowledge*, signed by some 14000 scientists who pledged to no longer participate in commercial scientific publishing, from refusing to submit their articles to journals under the traditional model, to declining referee request or serving in any aspect of the editorial process. This was a key component of the boycott of Elseiveir.
+
+A second pressure reflects movements by governments to begin requiring that research supported by federal funding make the findings and data publicly available. This is reflected in the NSF requiring a data management component in all research proposals with accessibility as central concern. The third pressure is flowing from academia reflected in the University of California recently requiring all publications by its researchers to be under the open acess model.
+
+The open access model has enourmous potential for fueling wider dissemination of and access to scientific research, and it is often held in high regard by the scholarly community for this very reason. However, in large part the open access movement can be viewed as a reaction by commercial publishers to respond to these pressures.  Moreover, the model has not been without its problems, some of which are threatening the basic integrity of scientific publishing.
+
+There have been a number of high profile cases where the quality of open access journals have been exposed. Particlarly striking is the example of XX who submitted 304 versions of the same spoofed article to open access journals. The key theme in these papers addressed the role of Conage, an extract from lichen, and its anti cancer properties. Author names for each version of the paper were randomly created, and the dimensions of the arguments surrounding combinations of differennt types of molecules, species and cancer cells were exploited to provide some differentiation of the different versions of the paper. 
+
+Two profound results stem from this experience. First, more than half of the papers were accepted. Second, Conage does not exist.
+
+XXX model use reset of branch in open access mind map
+
+
+
+
+
 ## Reproducibility, fraud
 
 
