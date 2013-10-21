@@ -62,7 +62,7 @@ A generalized form for the level of interaction between two domains $i$ and $j$ 
 
 $I(t)_{i,j} = k d(t)_{i,j}^{\alpha(t)}$
 
-where $\alpha$ is the distance decay parameter, and $k$ is a constant. Within regional science, much ink has been spilled on the specification of $\alpha$, and it will take on a central role in the story that follows. The time index reflects the evolution of the associated parameters and distance metrics.
+where $\alpha$ is the distance decay parameter, and $k$ is a constant. Within regional science, much ink has been spilled on the specification of $\alpha$ [@Fotheringham:1989fk], and it will take on a central role in the story that follows. The time index reflects the evolution of the associated parameters and distance metrics.
 
 [^core]: I am simplifying things here and assuming that the "core" of a domain is located on the envelope (outer surface of our sphere, rather than internal to the sphere. This is in the spirit of the cutting edge argument where the latest publications are building on previous work.
 
@@ -73,24 +73,11 @@ $A(t) = 4 \pi r(t)^2$
 where $r(t)$ is the radius of the sphere at time $t$. One remaining component of my stylized model of knowledge evolution is to tie $r(t)$ to previous levels of interaction:
 
 $r(t) = a + \sum_{l=1}^{t-1} \psi_l \sum_{i}\sum_{j} I(t-l)_{i,j} + \epsilon_{r(t)}$
+where $\epsilon_r{t(t)}$ is a stochastic error term.
 
+The precise form of the evolution of our sphere depends upon the relative magnitudes of two forms of asymptotics. If so called *in-fill asymptotics* dominate, there would be a densification of knowledge within each subfield without growth in $r$. In *expanding domain asymptotics*, as new advances appear, the density of knowledge within each subfield would be kept constant through growth in $r$. Of course popular metaphors of "pushing the envelope" suggest that expanding domain asymptotics should dominate, but let's assume that both forces are operative.If they are, we then have the paradoxical results that [1] distances between the cores of the domains will increase (due to expanding domain), thus leading to a decline in inter-core interactions; and [2] there will be  increased interaction between the neighboring subareas at the edges of their domains, as well as intra-domain interactions.
 
-distance will expand with the sphere linearly
-interaction a non-linear function of distance
-
-
-Infill versus expanding domain growth of knowledge (densification versus larger sphere). combination of the two
-
-
-
-generalized model to identify forces at work
-could expand this to let centroids move due to attraction and previous interactions between domains.
-
-expected signs of covariates for $\alpha(t)$
-
-
-
-
+The impact of increasing distance on inter-core interactions will of course also be impacted by the evolution of $\alpha(t)$, our distance decay exponent. Generally speaking, this will reflect the costs of overcoming the distance between different bodies of knowledge. My thesis is that, in general terms, we have seen changes in the institutions of science which originally worked to dampen this effect to a world where increasingly the costs have been increasing, and this transformation has everything to do with a walling off of science to capture economic rents.
 
 # Captured Science
 
@@ -171,6 +158,11 @@ XXX model use reset of branch in open access mind map
 
 
 
+
+austerity debacle
+
+
+
 Against these high profile cases of scientific fraud we must be cognizant of less well recognized, but arguably more widespread and therefor damaging forms of questionable scientific practices such as post-hoc theorizing, data fishing and so called p-hacking .  Estimates of the prevalence of dubious practices in psychological research, such as collecting more data after seeing whether results were significant or excluding data after looking at the impact of doing so, approach 100\% suggesting that rather than the exception, questionable research practices may constitute the "de facto research norm" [@John:2012fk pp. 525].
 
 Are the social sciences any different from biomedical and other fields regarding misconduct? 
@@ -191,6 +183,8 @@ Reinhart and Rogoff case is a mixture of spreadsheet errors, omission of availab
 [^sokal]: The namesake of the *Sokal affair* in which the author submitted a completely nonsensical manuscript entitled "Transgressing the Boundaries: Towards a Transformative Hermeneutics of Quantum Gravity" to the journal *Social Text*.  After the paper was published Sokal revealed the hoax.
 
 One ray of shining light is that the heroes of these stories often tend to be graduate students who uncover the fraud or questionable practices.
+
+Concerns about scientific software [@Joppa17052013; @Yalta:2010xq].
 
 
 ## Data Hoarding
@@ -321,13 +315,6 @@ open funding and kick starter crowdfunding initiatives
 
 For science to be truly open, two components need to be operative. *Open data* constitutes available, intelligible, accessible and usable data.  *Open access*  to scientific publications and knowledge allows the realization of the building on shoulders of giants XXXget quote. Accessibility is more than the ability to acquire since a key impediment to scientific progress is that much published research is unintelligible beyond the origin specialist domain. This effective communication of results and methods is paramount [@Boulton:2012kx].
 
-### Open Source
-
-
-
-
- 
-
 
 data archives needed
 
@@ -335,7 +322,7 @@ Open Data Charter  [@Eaves:2013fk] is a recognition that in addition to fosterin
 
 US Government opendatanow.com geoplatform.gov geo.data.gov
 
-### Open Modeling
+## Open Modeling
 
 Interoperability and open modeling are vital to our ability to move regional
 science into the high performance computing era. Much of our regional science modeling toolkit consists of frameworks that were developed and designed for the single desktop era. In order to tap into the power offered by multiprocessing, cluster and grid computing architectures, a significant refactoring of this code base will be required [@Anselin:2011wt]. While earlier I remarked that the current state of the science in regional modeling consists of individual modeling efforts that are largely isolated from one another, there are some important exceptions that point the way forward towards supporting a genuine form of model integration. The UrbanSim project developed since the mid 1990s is fully open source and released under the GPL. Designed for use in operational planning it has enjoyed wide application across the U.S., Europe, Asia and Africa. The open source aspect has fueled both the application and development of UrbanSim, as researchers seeking to apply the modeling framework in their own projects are free to do so having full access to the source code.  
@@ -353,54 +340,12 @@ integration of multi scalar processes - regional grown and intra-urban spatial s
 OGC, City GML, Water ML, open modeling initiative (all hands meeting)
 
 
-### Open Collaboration
+## Open Collaboration
 
 what open questions in regional science should we be addressing
 
-### Open Publishing
+## Open Publishing
 
-There are signs that alternative open models for scientific publishing are beginning to get traction. A recent example that I had experience with was the publication of the conference proceedings for the 2013 Scientific Computing with Python (SciPy2013) conference. The entire process was produced using open source tools, including GitHub for file submission, reviewing and ultimately publishing. Authors were provided with templates to build their papers and these templates using *ReStructuredText* were made available via a *forking* of the proceedings GitHub repository. When their paper was ready for submission, the authors issued a *pull request*. Once the pull request was merged, the editors contacted referees via a web form and the reviews were then integrated into the GitHub repository. Authors were then asked to respond to the comments and submit a new pull request for the revised version. The final accepted versions of the papers were published in the proceedings [@scipy:2013vn] as an open-access publication distributed under the terms of the *Creative Commons Attribution License*.
-
-Several aspects of this process are worth noting. The process relied on technologies that were already familiar to this community of scholars who use code repositories for collaboration on the development of scientific software on a regular basis.  In addition to the technologies,  the traditional roles of author, reviewer, and editor were mapped into those of participants in an open source software development model is innovative. In this model developers (authors) wishing to contribute a new software feature (article) to a field issue a pull request (submission) to the project (journal). That pull request (manuscript submission) is then reviewed by the community (editor and reviewers) and bug reports (referee reports) are submitted. The developer (author) then incorporates the feedback from the bug report (reviews) into the manuscript and updates the pull request (revision submission). 
-
-At the end of the process the project maintainer (editor), has to make a final decision. The pull request would be merged in the case where the paper is accepted, or simply closed but not merged if the paper were rejected. In the former case the paper would appear in the final published proceedings. In contrast to the traditional publication model however, papers that were rejected in the process actually remain in the repository as the trail of pull requests, bug reports and publication decisions is available for all to see.
-
-Perhaps more importantly, this design enhanced the collaborative nature of the enterprise as the reviewers took on roles of allies in helping to improve the papers. This stood in stark contrast to the traditional review process in which papers can be shredded by reviewers. At the same time, the open source model was highly efficient as the review process started with an initial pull request deadline of May 19th and final publication of the proceedings just over two months later. The organization of the review process akin to  an open source software development model tapped into the power of community and is a clear reflection that science publication is not a solitary endeavor but rather can   is done by groups of scholars.
-
-Scipy 2013 example 
-Highlight collaborative process from the blog post
-
-Give overview of the process
-
-### Open Education
-
-
-Web book of regional science as an exemplar
-
-
-
-### Institutions
-
-Academia second most conservative institution every invented, next to opera
-
-Academic reward system
-
-Ironically, it would appear that open source and academic science have been largely separated at birth. Linus Torvalds, the creator of the Linux kernel and arguably one of the major figures in the open source movement, expressed his disenchantment with the state of operating systems research in academia as a motivation for leaving the university [@Moody:2001vg].
-
-
-
-### Commercialization of Science
-
-
-### Scientific Publishing
-
-Concerns about scientific software [@Joppa17052013; @Yalta:2010xq].
-
-
-austerity debacle
-
-
-## Open Publication 
 
 data, software, articles all need to be part of the scientific record and in open forms.
 
@@ -427,7 +372,33 @@ journal publications playing the role of providing an authoritative stamp
 issues of copyright and access have to be addressed for this model to become realized. Indeed, the technical solutions to implement the open publishing models are already with us. The major stumbling blocks are institutional  [@Ahlqvist:2013vn].
 
 
-## Peer Review
+There are signs that alternative open models for scientific publishing are beginning to get traction. A recent example that I had experience with was the publication of the conference proceedings for the 2013 Scientific Computing with Python (SciPy2013) conference. The entire process was produced using open source tools, including GitHub for file submission, reviewing and ultimately publishing. Authors were provided with templates to build their papers and these templates using *ReStructuredText* were made available via a *forking* of the proceedings GitHub repository. When their paper was ready for submission, the authors issued a *pull request*. Once the pull request was merged, the editors contacted referees via a web form and the reviews were then integrated into the GitHub repository. Authors were then asked to respond to the comments and submit a new pull request for the revised version. The final accepted versions of the papers were published in the proceedings [@scipy:2013vn] as an open-access publication distributed under the terms of the *Creative Commons Attribution License*.
+
+Several aspects of this process are worth noting. The process relied on technologies that were already familiar to this community of scholars who use code repositories for collaboration on the development of scientific software on a regular basis.  In addition to the technologies,  the traditional roles of author, reviewer, and editor were mapped into those of participants in an open source software development model is innovative. In this model developers (authors) wishing to contribute a new software feature (article) to a field issue a pull request (submission) to the project (journal). That pull request (manuscript submission) is then reviewed by the community (editor and reviewers) and bug reports (referee reports) are submitted. The developer (author) then incorporates the feedback from the bug report (reviews) into the manuscript and updates the pull request (revision submission). 
+
+At the end of the process the project maintainer (editor), has to make a final decision. The pull request would be merged in the case where the paper is accepted, or simply closed but not merged if the paper were rejected. In the former case the paper would appear in the final published proceedings. In contrast to the traditional publication model however, papers that were rejected in the process actually remain in the repository as the trail of pull requests, bug reports and publication decisions is available for all to see.
+
+Perhaps more importantly, this design enhanced the collaborative nature of the enterprise as the reviewers took on roles of allies in helping to improve the papers. This stood in stark contrast to the traditional review process in which papers can be shredded by reviewers. At the same time, the open source model was highly efficient as the review process started with an initial pull request deadline of May 19th and final publication of the proceedings just over two months later. The organization of the review process akin to  an open source software development model tapped into the power of community and is a clear reflection that science publication is not a solitary endeavor but rather can   is done by groups of scholars.
+
+Scipy 2013 example 
+Highlight collaborative process from the blog post
+
+Give overview of the process
+
+## Open Education
+
+
+Web book of regional science as an exemplar
+
+
+
+## Institutions
+
+Academia second most conservative institution every invented, next to opera
+
+Academic reward system
+
+Ironically, it would appear that open source and academic science have been largely separated at birth. Linus Torvalds, the creator of the Linux kernel and arguably one of the major figures in the open source movement, expressed his disenchantment with the state of operating systems research in academia as a motivation for leaving the university [@Moody:2001vg].
 
 
 ## Open Community
