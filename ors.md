@@ -37,7 +37,7 @@ I, and I suspect many of you, take the *science* part of regional science seriou
 - uncover new knowledge
 - improve our realities for the betterment of human kind
 
-Formal science has its origins in Descarte's Discourse on Methods written in 1637.
+Formal science has its origins in Descartes's Discourse on Methods written in 1637.
 From the beginning the concept of reproducibility was at the core. As
 [@Schroeder:2013uq] notes the motto of the Royal Society 1671
 
@@ -51,7 +51,7 @@ At the risk of a gross simplification, this model has been successful on the who
 
 The expanse of science has given rise to new specializations that have developed innovative methods for mapping the body of scientific knowledge and its subfields. XXXrefs Although a review of these efforts is beyond the scope of this talk, I want to employ one particular approach to mapping high dimensional data, the body of scientific knowledge being a special case, onto a sphere XXX. This will serve as a metaphor for understanding the relationship between scientific collaborations between groups of scientists from different areas and the distances separating these collaborators in the knowledge space. By doing so, I think regional science has much to offer in the analysis of what is at once both an embarrassment of riches of scientific breakthroughs and the challenges that continued specialization have on the evolution of the scientific frontier. 
 
-As a metaphor consider a map of scientific domains on a sphere where each domain is represented as a simple polygon. The polygons would likely be non uniform, but they would represent and exhaustive and mutually exclusive partitioning of the body of scientific knowledge. Now take the centroid of each domain polygon as a point representing the core of that domain.[^core] We can now measure the distance between each of the domains using say great circle distance:
+As a metaphor consider a map of scientific domains on a sphere where each domain is represented as a simple polygon. The polygons would likely be non uniform, but they would represent an exhaustive and mutually exclusive partitioning of the body of scientific knowledge. Now take the centroid of each domain polygon as a point representing the core of that domain.[^core] We can now measure the distance between each of the domains using say great circle distance:
 
 $d(t)_{i,j} = (\Theta(t)_{i,j}/360) 2 \pi r(t)$
 
@@ -77,26 +77,41 @@ where $\epsilon_r{t(t)}$ is a stochastic error term.
 
 The precise form of the evolution of our sphere depends upon the relative magnitudes of two forms of asymptotics. If so called *in-fill asymptotics* dominate, there would be a densification of knowledge within each subfield without growth in $r$. In *expanding domain asymptotics*, as new advances appear, the density of knowledge within each subfield would be kept constant through growth in $r$. Of course popular metaphors of "pushing the envelope" suggest that expanding domain asymptotics should dominate, but let's assume that both forces are operative.If they are, we then have the paradoxical results that [1] distances between the cores of the domains will increase (due to expanding domain), thus leading to a decline in inter-core interactions; and [2] there will be  increased interaction between the neighboring subareas at the edges of their domains, as well as intra-domain interactions.
 
-The impact of increasing distance on inter-core interactions will of course also be impacted by the evolution of $\alpha(t)$, our distance decay exponent. Generally speaking, this will reflect the costs of overcoming the distance between different bodies of knowledge. My thesis is that, in general terms, we have seen changes in the institutions of science which originally worked to dampen this effect to a world where increasingly the costs have been increasing, and this transformation has everything to do with a walling off of science to capture economic rents.
+The impact of increasing distance on inter-core interactions will of course also be impacted by the evolution of $\alpha(t)$, our distance decay exponent. Generally speaking, this will reflect the costs of overcoming the distance between different bodies of knowledge. My thesis is that, in general terms, we have seen changes in the institutions of science which originally worked to dampen this effect to a world where increasing access costs have been exacerbated this effect, and this transformation has everything to do with a walling off of science to capture economic rents.
 
 # Captured Science
 
+There are multiple channels through which science has become increasingly commercialized since the heady days of Descartes. Perhaps the most widely debated of these is the commercialization of scientific publishing. Alongside this hotbed issue we must also be cognizant of the commercial possibilities that the outputs of the scientific process may offer and the capturing of those in the forms of patents and siloing of derived data.
+
+## Commercial Scientific Publishing
+
+The costs of scientific publication has attracted much criticism by members of the academy. A well known lament is that the scientific community carries out the peer review process largely gratis yet the commercial journal publishers charge billions of dollars per year for access to the final scientific product. Although the true costs of access to journals is often obscured by non-disclosure agreements that university libraries must sign to access journals, some estimates put the annual revenue of the science-publishing industry at $9.4 billion in 2011 with an average revenue per article of roughly \$5000, average per article costs  around \$3,500-4,000, and profit margins at 20-30\% [@Van-Noorden:2013lq].
+
+Commercial publishers counter these claims by pointing to the role than journal branding can play through the peer review process. Rejection by high prestige journals serves to filter manuscripts to the most appropriate outlets and lowers the search costs for future researchers. 
+
+
+### Open Access
+
+A recent development in scientific publishing has been the move to the so called open access publication model.
+Although it can take on different forms, the basic premise is that once a scientific paper has been published it is made freely available to interested readers. The model has gain much momentum, as of 2011 estimates are that some 50\% of all scientific papers published are in some form of open access.  It is useful to take a look at the pressures that have driven its evolution. 
+
+Three general forces have been responsible for open access coming into being. First, and most prominently, is the widespread disenchantment by the academic community with the traditional commercial publishing model. Reflected in such documents as *The Cost of Knowledge*, signed by some 14000 scientists who pledged to no longer participate in commercial scientific publishing, from refusing to submit their articles to journals under the traditional model, to declining referee request or serving in any aspect of the editorial process. This was a key component of the boycott of Elseiveir.
+
+A second pressure reflects movements by governments to begin requiring that research supported by federal funding make the findings and data publicly available. This is reflected in the NSF requiring a data management component in all research proposals with accessibility as central concern. The third pressure is flowing from academia reflected in the University of California (UC) recent adoption of its Open Access Policy [@University-of-Calfornia:2013ud] in which faculty grant a license to UC prior to any contractual agreement with publishers. This permits the UC to archive the research in its eScholarship system thus providing access to the public at no charge.
+
+
+The open access model has enormous potential for fueling wider dissemination of and access to scientific research, and it is often held in high regard by the scholarly community for this very reason. However, in large part the open access movement can be viewed as a reaction by commercial publishers to respond to these pressures.  Moreover, the model has not been without its problems, some of which are threatening the basic integrity of scientific publishing.
+
+There have been a number of high profile cases where the poor quality control of open access journals have been exposed. Particularly striking is the example outlined in @Bohannon:2013kx where a single fictitious author submitted 304 versions of the same spoofed article to open access journals. The key theme in these papers addressed the role of  an extract from lichen, and its anti-cancer properties. Author names for each version of the paper were randomly created, and the dimensions of the arguments surrounding combinations of different types of molecules, species and cancer cells were exploited to provide some differentiation of the different versions of the paper. 
+
+Several profound results stem from this experience. First, more than half of the papers were accepted. Second, both the key anti-cancer agents and the author of these manuscripts did not exist. Thirdly, among the 147 journals that accepted the article were those owned by Elsevier and Sage, as well as prestigious academic institutions such as Kobe University. Combined these results raise doubts about the legitimacy of the open access journal as a repository for the state of scientific knowledge as, in this case, acceptance of patently false findings was the rule not the exception.
 
 
 
+Curated or captured science is the result. Publishers own the copyright of the paper and have enclosed the theory within the confines of the article. Software and data are generally not to be found, even in cases where the paper access costs can be borne. 
 
 
 
-
-
-
-## Commercialization of Science
-Outputs and components of the scientific process being increasingly seen as commercially valuable.
-data
-patents algorithms
-publishing
-
-## Scientific Publishing 
 Time to publish on the web
 - Typically 1 hour
 - small marginal costs
@@ -107,8 +122,6 @@ Contrast this with commercial publish. Time to publish an article from the date 
 
 Subscription costs and Universities cancelling subscriptions. Elsevier boycott
 UK open access mandate.
-
-Curated or captured science is the result. Publishers own the copyright of the paper and have enclosed the theory within the confines of the article. Software and data are generally not to be found, even in cases where the paper access costs can be borne. 
 
 Summary
 
@@ -131,25 +144,6 @@ Reproducibility is almost invariably not possible in the current model
 Career pressures sustain the current model. Publish or perish has been the mantra we have adopted, leaving little or no time for ensuring that what we publish could in fact be reproduced by future scholars.
 
 It should not come as surprise that the state of reproducibility is so dismal.
-
-### Open Access
-
-A recent development in scientific publishing has been the move to the so called open access publication model.
-Although it can take on different forms, the basic premise is that once a scientific paper has been published it is made freely available to interested readers. The model has gain much momentum, as of 2011 estimates are that some 50\% of all scientific papers publsihed are in some form of open access.  It is useful to take a look at the pressures that have driven its evolution. 
-
-Three general forces have been responsible for open access coming into being. First, and most prominently, is the widespread disenchantment by the academic community with the traditinoal commercial publising model. Reflected in such documents as *The Cost of Knowledge*, signed by some 14000 scientists who pledged to no longer participate in commercial scientific publishing, from refusing to submit their articles to journals under the traditional model, to declining referee request or serving in any aspect of the editorial process. This was a key component of the boycott of Elseiveir.
-
-A second pressure reflects movements by governments to begin requiring that research supported by federal funding make the findings and data publicly available. This is reflected in the NSF requiring a data management component in all research proposals with accessibility as central concern. The third pressure is flowing from academia reflected in the University of California recently requiring all publications by its researchers to be under the open acess model.
-
-The open access model has enourmous potential for fueling wider dissemination of and access to scientific research, and it is often held in high regard by the scholarly community for this very reason. However, in large part the open access movement can be viewed as a reaction by commercial publishers to respond to these pressures.  Moreover, the model has not been without its problems, some of which are threatening the basic integrity of scientific publishing.
-
-There have been a number of high profile cases where the quality of open access journals have been exposed. Particlarly striking is the example of XX who submitted 304 versions of the same spoofed article to open access journals. The key theme in these papers addressed the role of Conage, an extract from lichen, and its anti cancer properties. Author names for each version of the paper were randomly created, and the dimensions of the arguments surrounding combinations of differennt types of molecules, species and cancer cells were exploited to provide some differentiation of the different versions of the paper. 
-
-Two profound results stem from this experience. First, more than half of the papers were accepted. Second, Conage does not exist.
-
-XXX model use reset of branch in open access mind map
-
-
 
 
 
@@ -378,19 +372,12 @@ Several aspects of this process are worth noting. The process relied on technolo
 
 At the end of the process the project maintainer (editor), has to make a final decision. The pull request would be merged in the case where the paper is accepted, or simply closed but not merged if the paper were rejected. In the former case the paper would appear in the final published proceedings. In contrast to the traditional publication model however, papers that were rejected in the process actually remain in the repository as the trail of pull requests, bug reports and publication decisions is available for all to see.
 
-Perhaps more importantly, this design enhanced the collaborative nature of the enterprise as the reviewers took on roles of allies in helping to improve the papers. This stood in stark contrast to the traditional review process in which papers can be shredded by reviewers. At the same time, the open source model was highly efficient as the review process started with an initial pull request deadline of May 19th and final publication of the proceedings just over two months later. The organization of the review process akin to  an open source software development model tapped into the power of community and is a clear reflection that science publication is not a solitary endeavor but rather can   is done by groups of scholars.
+Perhaps more importantly, this design enhanced the collaborative nature of the enterprise as the reviewers took on roles of allies in helping to improve the papers. This stood in stark contrast to the traditional review process in which papers can be shredded by reviewers. At the same time, the open source model was highly efficient as the review process started with an initial pull request deadline of May 19th and final publication of the proceedings just over two months later. The organization of the review process akin to  an open source software development model tapped into the power of community and is a clear reflection that science publication is not a solitary endeavor but rather is done by groups of scholars.
 
-Scipy 2013 example 
-Highlight collaborative process from the blog post
-
-Give overview of the process
 
 ## Open Education
 
-
 Web book of regional science as an exemplar
-
-
 
 ## Institutions
 
