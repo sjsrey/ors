@@ -39,7 +39,7 @@ I, and I suspect many of you, take the *science* part of regional science seriou
 
 Formal science has its origins in Descartes's Discourse on Methods written in 1637.
 From the beginning the concept of reproducibility was at the core. As
-[@Schroeder:2013uq] notes the motto of the Royal Society 1671
+@Schroeder:2013uq notes the motto of the Royal Society 1671
 
 >Nullius in Verba[^verba]
 
@@ -75,7 +75,7 @@ where $r(t)$ is the radius of the sphere at time $t$. One remaining component of
 $r(t) = a + \sum_{l=1}^{t-1} \psi_l \sum_{i}\sum_{j} I(t-l)_{i,j} + \epsilon_{r(t)}$
 where $\epsilon_r{t(t)}$ is a stochastic error term.
 
-The precise form of the evolution of our sphere depends upon the relative magnitudes of two forms of asymptotics. If so called *in-fill asymptotics* dominate, there would be a densification of knowledge within each subfield without growth in $r$. In *expanding domain asymptotics*, as new advances appear, the density of knowledge within each subfield would be kept constant through growth in $r$. Of course popular metaphors of "pushing the envelope" suggest that expanding domain asymptotics should dominate, but let's assume that both forces are operative.If they are, we then have the paradoxical results that [1] distances between the cores of the domains will increase (due to expanding domain), thus leading to a decline in inter-core interactions; and [2] there will be  increased interaction between the neighboring subareas at the edges of their domains, as well as intra-domain interactions.
+The precise form of the evolution of our sphere depends upon the relative magnitudes of two forms of asymptotics. If so called *in-fill asymptotics* dominate, there would be a densification of knowledge within each subfield without growth in $r$. In *expanding domain asymptotics*, as new advances appear, the density of knowledge within each subfield would be kept constant through growth in $r$. Of course popular metaphors of "pushing the envelope" suggest that expanding domain asymptotics should dominate, but let's assume that both forces are operative. If they are, we then have the paradoxical results that [1] distances between the cores of the domains will increase (due to expanding domain), thus leading to a decline in inter-core interactions; and [2] there will be  increased interaction between the neighboring subareas at the edges of their domains, as well as intra-domain interactions.
 
 The impact of increasing distance on inter-core interactions will of course also be impacted by the evolution of $\alpha(t)$, our distance decay exponent. Generally speaking, this will reflect the costs of overcoming the distance between different bodies of knowledge. My thesis is that, in general terms, we have seen changes in the institutions of science which originally worked to dampen this effect to a world where increasing access costs have been exacerbated this effect, and this transformation has everything to do with a walling off of science to capture economic rents.
 
@@ -95,9 +95,9 @@ Commercial publishers counter these claims by pointing to the role than journal 
 A recent development in scientific publishing has been the move to the so called open access publication model.
 Although it can take on different forms, the basic premise is that once a scientific paper has been published it is made freely available to interested readers. The model has gain much momentum, as of 2011 estimates are that some 50\% of all scientific papers published are in some form of open access.  It is useful to take a look at the pressures that have driven its evolution. 
 
-Three general forces have been responsible for open access coming into being. First, and most prominently, is the widespread disenchantment by the academic community with the traditional commercial publishing model. Reflected in such documents as *The Cost of Knowledge*, signed by some 14000 scientists who pledged to no longer participate in commercial scientific publishing, from refusing to submit their articles to journals under the traditional model, to declining referee request or serving in any aspect of the editorial process. This was a key component of the boycott of Elseiveir.
+Three general forces have been responsible for open access coming into being. First, and most prominently, is the widespread disenchantment by the academic community with the traditional commercial publishing model. Reflected in such documents as *The Cost of Knowledge*, signed by some 14000 scientists who pledged to no longer participate in commercial scientific publishing, from refusing to submit their articles to journals under the traditional model, to declining referee request or serving in any aspect of the editorial process. This was a key component of the boycott of Elsevier.
 
-A second pressure reflects movements by governments to begin requiring that research supported by federal funding make the findings and data publicly available. This is reflected in the NSF requiring a data management component in all research proposals with accessibility as central concern. The third pressure is flowing from academia reflected in the University of California (UC) recent adoption of its Open Access Policy [@University-of-Calfornia:2013ud] in which faculty grant a license to UC prior to any contractual agreement with publishers. This permits the UC to archive the research in its eScholarship system thus providing access to the public at no charge.
+A second pressure reflects movements by governments to begin requiring that research supported by federal funding make the findings and data publicly available. This is reflected in the NSF requiring a data management component in all research proposals with accessibility as central concern. The third pressure is flowing from academia reflected in the University of California (UC) recent adoption of its Open Access Policy [@University-of-California:2013ud] in which faculty grant a license to UC prior to any contractual agreement with publishers. This permits the UC to archive the research in its eScholarship system thus providing access to the public at no charge.
 
 
 The open access model has enormous potential for fueling wider dissemination of and access to scientific research, and it is often held in high regard by the scholarly community for this very reason. However, in large part the open access movement can be viewed as a reaction by commercial publishers to respond to these pressures.  Moreover, the model has not been without its problems, some of which are threatening the basic integrity of scientific publishing.
@@ -194,7 +194,7 @@ One example being the case of the State of Massachusetts Group Insurance Commiss
 A researcher was able to purchase a voter registration list for Cambridge for $20 that contained the name, address, ZIP code, birth date and gender of each voter. Linking this with the GIC data made it possible to identify the medical records for the state governor, since only six people had the same birth date, of these three were men, and only one of these had the same ZIP code.
 
 ### Data Silos
-Clearly there are problems with anonymization procedures and a very active research agenda is developing around privatization XXXcites. An alternative to anonymization is the use of
+Clearly there are problems with anonymization procedures and a very active research agenda is developing around privatization XXXcites. An alternative  is the use of
 save havens as secure sites for data containing sensitive person information with access being granted to authorized researchers. In the US, Census Research Centers play this role and offer remarkable opportunities for regional scientists to have access to micro data subject to a number of restrictions designed to ensure confidentiality. XXXrefs and details see mms proposal on numbers
 
 Although the CRCs are  successful protecting privacy concerns I think it important to keep in mind that they also place limits on the network effect and science's self-correcting mechanism. This is because replication of studies that come out of CRC research is difficult if not impossible as any researcher seeking to do so requires access to the same data used in the original study. That access is only granted by the CRC which faces difficult choices in determining what proposals get approved for access, and given the choice between proposals for new novel studies versus studies that seek to replicate previous studies, it is conceivable that the former may be viewed more favorably.
@@ -212,45 +212,58 @@ This doesn't have to be a zero sum game where the private gains are sacrificed f
 ### Modeling Islands
 Since the early days of regional science Walter Isard envisioned that integration would be a hallmark of our discipline. Channels of synthesis, efforts at integration, integrated modeling [@Hewings:2004fk].
 
-It is sobering to contrast that grand vision with today's state of our modeling science. To a very real extent, integration of different modeling efforts has fallen far short of this vision. Rather than a rich ecosystem  of interconnected modeling components the silo business model appears to have won the day.  In part this reflects the economics of the regional modeling business were the development, continued enhancement and support of modeling frameworks requires stable and constant financial support.  Logically that support can be attracted through marketing efforts.
+It is sobering to contrast that grand vision with today's state of our modeling science. To a very real extent, integration of different modeling efforts has fallen far short of this vision. Rather than a rich ecosystem  of interconnected modeling components the silo business model appears to have won the day.  In part this reflects the economics of the regional modeling business where the development, continued enhancement and support of modeling frameworks requires stable and constant financial support.  Logically that support can be attracted through marketing efforts.
 
 At the same time, we as a community of regional modelers have paid scant attention to model interoperability. A search of the leading proprietary regional models (REMI, IMPLAN) failed to turn up any references to application programing interfaces (API) which could be used to couple different modeling frameworks together. The finger should not just be pointed at proprietary modeling systems, as the academic community has also largely ignored interoperability concerns.
 
-The lack of interoperability has hindered progress in the area of integrated modeling as much of the research effort has focused on the challenges of fusing existing modeling frameworks using different integration strategies [@Rey:2000df]. If model designers had paid more attention to interoperability, modularity and basic object oriented practices [@Jackson:1994hl] less of the research effort would have been spent on refactoring integration strategies and more on enhancing  and applying integrated models to pressing regional economic issues.  This lack of interoperability is particularly worrisome given the growing recognition of the importance of research on coupled natural-human systems and the need for analytical frameworks to support inquiry. 
+The lack of interoperability has hindered progress in the area of integrated modeling as much of the research effort has focused on the challenges of fusing existing modeling frameworks using different integration strategies [@Rey:2000df]. If model designers had paid more attention to interoperability, modularity and basic object oriented practices [@Jackson:1994hl] less of the research effort would have been spent on refactoring integration strategies and more on enhancing  and applying integrated models to pressing regional economic issues.  This lack of interoperability is particularly worrisome given the growing recognition of the importance of research on coupled natural-human systems and the need for integrated analytical frameworks to support inquiry. 
 
 
-Link to commercialization of science argument
 
 
 
 # Open Science 
-Define pillars of open science
-Draws from inspiration from the open source revolution
-Goes by different names
-Outline what is to come in this section
+While the previous sections have painted a less than rosy portrait of the current state of science, the brush is not intended to be overly broad. At the same time, I am also optimistic that rich opportunities lie before us and if we grasp them we can effect an stronger more open science going forward. Here I outline what I see as the key pillars of open science and the roles that regional scientists might play in their realization.
+
+
 
 ## Open Source 
 
-[@Rey:2009xy]
-key aspects
-freedoms
-exemplars
+Much attention has been given to the open source movement and its impacts on many aspects of the modern world, since included [@Rey:2009xy] XXX. Remarkably, these widespread and deep impacts had their origins in the seemingly obscure question of how software teams organized themselves. As chronicled by Raymond, the traditional model adopted by proprietary software houses was to bring together wizards or high priests working in small groups isolated in towers walled off from users and markets. The dominant model since the early days of the software industry,Raymond contrasts this cathedral model with a new upstart represented by early work on the Linux kernel. Here thousands of seemingly unorganized and decentralized developers were working to build the kernel. The chaotic nature of this form of organization struck Raymond as much more of a bazaar than a cathedral.
+
+That the bazaar model resulted in software that became critical infrastructure underlying many of the internet services we rely on today seemed like an unlikely outcome. Its impacts on science are less well recognized, but we don't have to look far to see concrete evidence. For example, the beauty contest that is the annual ranking of the worlds fastest super computers is massively dominated by Linux as the Top500 supercomputer list reported that 476 of the 500 fastest machines ran Linux [@Vaughan-Nichols:2013fr].
+
+Perhaps more profound, but subtle, are the soft innovations that open source may bring to the practice of science.  For science to be truly open, two components need to be operative. *Open data* constitutes available, intelligible, accessible and usable data.  *Open access*  to scientific publications and knowledge allows the realization of the building on shoulders of giants XXXget quote. Accessibility is more than the ability to acquire since a key impediment to scientific progress is that much published research is unintelligible beyond the origin specialist domain. This effective communication of results and methods is paramount [@Boulton:2012kx].  In what follows I trace out the key aspects of open data and access as well as related dimensions of open modeling, open education and open collaboration. Analogy of research as software- open source science. In the place of open source code we would have open source science where the publications, methods, and data underlying existing work were accessible to all.
+
 
 
 ## Open Data 
 
+The increasing availability of open data is playing a pivotal role in the evolution of the so called *fourth paradigm of science*.  The classic pairing of experiment and theory (first and second paradigms) were married to the third paradigm of large-scale computational simulation in the mid-20th century. In this triad, data has provided observations about phenomena and was either collected to test particular theories or generated as output in process based simulations about those phenomena. In the fourth paradigm, data takes a more leading role in that application of exploratory and data mining technologies to massive and heterogeneous datasets are increasingly being used to generate, rather than test, new hypotheses.  Indeed the central role of data in this context is reflected in an alternative name for this fourth paradigm:  *data-intensive science* [@Tolle:2011fk].
 
-The increasing availability of open data is playing a pivotal role in the evolution of the so called *fourth paradigm of science*.  The classic pairing of experiment and theory (first and second paradigms) were married to the third paradigm of large-scale computational simulation in the mid-20th century. In this triad, data has provided observations about phenomena and was either collected to test particular theories or generated as output in process based simulations about those phenomena. In the fourth paradigm, data takes a more leading role in that application of exploratory and data mining technologies to massive and heterogeneous datasets are increasingly being used to generate, rather than test, new hypotheses.
-Indeed the central role of data in this context is reflected in an alternative name for this fourth paradigm:  *data-intensive science* [@Tolle:2011fk].
+Regional science has been slow to engage with this new paradigm, and at times has been hostile to the exploratory nature of much of this work. I think that hostility reflects traditional paradigms dominating economics where theory informed specifications are viewed in high regard, while exploratory data analysis is often dismissed as measurement without theory. 
 
-esda
+Yet in an increasingly interdependent and complex world, one which is also generating unprecedented and overwhelming amounts of empirical data, the gap between what extant theory can shed light upon and what remains unknown will only widen. If we don't change our ways, we, regional science, will risk the criticism of practicing theory without measurement. In a world of big data over reliance on theory will limit what we can contribute to science.
 
-regional science way behind here
+There are positive developments however. The rise of exploratory spatial data analysis, geocomputation, agent based models, microsimulation, data mining, and related new computationally based methods are enabling an expansion of the scope of regional science. Very often the outcome of these lines of investigation are new types of questions arising from newly discovered empirical patterns, and this stands in stark contrast to the tradition approach of hypotheses based investigation. These do not, however, have to be mutually exclusive and I would argue they are indeed complementary approaches.
 
-economics blinders
+## Open Modeling
+
+Interoperability and open modeling are vital to our ability to move regional
+science into the high performance computing era. Much of our regional science modeling toolkit consists of frameworks that were developed and designed for the single desktop era. In order to tap into the power offered by multiprocessing, cluster and grid computing architectures, a significant refactoring of this code base will be required [@Anselin:2011wt]. While earlier I remarked that the current state of the science in regional modeling consists of individual modeling efforts that are largely isolated from one another, there are some important exceptions that point the way forward towards supporting a genuine form of model integration. The UrbanSim project developed since the mid 1990s is fully open source and released under the GPL. Designed for use in operational planning it has enjoyed wide application across the U.S., Europe, Asia and Africa. The open source aspect has fueled both the application and development of UrbanSim, as researchers seeking to apply the modeling framework in their own projects are free to do so having full access to the source code.  
+
+A second set of exceptions are spatial analytical libraries the are freely available to regional scientists doing spatial econometrics and exploratory spatial data analysis. Although not strictly open source in a licensing sense, Jim LeSage's Spatial Econometric Toolbox was one of the first freely available (as in price and full source code), libraries for spatial econometrics. A full open source stack of spatial data analysis models has been available through the spdep and related packages in the R environment. Finally, PySAL is an open source library for exploratory spatial data analysis and spatial econometrics for the Python language.
 
 
-## Open Models
+The key aspect of these libraries is that they provide detailed APIs for their components which allows end users to combine these components in flexible ways 
+
+
+open science piece on challenges of urban systems
+
+integration of multi scalar processes - regional grown and intra-urban spatial structure.
+
+OGC, City GML, Water ML, open modeling initiative (all hands meeting)
+
 
 Urban-sim
 
@@ -275,7 +288,7 @@ There are a range of open collaboration models that are possible differing in th
 
 While accessing feedback through the implicit collaboration model is a potential benefit, I think the real value in this model is that it captures the full evolution of the research artifact. From a technical standpoint GitHub enables a tracking of the history of all the files in a project, not to mention off-site backup. At the same time, deciding to open up your project at a very early stage does have a subtle, but important, influence on how you approach your work. In the end, it does not really matter to me whether collaborators are realized in bug reports (or feature requests) - just knowing that potentially there are readers externalizes Adam Smith's impartial observer [@Smith:2001fk]. And it does so very early in the process rather than at the final stage of manuscript submission.
 
-As an example of moving towards the more explicit form of open collaboration is the Polymath Project developed by [@Gowers:2009fk]. Inspired by the open source practices seen in the Linux project and Wikipedia Gowers began the project on his blog by beginning with a description of the problem: namely to develop a prove of the Hales-Jewett Theorem in the realm of combinatorics. He also provided a links for background materials and rules of engagement designed to encourage peoples engagement and collaboration.
+An example of moving towards the more explicit form of open collaboration is the Polymath Project developed by [@Gowers:2009fk]. Inspired by the open source practices seen in the Linux project and Wikipedia Gowers began the project on his blog by beginning with a description of the problem: namely to develop a prove of the Hales-Jewett Theorem in the realm of combinatorics. He also provided a links for background materials and rules of engagement designed to encourage peoples engagement and collaboration.
 
 The project began on February 1 of 2009, and had its first contribution 7 hours latter from a UBC mathematician. Comments quickly followed from a diverse array of individuals spanning the spectrum from an Arizona high school math teacher to a winner of a Fields Medal. Shortly after one month from beginning the project accumulated over 800 contributions representing 170,000 words and by early March the collective effort had generated an elementary proof. 
 
@@ -307,36 +320,13 @@ closed science depletion of a common resource
 
 open funding and kick starter crowdfunding initiatives
 
-For science to be truly open, two components need to be operative. *Open data* constitutes available, intelligible, accessible and usable data.  *Open access*  to scientific publications and knowledge allows the realization of the building on shoulders of giants XXXget quote. Accessibility is more than the ability to acquire since a key impediment to scientific progress is that much published research is unintelligible beyond the origin specialist domain. This effective communication of results and methods is paramount [@Boulton:2012kx].
-
-
 data archives needed
 
 Open Data Charter  [@Eaves:2013fk] is a recognition that in addition to fostering innovation and transparency, open data can also drive public policy.
 
 US Government opendatanow.com geoplatform.gov geo.data.gov
 
-## Open Modeling
 
-Interoperability and open modeling are vital to our ability to move regional
-science into the high performance computing era. Much of our regional science modeling toolkit consists of frameworks that were developed and designed for the single desktop era. In order to tap into the power offered by multiprocessing, cluster and grid computing architectures, a significant refactoring of this code base will be required [@Anselin:2011wt]. While earlier I remarked that the current state of the science in regional modeling consists of individual modeling efforts that are largely isolated from one another, there are some important exceptions that point the way forward towards supporting a genuine form of model integration. The UrbanSim project developed since the mid 1990s is fully open source and released under the GPL. Designed for use in operational planning it has enjoyed wide application across the U.S., Europe, Asia and Africa. The open source aspect has fueled both the application and development of UrbanSim, as researchers seeking to apply the modeling framework in their own projects are free to do so having full access to the source code.  
-
-A second set of exceptions are spatial analytical libraries the are freely available to regional scientists doing spatial econometrics and exploratory spatial data analysis. Although not strictly open source in a licensing sense, Jim LeSage's Spatial Econometric Toolbox was one of the first freely available (as in price and full source code), libraries for spatial econometrics. A full open source stack of spatial data analysis models has been available through the spdep and related packages in the R environment. Finally, PySAL is an open source library for exploratory spatial data analysis and spatial econometrics for the Python language.
-
-
-The key aspect of these libraries is that they provide detailed APIs for their components which allows end users to combine these components in flexible ways 
-
-
-open science piece on challenges of urban systems
-
-integration of multi scalar processes - regional grown and intra-urban spatial structure.
-
-OGC, City GML, Water ML, open modeling initiative (all hands meeting)
-
-
-## Open Collaboration
-
-what open questions in regional science should we be addressing
 
 ## Open Publishing
 
@@ -379,7 +369,14 @@ Perhaps more importantly, this design enhanced the collaborative nature of the e
 
 Web book of regional science as an exemplar
 
-## Institutions
+
+## Open Institutions, Community, and Collaboration
+
+notion of "open people"
+
+importance of community
+
+strength of regional science is its interdisciplinary outlook
 
 Academia second most conservative institution every invented, next to opera
 
@@ -388,14 +385,6 @@ Academic reward system
 Ironically, it would appear that open source and academic science have been largely separated at birth. Linus Torvalds, the creator of the Linux kernel and arguably one of the major figures in the open source movement, expressed his disenchantment with the state of operating systems research in academia as a motivation for leaving the university [@Moody:2001vg].
 
 
-## Open Community
-
-notion of "open people"
-
-importance of community
-
-strength of regional science is its interdisciplinary outlook
-
 # Conclusion
 
 Way forward will represent a mixture of open and proprietary regional science. This hybrid model will, however, represent a rebalancing of many components of regional science as it engages with open science. Our choice is whether that engagement takes an active or passive form.
@@ -403,6 +392,7 @@ Way forward will represent a mixture of open and proprietary regional science. T
 To close this talk I think regional scientists (actually all scientists) would do well by taking the Dalai Lama's recommendation to heart:
 
 > Share your knowledge, it is a way to achieve immortality.
+
 
 
 # References
