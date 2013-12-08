@@ -385,6 +385,10 @@ Academic reward system
 Ironically, it would appear that open source and academic science have been largely separated at birth. Linus Torvalds, the creator of the Linux kernel and arguably one of the major figures in the open source movement, expressed his disenchantment with the state of operating systems research in academia as a motivation for leaving the university [@Moody:2001vg].
 
 
+
+Cathederal v bazaar. RS has been obsessed with building cathedrals at the expense of its inherent bazaar structure. Interdisciplinarity in which things spatial serve as the integrating mechanism is the birth right of RS. We should reclaim it.
+
+
 # Conclusion
 
 Way forward will represent a mixture of open and proprietary regional science. This hybrid model will, however, represent a rebalancing of many components of regional science as it engages with open science. Our choice is whether that engagement takes an active or passive form.
