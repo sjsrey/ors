@@ -207,7 +207,7 @@ Licensing data as and with software
 
 Data hoarding is not limited to institutions as the problem can be found at the individual level as well. Our existing tenure and reward systems stress the number of publications produced and for researchers who have invested time and resources in constructing or acquiring unique data sets it is logical to seek a return on that investment by maximizing their exclusive use of the data. However, the individual scholar model doesn't really scale well and the opportunity costs from the scientist restricting access to the data by the wider scientific community have to be considered. After all, if the data is really wonderful, just image what might flow from releasing it to the field.
 
-This doesn't have to be a zero sum game where the private gains are sacrificed for social goods - we can tweak the reward structure and attribution norms to make data provision a first class contribution to the scientific process. In other words, rather than the single scholar producing say a series of 5 papers with the exclusive use of the data, she produces one article and releases the data. This in turn empowers a larger group of scholars to generate vastly more than 5 papers using the same data, with each of these papers siting the single paper produced by the data generating/contributing scholar. Her H-index would grow exponentially in this world rather than linearly in the hoarding model.
+This doesn't have to be a zero sum game where the private gains are sacrificed for social goods - we can tweak the reward structure and attribution norms to make data provision a first class contribution to the scientific process. In other words, rather than the single scholar producing say a series of 5 papers with the exclusive use of the data, she produces one article and releases the data. This in turn empowers a larger group of scholars to generate vastly more than 5 papers using the same data, with each of these papers siting the single paper produced by the data generating/contributing scholar. The citations to her original article would grow exponentially in this world rather than linearly in the hoarding model.
 
 ### Modeling Islands
 Since the early days of regional science Walter Isard envisioned that integration would be a hallmark of our discipline. Channels of synthesis, efforts at integration, integrated modeling [@Hewings:2004fk].
@@ -391,7 +391,7 @@ Cathederal v bazaar. RS has been obsessed with building cathedrals at the expens
 
 # Conclusion
 
-Way forward will represent a mixture of open and proprietary regional science. This hybrid model will, however, represent a rebalancing of many components of regional science as it engages with open science. Our choice is whether that engagement takes an active or passive form.
+While my hope is that regional science fully embrace open science, my best guess is that the way forward will represent a mixture of open and proprietary regional science. This hybrid model will, however, represent a rebalancing of many components of regional science as it engages with open science. Our choice is whether that engagement takes an active or passive form.
 
 To close this talk I think regional scientists (actually all scientists) would do well by taking the Dalai Lama's recommendation to heart:
 
