@@ -85,9 +85,26 @@ There are multiple channels through which science has become increasingly commer
 
 ## Commercial Scientific Publishing
 
-The costs of scientific publication has attracted much criticism by members of the academy. A well known lament is that the scientific community carries out the peer review process largely gratis yet the commercial journal publishers charge billions of dollars per year for access to the final scientific product. Although the true costs of access to journals is often obscured by non-disclosure agreements that university libraries must sign to access journals, some estimates put the annual revenue of the science-publishing industry at $9.4 billion in 2011 with an average revenue per article of roughly \$5000, average per article costs  around \$3,500-4,000, and profit margins at 20-30\% [@Van-Noorden:2013lq].
+The costs of scientific publication has attracted much criticism by members of
+the academy. A well known lament is that the scientific community carries out
+the peer review process largely gratis yet the commercial journal publishers
+charge billions of dollars per year for access to the final scientific product.
+Although the true costs of access to journals is often obscured by
+non-disclosure agreements that university libraries must sign to access
+journals, some estimates put the annual revenue of the science-publishing
+industry at $9.4 billion in 2011 with an average revenue per article of roughly
+\$5000, average per article costs  around \$3,500-4,000, and profit margins at
+20-30\% [@Van-Noorden:2013lq].  Curated or captured science is the result.
+Publishers own the copyright of the paper and have enclosed the theory within
+the confines of the article. Software and data are generally not to be found,
+even in cases where the paper access costs can be borne. 
 
-Commercial publishers counter these claims by pointing to the role than journal branding can play through the peer review process. Rejection by high prestige journals serves to filter manuscripts to the most appropriate outlets and lowers the search costs for future researchers. 
+
+
+Commercial publishers counter these claims by pointing to the role than journal
+branding can play through the peer review process. Rejection by high prestige
+journals serves to filter manuscripts to the most appropriate outlets and
+lowers the search costs for future researchers. 
 
 
 ### Open Access
@@ -106,44 +123,6 @@ There have been a number of high profile cases where the poor quality control of
 
 Several profound results stem from this experience. First, more than half of the papers were accepted. Second, both the key anti-cancer agents and the author of these manuscripts did not exist. Thirdly, among the 147 journals that accepted the article were those owned by Elsevier and Sage, as well as prestigious academic institutions such as Kobe University. Combined these results raise doubts about the legitimacy of the open access journal as a repository for the state of scientific knowledge as, in this case, acceptance of patently false findings was the rule not the exception.
 
-
-
-Curated or captured science is the result. Publishers own the copyright of the paper and have enclosed the theory within the confines of the article. Software and data are generally not to be found, even in cases where the paper access costs can be borne. 
-
-
-
-Time to publish on the web
-- Typically 1 hour
-- small marginal costs
-- supports data and software publication
-
-Contrast this with commercial publish. Time to publish an article from the date of submission typically is 1-2 years. The form of journals means that software and data are generally not included as part of the publication. And, the costs of commercial publishing are high, both on the production side of things where estimates are and average of 500 Euros per paper, but also on the access side of the coin where costs to read the same paper average 30 Euros. XXXGet statistics and sources here.
-[@Schroeder:2013uq]
-
-Subscription costs and Universities cancelling subscriptions. Elsevier boycott
-UK open access mandate.
-
-Summary
-
-Too much attention on documents as the only research artifact - data and software are not part of the discussion. Meta-analysis of research areas becomes prohibitively expensive - limits synthesis of knowledge. Science has been captured by commercial interests. All of this leads to major problems of irreproducibility. Essentially what is being comprised is:
-
->Science's capacity for self-correction comes from its openness to scrutiny and challenges
-
-[@Boulton:2012kx]
-
-If openness is in question, science is in question.
-
-
-Evolution of scientific publication.
-
-Complexity in doing science, computation burden and related technological developments are challenging the traditional scientific publishing model. No longer does a regular length paper in a hardbound journal adequately capture the scientific process underlying a research effort.
-
-Reproducibility is almost invariably not possible in the current model
-
-
-Career pressures sustain the current model. Publish or perish has been the mantra we have adopted, leaving little or no time for ensuring that what we publish could in fact be reproduced by future scholars.
-
-It should not come as surprise that the state of reproducibility is so dismal.
 
 
 
@@ -294,11 +273,10 @@ The project began on February 1 of 2009, and had its first contribution 7 hours 
 
 This initial success of the Polymath project has been extended to other math problems, and similar open source collaborative models have been employed in other fields including biology, physics and computer science.  More broadly, one can point to the popularity of sites such as Stack Exchange which is a community-powered question and answer forum where programs frequent in seeking help on problems, as evidence that this approach scales well. The adoption of these models provide new pathways for pushing the limits of our problem solving abilities. At the same time, the raise a number of questions as they represent a very different way to do science.
 
-On a project with hundreds, or possibly thousands, of contributors the specification of authorship is unclear. In the Polymath project the approach has to employ a group pseudonym (similar to a corporate author) and then link back to the full record on the blog.  Preserving that record is also an open challenge since if the site is no longer maintained the record would vanish. It is early days in the field of digital preserve ration but there is some prior art in the US Library of Congress to preserve a selection of legal blogs.  Ironically, in the same issue of Nature the article [@Neylon:2009uq] following the Gower piece was arguing for the alluring powers of Google Wave as a platform for scientists to use in open collaboration. I remember the excitement and buzz around Google Wave very well as we went all in on it during the early phases of PySAL. Unfortunately, as google is wont to do, they killed Google wave.
+On a project with hundreds, or possibly thousands, of contributors the specification of authorship is unclear. In the Polymath project the approach has to employ a group pseudonym (similar to a corporate author) and then link back to the full record on the blog.  Preserving that record is also an open challenge since if the site is no longer maintained the record would vanish. It is early days in the field of digital preservation but there is some prior art in the US Library of Congress to preserve a selection of legal blogs.  Ironically, in the same issue of Nature the article [@Neylon:2009uq] following the Gower piece was arguing for the alluring powers of Google Wave as a platform for scientists to use in open collaboration. I remember the excitement and buzz around Google Wave very well as we went all in on it during the early phases of PySAL. Unfortunately, as google is wont to do, they killed Google wave.
 
 
 The separation lines between the different components of open science are at times blurry. In the case of the PolyMath project, there is a little of everything at work - Gower and his colleagues decided to rely on open collaboration by publishing early (day one problem statement) and often (170,000 words). The wiki and blog captured the full record of problem development, discussion, false starts, dead ends and ultimately solution, clearly a case of the live research article if ever there was one (open publication). As these materials are freely available to any interested party possessing Internet connectivity it is an exemplar of open access.
-
 
 
 
@@ -360,9 +338,46 @@ There are signs that alternative open models for scientific publishing are begin
 
 Several aspects of this process are worth noting. The process relied on technologies that were already familiar to this community of scholars who use code repositories for collaboration on the development of scientific software on a regular basis.  In addition to the technologies,  the traditional roles of author, reviewer, and editor were mapped into those of participants in an open source software development model is innovative. In this model developers (authors) wishing to contribute a new software feature (article) to a field issue a pull request (submission) to the project (journal). That pull request (manuscript submission) is then reviewed by the community (editor and reviewers) and bug reports (referee reports) are submitted. The developer (author) then incorporates the feedback from the bug report (reviews) into the manuscript and updates the pull request (revision submission). 
 
-At the end of the process the project maintainer (editor), has to make a final decision. The pull request would be merged in the case where the paper is accepted, or simply closed but not merged if the paper were rejected. In the former case the paper would appear in the final published proceedings. In contrast to the traditional publication model however, papers that were rejected in the process actually remain in the repository as the trail of pull requests, bug reports and publication decisions is available for all to see.
+At the end of the process the project maintainer (editor), has to make a final decision. The pull request would be merged in the case where the paper is accepted, or simply closed but not merged if the paper were rejected. In the former case the paper would appear in the final published proceedings. In contrast to the traditional publication model however, papers that were rejected in the process actually remain in the repository as the trail of pull requests, bug reports and publication decisions are available for all to see.
 
 Perhaps more importantly, this design enhanced the collaborative nature of the enterprise as the reviewers took on roles of allies in helping to improve the papers. This stood in stark contrast to the traditional review process in which papers can be shredded by reviewers. At the same time, the open source model was highly efficient as the review process started with an initial pull request deadline of May 19th and final publication of the proceedings just over two months later. The organization of the review process akin to  an open source software development model tapped into the power of community and is a clear reflection that science publication is not a solitary endeavor but rather is done by groups of scholars.
+
+
+
+Time to publish on the web
+- Typically 1 hour
+- small marginal costs
+- supports data and software publication
+
+Contrast this with commercial publish. Time to publish an article from the date of submission typically is 1-2 years. The form of journals means that software and data are generally not included as part of the publication. And, the costs of commercial publishing are high, both on the production side of things where estimates are and average of 500 Euros per paper, but also on the access side of the coin where costs to read the same paper average 30 Euros. XXXGet statistics and sources here.
+[@Schroeder:2013uq]
+
+Subscription costs and Universities cancelling subscriptions. Elsevier boycott
+UK open access mandate.
+
+Summary
+
+Too much attention on documents as the only research artifact - data and software are not part of the discussion. Meta-analysis of research areas becomes prohibitively expensive - limits synthesis of knowledge. Science has been captured by commercial interests. All of this leads to major problems of irreproducibility. Essentially what is being comprised is:
+
+>Science's capacity for self-correction comes from its openness to scrutiny and challenges
+
+[@Boulton:2012kx]
+
+If openness is in question, science is in question.
+
+
+
+Evolution of scientific publication.
+
+Complexity in doing science, computation burden and related technological developments are challenging the traditional scientific publishing model. No longer does a regular length paper in a hardbound journal adequately capture the scientific process underlying a research effort.
+
+Reproducibility is almost invariably not possible in the current model
+
+
+Career pressures sustain the current model. Publish or perish has been the mantra we have adopted, leaving little or no time for ensuring that what we publish could in fact be reproduced by future scholars.
+
+It should not come as surprise that the state of reproducibility is so dismal.
+
 
 
 ## Open Education
@@ -370,33 +385,16 @@ Perhaps more importantly, this design enhanced the collaborative nature of the e
 Web book of regional science as an exemplar
 
 
-## Open Institutions, Community, and Collaboration
-
-notion of "open people"
-
-importance of community
-
-strength of regional science is its interdisciplinary outlook
-
-Academia second most conservative institution every invented, next to opera
-
-Academic reward system
-
-Ironically, it would appear that open source and academic science have been largely separated at birth. Linus Torvalds, the creator of the Linux kernel and arguably one of the major figures in the open source movement, expressed his disenchantment with the state of operating systems research in academia as a motivation for leaving the university [@Moody:2001vg].
-
-
-
-Cathederal v bazaar. RS has been obsessed with building cathedrals at the expense of its inherent bazaar structure. Interdisciplinarity in which things spatial serve as the integrating mechanism is the birth right of RS. We should reclaim it.
-
 
 # Conclusion
 
-While my hope is that regional science fully embrace open science, my best guess is that the way forward will represent a mixture of open and proprietary regional science. This hybrid model will, however, represent a rebalancing of many components of regional science as it engages with open science. Our choice is whether that engagement takes an active or passive form.
+While my hope is that regional science fully embrace open science, my best guess is that the way forward will represent a mixture of open and proprietary regional science. In other domains, this mixed model has been highly successful [@Hippel:2004td]. This hybrid model will, however, represent a rebalancing of many components of regional science as it engages with open science. Our choice is whether that engagement takes an active or passive form. If it is passive, I fear we will have missed an opportunity for reinvention. Most of us here work in academia, which has been recognized as the second most conservative institution every invented, next to classic opera [@Sui:2014by]. 
+
+Instead, I think a bottom-up, grass-roots approach to change is the path to success. Each of us in our own way can be a change agent in this regard. This address represents my attempt towards a contribution,  and I hope that this starts a discussion. 
 
 To close this talk I think regional scientists (actually all scientists) would do well by taking the Dalai Lama's recommendation to heart:
 
 > Share your knowledge, it is a way to achieve immortality.
-
 
 
 # References
