@@ -17,15 +17,14 @@ Geographical Sciences and Urban Planning, Arizona State University.
 
 # Introduction
 
-The title of this talk could have multiple meanings. If one were to  use *Open* as an adjective,  what would follow would be a discussion of the many ways in which our world of regional science has embraced openness. An alternative meaning would have *Open* as a verb in which case the talk that follows would be a call to arms for regional scientists to engage with open science and open source. 
+The title of this talk could have multiple meanings. If one were to  use *Open* as an adjective,  what would follow would be a discussion of the many ways in which our world of regional science has embraced open science. An alternative meaning would have *Open* as a verb in which case the talk that follows would be a call to arms for regional scientists to engage with open science and open source. 
 
-Still another set of alternatives would see different punctuations of the tile, with a question mark as in *Open Regional Science?* or an exclamation point *Open Regional Science!*. The former questioning whether regional science is truly open, the latter more of a challenge.
+Still another set of alternatives would see different punctuations of the tile, with a question mark as in *Open Regional Science?* or an exclamation point *Open Regional Science!* -  the former questioning whether regional science is truly open, the latter more of a challenge.
 
 As should be clear in what follows, the thrust of my argument is that the verb and exclamation point interpretations are the correct ones.  My reason for adopting this path are two-fold. First I have seen first hand the impact that open source has had on scientific software development, primarily through me experiences with the packages STARS and PySAL. While software was my point of entry into this open world, the impacts have spread beyond better software development models to influence many aspects of my day to day existence as an academic regional scientists.   These benefits, which I outline in more detail below, have been profoundly positive. Second, I feel that we as the regional science community have been largely disengaged from developments in open science, an important offspring of the open source revolution. I am excited about the possibilities that such an engagement could have on the future of regional science and want to do all that I can to deepen and hasten that development.
 
 
-To do so I will contrast two worlds of science. The first, and the one we regional scientists currently find ourselves embedded within, is what I called *captured science*. While this is our status quo, it is not generally what holds in the broader scientific community were a second and new type of science is operative. This is what I will call *open science*.  My purpose in this talk is to situate regional science within the paradigm of open science by arguing that our future should be linked to open data, open modeling, open software, open collaboration, open publication, open funding and open education. open science opportunities related to [1] technology-driven developments to address big data challenges, [2] crowd powered / citizen science; [3] educational developments
-
+To do so I will contrast two worlds of science. The first, and the one we regional scientists currently find ourselves embedded within, is what I called *captured science*. While this is our status quo, it is not generally what holds in the broader scientific community were a second and new type of science is operative. This is what I will call *open science*.  My purpose in this talk is to situate regional science within the paradigm of open science by arguing that our future should be linked to open data, open modeling, open software, open collaboration, and  open publication.
 
 I will begin by outlining what exactly I mean by captured science, outlining the key characteristics of this world and pointing to some of the challenges and constraints we face. Some of these issues may be familiar to many of us but I think we, as a community, have not had a healthy open discussion about their implications. I next move on to consider an alternative model of open science, what its components are and how regional science might benefit from migrating to this mode of operation and away from the current status quo. I close the talk with some thoughts about the likely future for open regional science.
 
@@ -33,8 +32,8 @@ I will begin by outlining what exactly I mean by captured science, outlining the
 
 I, and I suspect many of you, take the *science* part of regional science seriously. We see science as one of the best constructions of human kind, running close to beer. We hold it in such high esteem as science has the noble goals helping us to:
 
-- understand our world
 - uncover new knowledge
+- understand our world
 - improve our realities for the betterment of human kind
 
 Formal science has its origins in Descartes's Discourse on Methods written in 1637.
@@ -45,9 +44,9 @@ From the beginning the concept of reproducibility was at the core. As
 
 [^verba]: "Take nobody's word for it."
 
-A key development in the advancement of early science was the decision by the Royal Society to publish results in the form of letters as a way to hasten dissemination relative to book publication. Alongside this, the tradition of relying on  three referees for each submitted letter began then and remains with us today, as both the format and the process of early scientific publishing had self-correction baked into them from the beginning, and the  use of three referees as a model for the review process dates back to this period.
+A key development in the advancement of early science was the decision by the Royal Society to publish results in the form of letters as a way to hasten dissemination relative to book publication. Both the format and the process of early scientific publishing had self-correction baked into them from the very beginning. Indeed,  the  use of three referees as a model for the review process dates back to this period.
 
-At the risk of a gross simplification, this model has been successful on the whole as the amount of knowledge produced by the scientific process has grown enormously. Indeed, we are now to the point where the age of the romantic notion of the generalist has long been eclipsed and it is simply impossible for any one scientist to be conversant in the ocean of specializations.
+At the risk of a gross simplification, this model has been successful on the whole as the amount of knowledge produced by the scientific process has grown enormously. One consequence of this success is that  the age of the romantic notion of the generalist has long been eclipsed and it is simply impossible for any one scientist to be conversant in the ocean of specializations we now swim in.
 
 The expanse of science has given rise to new specializations that have developed innovative methods for mapping the body of scientific knowledge and its subfields. XXXrefs Although a review of these efforts is beyond the scope of this talk, I want to employ one particular approach to mapping high dimensional data, the body of scientific knowledge being a special case, onto a sphere XXX. This will serve as a metaphor for understanding the relationship between scientific collaborations between groups of scientists from different areas and the distances separating these collaborators in the knowledge space. By doing so, I think regional science has much to offer in the analysis of what is at once both an embarrassment of riches of scientific breakthroughs and the challenges that continued specialization have on the evolution of the scientific frontier. 
 
@@ -77,7 +76,7 @@ where $\epsilon_r{t(t)}$ is a stochastic error term.
 
 The precise form of the evolution of our sphere depends upon the relative magnitudes of two forms of asymptotics. If so called *in-fill asymptotics* dominate, there would be a densification of knowledge within each subfield without growth in $r$. In *expanding domain asymptotics*, as new advances appear, the density of knowledge within each subfield would be kept constant through growth in $r$. Of course popular metaphors of "pushing the envelope" suggest that expanding domain asymptotics should dominate, but let's assume that both forces are operative. If they are, we then have the paradoxical results that [1] distances between the cores of the domains will increase (due to expanding domain), thus leading to a decline in inter-core interactions; and [2] there will be  increased interaction between the neighboring subareas at the edges of their domains, as well as intra-domain interactions.
 
-The impact of increasing distance on inter-core interactions will of course also be impacted by the evolution of $\alpha(t)$, our distance decay exponent. Generally speaking, this will reflect the costs of overcoming the distance between different bodies of knowledge. My thesis is that, in general terms, we have seen changes in the institutions of science which originally worked to dampen this effect to a world where increasing access costs have been exacerbated this effect, and this transformation has everything to do with a walling off of science to capture economic rents.
+The impact of increasing distance on inter-core interactions will of course also be impacted by the evolution of $\alpha(t)$, our distance decay exponent. Generally speaking, this will reflect the costs of overcoming the distance between different bodies of knowledge. My thesis is that, in general terms, we have seen changes in the institutions of science which originally worked to dampen this effect to a world where increasing access costs have been exacerbating this effect, and this transformation has everything to do with a walling off of science to capture economic rents.
 
 # Captured Science
 
@@ -94,10 +93,11 @@ non-disclosure agreements that university libraries must sign to access
 journals, some estimates put the annual revenue of the science-publishing
 industry at $9.4 billion in 2011 with an average revenue per article of roughly
 \$5000, average per article costs  around \$3,500-4,000, and profit margins at
-20-30\% [@Van-Noorden:2013lq].  Curated or captured science is the result.
-Publishers own the copyright of the paper and have enclosed the theory within
-the confines of the article. Software and data are generally not to be found,
-even in cases where the paper access costs can be borne. 
+20-30\% [@Van-Noorden:2013lq]. These are Apple-like profit margins mind you.
+Curated or captured science is the result.  Publishers own the copyright of the
+paper and have enclosed the theory within the confines of the article. Software
+and data are generally not to be found, even in cases where the paper access
+costs can be borne. 
 
 
 
@@ -112,9 +112,9 @@ lowers the search costs for future researchers.
 A recent development in scientific publishing has been the move to the so called open access publication model.
 Although it can take on different forms, the basic premise is that once a scientific paper has been published it is made freely available to interested readers. The model has gain much momentum, as of 2011 estimates are that some 50\% of all scientific papers published are in some form of open access.  It is useful to take a look at the pressures that have driven its evolution. 
 
-Three general forces have been responsible for open access coming into being. First, and most prominently, is the widespread disenchantment by the academic community with the traditional commercial publishing model. Reflected in such documents as *The Cost of Knowledge*, signed by some 14000 scientists who pledged to no longer participate in commercial scientific publishing, from refusing to submit their articles to journals under the traditional model, to declining referee request or serving in any aspect of the editorial process. This was a key component of the boycott of Elsevier.
+Three general forces have been responsible for open access coming into being. First, and most prominently, is the widespread disenchantment by the academic community with the traditional commercial publishing model. Reflected in such documents as *The Cost of Knowledge*, signed by some 14000 scientists who pledged to no longer participate in commercial scientific publishing, from refusing to submit their articles to journals under the traditional model, to declining referee requests or serving in any aspect of the editorial process. This was a key component of the boycott of Elsevier.
 
-A second pressure reflects movements by governments to begin requiring that research supported by federal funding make the findings and data publicly available. This is reflected in the NSF requiring a data management component in all research proposals with accessibility as central concern. The third pressure is flowing from academia reflected in the University of California (UC) recent adoption of its Open Access Policy [@University-of-California:2013ud] in which faculty grant a license to UC prior to any contractual agreement with publishers. This permits the UC to archive the research in its eScholarship system thus providing access to the public at no charge.
+A second pressure reflects movements by governments to begin requiring that research supported by federal funding make the findings and data publicly available. This is reflected in the NSF requiring a data management component in all research proposals with accessibility as central concern. The third pressure flowing from academia is reflected in the University of California's (UC) recent adoption of its Open Access Policy [@University-of-California:2013ud] in which faculty grant a license to UC prior to any contractual agreement with publishers. This permits the UC to archive the research in its eScholarship system thus providing access to the public at no charge.
 
 
 The open access model has enormous potential for fueling wider dissemination of and access to scientific research, and it is often held in high regard by the scholarly community for this very reason. However, in large part the open access movement can be viewed as a reaction by commercial publishers to respond to these pressures.  Moreover, the model has not been without its problems, some of which are threatening the basic integrity of scientific publishing.
@@ -144,7 +144,7 @@ I doubt it.
 
 At IRSR we have noticed an alarming increase in the number of blatant cases of double-submissions. As part of the submission process authors are required to check a box that indicates the manuscript is their original work and is not under consideration at any other journal. Most other journals have the same requirements so in the cases where this practice is caught, the offending authors have lied at least twice.
 
-Prominent cases of plagiarism, data cooking and fraud are replete in the social sciences. Frank Fischer, a political scientist at Rutgers, was accused by a graduate student and Alan Sokal [^sokal] of plagiarism. Similar to the case of Doris Kearns Goodwin, the accused claimed that it was a case of sloppiness on their part rather than outright plagiarism.[^gelman]
+Prominent cases of plagiarism, data cooking and fraud are replete in the social sciences. Frank Fischer, a political scientist at Rutgers, was accused by a graduate student and Alan Sokal [^sokal] of plagiarism. Similar to the case of Doris Kearns Goodwin, the accused claimed that it was a simply  sloppiness on their part rather than outright plagiarism.[^gelman]
 
 [^gelman]: For a running commentary of plagiarism in the social sciences see the blog of Andrew Gelman at http://andrewgelman.com.
 
@@ -161,8 +161,13 @@ Concerns about scientific software [@Joppa17052013; @Yalta:2010xq].
 
 
 ## Data Hoarding
-
-In order for the network effects of open science to kick in a necessary condition will be that data underlying research projects be made accessible to the wider research community. Unfortunately, current institutional constraints and individual practices are standing in the way of realizing this.
+Several of these high profile cases of scientific fraud or error were uncovered
+because other researchers had access to the data and methods employed in the
+problematic studies.  In order for the network effects of open science to kick
+in a necessary condition will be that data underlying research projects be made
+accessible to the wider research community. Unfortunately, current
+institutional constraints and individual practices are standing in the way of
+realizing this.
 
 ### Privacy Concerns
 
@@ -170,15 +175,25 @@ There are important concerns regarding the protection of personal information on
 
 One example being the case of the State of Massachusetts Group Insurance Commission (GIC) responsible for purchasing health insurance for state employees [@Sweeney:2005uq]. As part of that effort GIC anonymized data by removal of names, addresses, and Social Security numbers before releasing to researchers. What remained in the released data were ZIP code, birth date and gender of each person along with diagnoses and prescription information.
 
-A researcher was able to purchase a voter registration list for Cambridge for $20 that contained the name, address, ZIP code, birth date and gender of each voter. Linking this with the GIC data made it possible to identify the medical records for the state governor, since only six people had the same birth date, of these three were men, and only one of these had the same ZIP code.
+A researcher was able to purchase a voter registration list for Cambridge for
+$20 that contained the name, address, ZIP code, birth date and gender of each
+voter. Linking this with the GIC data, the researcher was able to determine that
+only six people had the same birth date,
+of these three were men, and only one of these had the same ZIP code. That
+person was William Weld, the state's governor.
+
+
 
 ### Data Silos
 Clearly there are problems with anonymization procedures and a very active research agenda is developing around privatization XXXcites. An alternative  is the use of
-save havens as secure sites for data containing sensitive person information with access being granted to authorized researchers. In the US, Census Research Centers play this role and offer remarkable opportunities for regional scientists to have access to micro data subject to a number of restrictions designed to ensure confidentiality. XXXrefs and details see mms proposal on numbers
+safe havens as secure sites for data containing sensitive person information with access being granted to authorized researchers. In the US, Census Research Centers play this role and offer remarkable opportunities for regional scientists to have access to micro data subject to a number of restrictions designed to ensure confidentiality. XXXrefs and details see mms proposal on numbers
 
-Although the CRCs are  successful protecting privacy concerns I think it important to keep in mind that they also place limits on the network effect and science's self-correcting mechanism. This is because replication of studies that come out of CRC research is difficult if not impossible as any researcher seeking to do so requires access to the same data used in the original study. That access is only granted by the CRC which faces difficult choices in determining what proposals get approved for access, and given the choice between proposals for new novel studies versus studies that seek to replicate previous studies, it is conceivable that the former may be viewed more favorably.
+Although the CRCs are  successful in protecting privacy concerns I think it important to keep in mind that they also place limits on the network effect and science's self-correcting mechanism. This is because replication of studies that come out of CRC research is difficult if not impossible as any researcher seeking to do so requires access to the same data used in the original study. That access is only granted by the CRC which faces difficult choices in determining what proposals get approved for access, and given the choice between proposals for new novel studies versus studies that seek to replicate previous studies, it is conceivable that the former may be viewed more favorably.
 
 Closely related to the issues surrounding CRCs are large data infrastructure projects funded by a variety of federal sources. These long running projects such as NHGIS, XXX have served a wide array of social scientists by developing comprehensive GIS datasets that span multiple time periods and spatial resolutions. The investments made in these projects have clearly yielded important benefits, and I in no way am criticizing the efforts of researchers at NHGIS. I am, however, raising the question of alternative models for data infrastructure projects that involve a diversity of institutions that in turn may result in even greater returns. Those models have not really been explored as there seems to be a form of institutional lock-in as the same institutions continue to secure funding to build on previous awards. 
+
+XXXmaybe move this next par to open science part
+I know of multiple research teams have reconstructed their own time consistent boundaries for census data. No doubt there are other cases I am unaware of. OpenStreetMap analogy where these efforts could be pooled and the wasteful cost of human resources avoided.
 
 Data constructed with public funds raises a vexing set of questions surrounding public access to those data. Court cases in NY and Orange county as examples of these issues.
 
@@ -208,7 +223,7 @@ While the previous sections have painted a less than rosy portrait of the curren
 
 ## Open Source 
 
-Much attention has been given to the open source movement and its impacts on many aspects of the modern world, since included [@Rey:2009xy] XXX. Remarkably, these widespread and deep impacts had their origins in the seemingly obscure question of how software teams organized themselves. As chronicled by Raymond, the traditional model adopted by proprietary software houses was to bring together wizards or high priests working in small groups isolated in towers walled off from users and markets. The dominant model since the early days of the software industry,Raymond contrasts this cathedral model with a new upstart represented by early work on the Linux kernel. Here thousands of seemingly unorganized and decentralized developers were working to build the kernel. The chaotic nature of this form of organization struck Raymond as much more of a bazaar than a cathedral.
+Much attention has been given to the open source movement and its impacts on many aspects of the modern world [@Rey:2009xy]. Remarkably, these widespread and deep impacts had their origins in the seemingly obscure question of how software teams organized themselves. As chronicled by Raymond, the traditional model adopted by proprietary software houses was to bring together wizards or high priests working in small groups isolated in towers walled off from users and markets. The dominant model since the early days of the software industry,Raymond contrasts this cathedral model with a new upstart represented by early work on the Linux kernel. Here thousands of seemingly unorganized and decentralized developers were working to build the kernel. The chaotic nature of this form of organization struck Raymond as much more of a bazaar than a cathedral.
 
 That the bazaar model resulted in software that became critical infrastructure underlying many of the internet services we rely on today seemed like an unlikely outcome. Its impacts on science are less well recognized, but we don't have to look far to see concrete evidence. For example, the beauty contest that is the annual ranking of the worlds fastest super computers is massively dominated by Linux as the Top500 supercomputer list reported that 476 of the 500 fastest machines ran Linux [@Vaughan-Nichols:2013fr].
 
