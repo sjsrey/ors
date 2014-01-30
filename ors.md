@@ -33,17 +33,16 @@ As should be clear in what follows, the thrust of my argument is that
 the verb and exclamation point interpretations are the correct ones.  My
 reason for adopting this path are two-fold. First I have seen first hand
 the impact that open source has had on scientific software development,
-primarily through me experiences with the packages STARS and PySAL.
-While software was my point of entry into this open world, the impacts
-have spread beyond better software development models to influence many
-aspects of my day to day existence as an academic regional scientists.
-These benefits, which I outline in more detail below, have been
-profoundly positive. Second, I feel that we as the regional science
-community have been largely disengaged from developments in open
-science, an important offspring of the open source revolution. I am
-excited about the possibilities that such an engagement could have on
-the future of regional science and want to do all that I can to deepen
-and hasten that development.
+primarily through me experiences with the packages STARS [@Rey:2006uh] and
+PySAL [@Rey:2010nc].  While software was my point of entry into this open
+world, the impacts have spread beyond better software development models to
+influence many aspects of my day to day existence as an academic regional
+scientists.  These benefits, which I outline in more detail below, have been
+profoundly positive. Second, I feel that we as the regional science community
+have been largely disengaged from developments in open science, an important
+offspring of the open source revolution. I am excited about the possibilities
+that such an engagement could have on the future of regional science and want
+to do all that I can to deepen and hasten that development.
 
 
 To do so I will contrast two worlds of science. The first, and the one
@@ -100,10 +99,10 @@ of specializations we now swim in.
 
 The expanse of science has given rise to new specializations that have
 developed innovative methods for mapping the body of scientific
-knowledge and its subfields. XXXrefs Although a review of these efforts
+knowledge and its subfields.  Although a review of these efforts
 is beyond the scope of this talk, I want to employ one particular
 approach to mapping high dimensional data, the body of scientific
-knowledge being a special case, onto a sphere XXX. This will serve as a
+knowledge being a special case, onto a sphere. This will serve as a
 metaphor for understanding the relationship between scientific
 collaborations between groups of scientists from different areas and the
 distances separating these collaborators in the knowledge space. By
@@ -152,7 +151,7 @@ $r(t) = a + \sum_{l=1}^{t-1} \psi_l \sum_{i}\sum_{j} I(t-l)_{i,j} + \epsilon_{r(
 where $\epsilon_r{t(t)}$ is a stochastic error term.
 
 The precise form of the evolution of our sphere depends upon the
-relative magnitudes of two forms of asymptotics. If so called *in-fill
+relative magnitudes of two forms of asymptotics [@Cressie:1993yv]. If so called *in-fill
 asymptotics* dominate, there would be a densification of knowledge
 within each subfield without growth in $r$. In *expanding domain
 asymptotics*, as new advances appear, the density of knowledge within
@@ -287,14 +286,11 @@ their part rather than outright plagiarism.[^gelman]
 [^gelman]: For a running commentary of plagiarism in the social sciences
 see the blog of Andrew Gelman at http://andrewgelman.com.
 
-Duke cancer scandal
-
-Dutch psychologist exampleXXX
 
 Closer to home for regional scientists is the Reinhart and Rogoff case which is a
 mixture of spreadsheet errors, omission of available data, favorable weighting
 and transcription. Follow-up studies have shown the magnitude of the effect is
-reduced when these changes are incorporated, but not the sign. See
+reduced when these changes are incorporated, but not the sign
 [@Herndon:2013uq].
 
 
@@ -364,17 +360,15 @@ of these three were men, and only one of these had the same ZIP code. That
 person was William Weld, the state's governor.
 
 
-reproducibliity statistics and the problem with captured science
-
 ### Data Silos
 Clearly there are problems with anonymization procedures and a very
-active research agenda is developing around privatization XXXcites. An
+active research agenda is developing around privatization [@Reiter:2012vn]. An
 alternative  is the use of safe havens as secure sites for data
 containing sensitive person information with access being granted to
-authorized researchers. In the US, Census Research Centers play this
+authorized researchers. In the US, Census Research Centers (CRC) play this
 role and offer remarkable opportunities for regional scientists to have
 access to micro data subject to a number of restrictions designed to
-ensure confidentiality. XXXrefs and details see mms proposal on numbers
+ensure confidentiality. 
 
 Although the CRCs are  successful in protecting privacy concerns I think
 it important to keep in mind that they also place limits on the network
@@ -387,31 +381,19 @@ approved for access, and given the choice between proposals for new
 novel studies versus studies that seek to replicate previous studies, it
 is conceivable that the former may be viewed more favorably.
 
-Closely related to the issues surrounding CRCs are large data
-infrastructure projects funded by a variety of federal sources. These
-long running projects such as NHGIS, XXX have served a wide array of
-social scientists by developing comprehensive GIS datasets that span
-multiple time periods and spatial resolutions. The investments made in
-these projects have clearly yielded important benefits, and I in no way
-am criticizing the efforts of researchers at NHGIS. I am, however,
-raising the question of alternative models for data infrastructure
-projects that involve a diversity of institutions that in turn may
-result in even greater returns. Those models have not really been
-explored as there seems to be a form of institutional lock-in as the
-same institutions continue to secure funding to build on previous
-awards. 
+Closely related to the issues surrounding CRCs are large data infrastructure
+projects funded by a variety of federal sources. These long running projects
+such as the National Historic Geographic Information System (NHGIS) have served
+a wide array of social scientists by developing comprehensive GIS datasets that
+span multiple time periods and spatial resolutions. The investments made in
+these projects have clearly yielded important benefits, and I in no way am
+criticizing the efforts of researchers at NHGIS. I am, however, raising the
+question of alternative models for data infrastructure projects that involve a
+diversity of institutions that in turn may result in even greater returns.
+Those models have not really been explored as there seems to be a form of
+institutional lock-in as the same institutions continue to secure funding to
+build on previous awards. 
 
-XXXmaybe move this next par to open science part
-I know of multiple research teams have reconstructed their own time
-consistent boundaries for census data. No doubt there are other cases I
-am unaware of. OpenStreetMap analogy where these efforts could be pooled
-and the wasteful cost of human resources avoided.
-
-Data constructed with public funds raises a vexing set of questions
-surrounding public access to those data. Court cases in NY and Orange
-county as examples of these issues.
-
-Licensing data as and with software
 
 Data hoarding is not limited to institutions as the problem can be found
 at the individual level as well. Our existing tenure and reward systems
@@ -494,10 +476,10 @@ Much attention has been given to the open source movement and its
 impacts on many aspects of the modern world [@Rey:2009xy]. Remarkably,
 these widespread and deep impacts had their origins in the seemingly
 obscure question of how software teams organized themselves. As
-chronicled by Raymond, the traditional model adopted by proprietary
+chronicled by @raymond99, the traditional model adopted by proprietary
 software houses was to bring together wizards or high priests working in
 small groups isolated in towers walled off from users and markets. The
-dominant model since the early days of the software industry,Raymond
+dominant model since the early days of the software industry, Raymond
 contrasts this cathedral model with a new upstart represented by early
 work on the Linux kernel. Here thousands of seemingly unorganized and
 decentralized developers were working to build the kernel. The chaotic
@@ -600,31 +582,10 @@ for spatial econometrics. A full open source stack of spatial data
 analysis models has been available through the spdep and related
 packages in the R environment. Finally, PySAL is an open source library
 for exploratory spatial data analysis and spatial econometrics for the
-Python language.
-
-
-The key aspect of these libraries is that they provide detailed APIs for
+Python language.  The key aspect of these libraries is that they provide detailed APIs for
 their components which allows end users to combine these components in
 flexible ways 
 
-
-open science piece on challenges of urban systems
-
-integration of multi scalar processes - regional grown and intra-urban spatial structure.
-
-OGC, City GML, Water ML, open modeling initiative (all hands meeting)
-
-
-Urban-sim
-
-ogc standards and interoperability
-
-micro-macro integration
-
-coupled systems
-
-
-Concerns about scientific software [@Joppa17052013; @Yalta:2010xq].
 
 ## Open Collaboration: Release Early and Release Often
 Recall that the problems with publication pressures leading to dubious,
@@ -723,32 +684,8 @@ one (open publication). As these materials are freely available to any
 interested party possessing Internet connectivity it is an exemplar of
 open access.
 
-
-
-A prominent theme in the recent literature on open science is
-reproducibility.  General issues with the commercialization of science
-
-lay out the problem
-
-link the inspiration from open source
-
-
-reproducibility
-
-closed science depletion of a common resource
-
-
-open funding and kick starter crowdfunding initiatives
-
-data archives needed
-
-Open Data Charter  [@Eaves:2013fk] is a recognition that in addition to
-fostering innovation and transparency, open data can also drive public
-policy.
-
-US Government opendatanow.com geoplatform.gov geo.data.gov
-
-
+I would like to propose a question to all of us here today: "What would be an
+open problem in regional science that we all could contribute to?"
 
 ## Open Publishing
 
@@ -773,15 +710,15 @@ It is exciting to contemplate the impact that this could have on
 research in regional science. Take the case of the literature on
 regional convergence  where a number of meta-analyses have attempted a
 synthesis of what we know about the processes of regional growth
-XXXcites. These entail an enormous amount of traditional literature
-review and careful extraction of estimation results from previous
-studies, the latter then used as inputs in meta-regressions to quantify
-the relationship between say speed of convergence and aspects of
-research design employed in the individual studies. But consider a
-meta-analysis on steroids where what is available to the meta-researcher
-is not just data in the form of the final estimation results of previous
-papers, but rather the original data, estimation code and software and
-ancillary materials used to generate the reported estimation results.
+[@De-Groot:2005zl]. These entail an enormous amount of traditional literature
+review and careful extraction of estimation results from previous studies, the
+latter then used as inputs in meta-regressions to quantify the relationship
+between say speed of convergence and aspects of research design employed in the
+individual studies. But consider a meta-analysis on steroids where what is
+available to the meta-researcher is not just data in the form of the final
+estimation results of previous papers, but rather the original data, estimation
+code and software and ancillary materials used to generate the reported
+estimation results.
 
 
 There are signs that alternative open models for scientific publishing
@@ -838,7 +775,7 @@ development model tapped into the power of community and is a clear
 reflection that science publication is not a solitary endeavor but
 rather is done by groups of scholars.
 
-Contrast this with commercial publish. Time to publish an article from
+Contrast this with commercial publishing. The time to publish an article from
 the date of submission typically is 1-2 years. The form of journals
 means that software and data are generally not included as part of the
 publication. And, the costs of commercial publishing are high, both on
@@ -854,8 +791,7 @@ becomes prohibitively expensive - limits synthesis of knowledge. Science
 has been captured by commercial interests. All of this leads to major
 problems of irreproducibility. Essentially what is being comprised is:
 
->Science's capacity for self-correction comes from its openness to scrutiny and challenges
-
+>Science's capacity for self-correction comes from its openness to scrutiny and challenges 
 [@Boulton:2012kx]
 
 If openness is in question, science is in question.
