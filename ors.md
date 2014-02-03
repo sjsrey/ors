@@ -17,32 +17,31 @@ Geographical Sciences and Urban Planning, Arizona State University.
 
 # Introduction
 
-The title of this talk could have multiple meanings. If one were to  use
-*Open* as an adjective,  what would follow would be a discussion of the
-many ways in which our world of regional science has embraced open
-science. An alternative meaning would have *Open* as a verb in which
-case the talk that follows would be a call to arms for regional
-scientists to engage with open science and open source. 
+The title of this talk could have multiple meanings. If one were to  use *Open*
+as an adjective,  what would follow would be a discussion of the many ways in
+which our world of regional science has embraced open science, an important
+offspring of the open source revolution. An alternative meaning would have
+*Open* as a verb in which case the talk that follows would be a call to arms
+for regional scientists to engage with open science and open source. 
 
 Still another set of alternatives would see different punctuations of
 the tile, with a question mark as in *Open Regional Science?* or an
 exclamation point *Open Regional Science!* -  the former questioning
 whether regional science is truly open, the latter more of a challenge.
 
-As should be clear in what follows, the thrust of my argument is that
-the verb and exclamation point interpretations are the correct ones.  My
-reason for adopting this path are two-fold. First I have seen first hand
-the impact that open source has had on scientific software development,
-primarily through me experiences with the packages STARS [@Rey:2006uh] and
-PySAL [@Rey:2010nc].  While software was my point of entry into this open
-world, the impacts have spread beyond better software development models to
-influence many aspects of my day to day existence as an academic regional
-scientists.  These benefits, which I outline in more detail below, have been
-profoundly positive. Second, I feel that we as the regional science community
-have been largely disengaged from developments in open science, an important
-offspring of the open source revolution. I am excited about the possibilities
-that such an engagement could have on the future of regional science and want
-to do all that I can to deepen and hasten that development.
+As should be clear in what follows, the thrust of my argument is that the verb
+and exclamation point interpretations are the correct ones.  My reasons for
+adopting this path are two-fold. First, I have seen first hand the impact that
+open source has had on scientific software development, primarily through me
+experiences with the packages STARS [@Rey:2006uh] and PySAL [@Rey:2010nc].
+While software was my point of entry into this open world, the impacts have
+spread beyond better software development models to influence many aspects of
+my day to day existence as an academic regional scientists.  These benefits,
+which I outline in more detail below, have been profoundly positive. Second, I
+feel that we, the regional science community, have been largely disengaged
+from developments in open science. I am excited about the possibilities that
+such an engagement could have on the future of regional science and want to do
+all that I can to deepen and hasten that development.
 
 
 To do so I will contrast two worlds of science. The first, and the one
@@ -75,7 +74,7 @@ science has the noble goals helping us to:
 - understand our world
 - improve our realities for the betterment of human kind
 
-Formal science had its origins in Descartes's Discourse on Methods written in 1637.
+Formal science had its origins in Descartes's *Discourse on Methods* written in 1637.
 From the beginning the concept of reproducibility was at the core. As
 @Schroeder:2013uq notes the motto of the Royal Society 1671
 
@@ -195,7 +194,7 @@ Although the true costs of access to journals is often obscured by
 non-disclosure agreements that university libraries must sign to access
 journals, some estimates put the annual revenue of the science-publishing
 industry at $9.4 billion in 2011 with an average revenue per article of roughly
-\$5000, average per article costs  around \$3,500-4,000, and profit margins at
+\$5,000, average per article costs  around \$3,500-4,000, and profit margins at
 20-30\% [@Van-Noorden:2013lq]. These are Apple-like profit margins mind you.
 Publishers own the copyright of the paper and have enclosed the theory within
 the confines of the article. Software and data are generally not to be found,
@@ -224,7 +223,7 @@ Three general forces have been responsible for open access coming into
 being. First, and most prominently, is the widespread disenchantment by
 the academic community with the traditional commercial publishing model.
 This is reflected in such documents as *The Cost of Knowledge*, signed by some
-14000 scientists who pledged to no longer participate in commercial
+14,000 scientists who pledged to no longer participate in commercial
 scientific publishing, from refusing to submit their articles to
 journals under the traditional model, to declining referee requests or
 serving in any aspect of the editorial process. This was a key component
@@ -258,7 +257,7 @@ extract from lichen, and its anti-cancer properties. Author names for
 each version of the paper were randomly created, and the dimensions of
 the arguments surrounding combinations of different types of molecules,
 species, and cancer cells were exploited to provide some differentiation
-of the different versions of the paper. 
+of the alternative versions of the paper. 
 
 Several profound results stem from this experience. First, more than
 half of the papers were accepted. Second, both the key anti-cancer
@@ -277,7 +276,7 @@ under the traditional model.
 In addition to the problem of quality control in open access journals, another
 major challenge that arises in captured science is the roadblocks to
 replication and the weakening of sciences self-correction mechanism.  Prominent
-cases of plagiarism, data cooking and fraud are to be found in the social
+cases of plagiarism, data cooking, and fraud are to be found in the social
 sciences. Frank Fischer, a political scientist at Rutgers, was accused by a
 graduate student and Alan Sokal [^sokal] of plagiarism.  Similar to the case of
 Doris Kearns Goodwin, the accused claimed that it was a simply  sloppiness on
@@ -306,29 +305,20 @@ able to do so because they had access to the data and methods underlying the
 original studies in question.
 
 
-Against these high profile cases of scientific fraud we must also be
-cognizant of less well recognized, but arguably more widespread and
-therefor damaging forms of questionable scientific practices such as
-post-hoc theorizing, data fishing and so called p-hacking .  Estimates
-of the prevalence of dubious practices in psychological research, such
-as collecting more data after seeing whether results were significant or
-excluding data after looking at the impact of doing so, approach 100\%
-suggesting that rather than the exception, questionable research
-practices may constitute the "de facto research norm" [@John:2012fk pp.
-525].
-
-At IRSR we have noticed an alarming increase in the number of blatant
-cases of double-submissions. As part of the submission process authors
-are required to check a box that indicates the manuscript is their
-original work and is not under consideration at any other journal. Most
-other journals have the same requirements so in the cases where this
-practice is caught, the offending authors have lied at least twice.
+Against these high profile cases of scientific fraud we must also be cognizant
+of less well recognized, but arguably more widespread and damaging forms of
+questionable scientific practices such as post-hoc theorizing, data fishing and
+so called p-hacking.  Estimates of the prevalence of dubious practices such as
+collecting more data after seeing whether results were significant or excluding
+data after looking at the impact of doing so, approach 100\% suggesting that
+rather than the exception, questionable research practices may constitute the
+"de facto research norm" [@John:2012fk pp.  525].
 
 
 ## Data Hoarding
 Several of these high profile cases of scientific fraud or error were uncovered
 because other researchers had access to the data and methods employed in the
-problematic studies.  In order for the network effects of open science to kick
+problematic studies.  In order for science's error-correction mechanisms to kick
 in a necessary condition will be that data underlying research projects be made
 accessible to the wider research community. Unfortunately, current
 institutional constraints and individual practices are standing in the way of
@@ -373,8 +363,8 @@ ensure confidentiality.
 Although the CRCs are  successful in protecting privacy concerns I think
 it important to keep in mind that they also place limits on the network
 effect and science's self-correcting mechanism. This is because
-replication of studies that come out of CRC research is difficult if not
-impossible as any researcher seeking to do so requires access to the
+replication of studies that come out of CRC research is difficult 
+as any researcher seeking to do so requires access to the
 same data used in the original study. That access is only granted by the
 CRC which faces difficult choices in determining what proposals get
 approved for access, and given the choice between proposals for new
@@ -420,19 +410,15 @@ the hoarding model.
 
 ### Modeling Islands
 Since the early days of regional science Walter Isard envisioned that
-integration would be a hallmark of our discipline. Channels of
-synthesis, efforts at integration, integrated modeling
-[@Hewings:2004fk].
-
-It is sobering to contrast that grand vision with today's state of our
-modeling science. To a very real extent, integration of different
-modeling efforts has fallen far short of this vision. Rather than a rich
-ecosystem  of interconnected modeling components the silo business model
-appears to have won the day.  In part this reflects the economics of the
-regional modeling business where the development, continued enhancement
-and support of modeling frameworks requires stable and constant
-financial support.  Logically that support can be attracted through
-marketing efforts.
+integration would be a hallmark of our discipline [@Hewings:2004fk].  It is
+sobering to contrast that grand vision with today's state of our modeling
+science. To a very real extent, integration of different modeling efforts has
+fallen far short of this vision. Rather than a rich ecosystem  of
+interconnected modeling components the silo business model appears to have won
+the day.  In part this reflects the economics of the regional modeling business
+where the development, continued enhancement, and support of modeling frameworks
+requires stable and constant financial support.  Logically that support can be
+attracted through marketing efforts.
 
 At the same time, we as a community of regional modelers have paid scant
 attention to model interoperability. A search of the leading proprietary
@@ -480,7 +466,7 @@ chronicled by @raymond99, the traditional model adopted by proprietary
 software houses was to bring together wizards or high priests working in
 small groups isolated in towers walled off from users and markets. The
 dominant model since the early days of the software industry, Raymond
-contrasts this cathedral model with a new upstart represented by early
+contrasted this cathedral model with a new upstart represented by early
 work on the Linux kernel. Here thousands of seemingly unorganized and
 decentralized developers were working to build the kernel. The chaotic
 nature of this form of organization struck Raymond as much more of a
@@ -506,10 +492,7 @@ that much published research is unintelligible beyond the origin
 specialist domain. Thus, effective communication of results and methods
 is paramount [@Boulton:2012kx].  In what follows I trace out the key
 aspects of open data and access as well as related dimensions of open
-modeling, open education and open collaboration. Analogy of research as
-software- open source science. In the place of open source code we would
-have open source science where the publications, methods, and data
-underlying existing work were accessible to all.
+modeling, open education and open collaboration. 
 
 
 ## Open Data 
