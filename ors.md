@@ -584,15 +584,15 @@ collaboration. These would tap into  Linus's Law [@Himanen:2001dy]:
 
 > Given enough eyeballs all bugs are shallow
 
-In other words sunshine can be a strong disinfectant for the presence of
+In other words, sunshine can be a strong disinfectant for the presence of
 scientific error as it strengthens the self-correction mechanism.
 
 There are a range of open collaboration models that are possible
 differing in the extent to which the collaboration is implicit versus
 explicit. An example of the implicit approach can be seen in this
 manuscript as I opted to make the entire writing process transparent by
-placing the drafts on GitHub.[^ors] By doing so, I have made the
-materials available to whoever is interested in reading the evolving
+placing the drafts on GitHub.[^ors] By doing so I have made the
+materials available to anyone interested in reading the evolving
 manuscript. Readers who take the time to submit bug reports, or pull
 requests containing suggestions for additions, deletions and edits would
 represent collaborators. 
@@ -615,11 +615,11 @@ of manuscript submission.
 An example of moving towards the more explicit form of open
 collaboration is the Polymath Project developed by [@Gowers:2009fk].
 Inspired by the open source practices seen in the Linux project and
-Wikipedia Gowers began the project on his blog by beginning with a
-description of the problem: namely to develop a prove of the
-Hales-Jewett Theorem in the realm of combinatorics. He also provided a
+Wikipedia, Gowers began the project on his blog by beginning with a
+description of the problem: namely to develop a proof of the
+Hales-Jewett Theorem in the realm of combinatorics. He also provided 
 links for background materials and rules of engagement designed to
-encourage peoples engagement and collaboration.
+encourage peoples' engagement and collaboration.
 
 The project began on February 1 of 2009, and had its first contribution
 7 hours latter from a UBC mathematician. Comments quickly followed from
@@ -633,27 +633,25 @@ This initial success of the Polymath project has been extended to other
 math problems, and similar open source collaborative models have been
 employed in other fields including biology, physics and computer
 science.  More broadly, one can point to the popularity of sites such as
-Stack Exchange which is a community-powered question and answer forum
+Stack Exchange,   a community-powered question and answer forum
 where programs frequent in seeking help on problems, as evidence that
-this approach scales well. The adoption of these models provide new
+this approach scales well. These models provide new
 pathways for pushing the limits of our problem solving abilities. At the
-same time, the raise a number of questions as they represent a very
+same time, they raise a number of questions as they represent a very
 different way to do science.
 
 On a project with hundreds, or possibly thousands, of contributors the
-specification of authorship is unclear. In the Polymath project the
-approach has to employ a group pseudonym (similar to a corporate author)
-and then link back to the full record on the blog.  Preserving that
-record is also an open challenge since if the site is no longer
-maintained the record would vanish. It is early days in the field of
-digital preservation but there is some prior art in the US Library of
-Congress to preserve a selection of legal blogs.  Ironically, in the
-same issue of Nature the article [@Neylon:2009uq] following the Gower
-piece was arguing for the alluring powers of Google Wave as a platform
-for scientists to use in open collaboration. I remember the excitement
-and buzz around Google Wave very well as we went all in on it during the
-early phases of PySAL. Unfortunately, as google is wont to do, they
-killed Google wave.
+specification of authorship is unclear. The Polymath project  employs a group
+pseudonym (similar to a corporate author) and then links back to the full
+record on the blog.  Preserving that record is also an open challenge since if
+the site is no longer maintained the record would vanish. It is early days in
+the field of digital preservation but there is some prior art in the US Library
+of Congress to preserve a selection of legal blogs.  Ironically, in the same
+issue of Nature the article [@Neylon:2009uq] following the Gower piece was
+arguing for the alluring powers of Google Wave as a platform for scientists to
+use in open collaboration. I remember the excitement and buzz around Google
+Wave very well as we went all in on it during the early phases of PySAL.
+Unfortunately, as Google is wont to do, they killed Google Wave.
 
 
 The separation lines between the different components of open science
@@ -661,7 +659,7 @@ are at times blurry. In the case of the PolyMath project, there is a
 little of everything at work - Gower and his colleagues decided to rely
 on open collaboration by publishing early (day one problem statement)
 and often (170,000 words). The wiki and blog captured the full record of
-problem development, discussion, false starts, dead ends and ultimately
+problem development, discussion, false starts, dead ends, and ultimately
 solution, clearly a case of the live research article if ever there was
 one (open publication). As these materials are freely available to any
 interested party possessing Internet connectivity it is an exemplar of
@@ -677,7 +675,7 @@ open problem in regional science that we all could contribute to?"
 Advances in cyberinfrastructure are having impacts not just on how we
 *do* science but are likely to shape the ways we *report* science. The
 traditional vessel of reporting findings has been the regular journal
-article, which has served us well but as pointed out above, is showing
+article, which has served us well but, as pointed out above, is showing
 its age. Tapping the possibilities of electronic publication opens up
 new ways to explore the scientific literature. As journal articles
 become *live* the ability to do more comprehensive analysis of the
@@ -688,7 +686,7 @@ age [@Ahlqvist:2013vn].
 
 The open publication model also provides an entry point
 to access the data and methods that underlie an article. This lowers the
-barriers to replication of reported work by other scientists. 
+barriers to reproducing reported work by other scientists. 
 It is exciting to contemplate the impact that this could have on
 research in regional science. Take the case of the literature on
 regional convergence  where a number of meta-analyses have attempted a
@@ -700,7 +698,7 @@ between say speed of convergence and aspects of research design employed in the
 individual studies. But consider a meta-analysis on steroids where what is
 available to the meta-researcher is not just data in the form of the final
 estimation results of previous papers, but rather the original data, estimation
-code and software and ancillary materials used to generate the reported
+code and software, and ancillary materials used to generate the reported
 estimation results.
 
 
@@ -728,7 +726,7 @@ who use code repositories for collaboration on the development of
 scientific software on a regular basis.  In addition to the
 technologies,  the traditional roles of author, reviewer, and editor
 were mapped into those of participants in an open source software
-development model is innovative. In this model developers (authors)
+development model. In this model developers (authors)
 wishing to contribute a new software feature (article) to a field issue
 a pull request (submission) to the project (journal). That pull request
 (manuscript submission) is then reviewed by the community (editor and
@@ -759,20 +757,21 @@ reflection that science publication is not a solitary endeavor but
 rather is done by groups of scholars.
 
 Contrast this with commercial publishing. The time to publish an article from
-the date of submission typically is 1-2 years. The form of journals
+the date of submission is typically 1-2 years. The form of journals
 means that software and data are generally not included as part of the
 publication. And, the costs of commercial publishing are high, both on
 the production side of things where estimates are and average of 500
 Euros per paper, but also on the access side of the coin where costs to
-read the same paper average 30 Euros. 
-here.  [@Schroeder:2013uq]
+read the same paper average 30 Euros 
+[@Schroeder:2013uq].
 
 
-Too much attention on documents as the only research artifact - data and
-software are not part of the discussion. Meta-analysis of research areas
-becomes prohibitively expensive - limits synthesis of knowledge. Science
-has been captured by commercial interests. All of this leads to major
-problems of irreproducibility. Essentially what is being comprised is:
+Because of our reliance on hard copy journals, too much 
+attention has been placed on documents as the only research artifact - data and
+software are not part of the scientific corpus. Meta-analysis of research areas
+becomes prohibitively expensive and this severely constrains synthesis of
+knowledge.  All of this leads to major problems of irreproducibility.
+Essentially what is being comprised is:
 
 >Science's capacity for self-correction comes from its openness to scrutiny and challenges 
 [@Boulton:2012kx]
@@ -780,7 +779,7 @@ problems of irreproducibility. Essentially what is being comprised is:
 If openness is in question, science is in question.
 
 
-Complexity in doing science, computation burden and related
+Complexity in doing science, computational burden, and related
 technological developments are challenging the traditional scientific
 publishing model. No longer does a regular length paper in a hardbound journal
 adequately capture the scientific process underlying a research effort.  As a
@@ -788,7 +787,7 @@ result, reproducibility is almost invariably not possible in the current model
 It should not come as surprise that the state of reproducibility is so dismal.
 The open science model offers a way out of this morass.
 
-Coupled with the limits to reproducibility associated with the capture science
+Coupled with the limits to reproducibility associated with the captured science
 publication model, are institutional pressures that work against
 reproducibility.  Publish or perish has been the mantra we have adopted,
 leaving little or no time for ensuring that what we publish could in fact be
@@ -796,7 +795,7 @@ reproduced by future scholars. At the same time, the technical solutions to
 implement the open publishing models are already with us. Yet, issues of
 copyright when authors and referees become collaborators need ironing out. It
 appears that the major stumbling blocks to the open publication model are
-institutional [@Ahlqvist:2013vn].
+institutional rather than technical [@Ahlqvist:2013vn].
 
 # Conclusion
 
@@ -809,7 +808,7 @@ as it engages with open science. Our choice is whether that engagement
 takes an active or passive form. If it is passive, I fear we will have
 missed an opportunity for reinvention. Most of us here work in academia,
 which has been recognized as the second most conservative institution
-every invented, next to classic opera [@Sui:2014by]. 
+every invented, the first being to classic opera [@Sui:2014by]. 
 
 Instead, I think a bottom-up, grass-roots approach to change is the path
 to success. Each of us in our own way can be a change agent in this
