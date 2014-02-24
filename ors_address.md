@@ -1,9 +1,19 @@
-% Open Regional Science
-% Sergio J. Rey
-% WRSA Presidential Address, February 18, 2013
+%Open Regional Science
+% Sergio J. Rey^1,^^2^
+% February 18, 2013 
+
+\vspace{1 in}
+\begin{center}
+\textbf{PRESIDENTIAL ADDRESS}\\
+\vspace{.25in}
+55th Annual Meeting of Western Regional Science Association\\
+San Diego, California
+\end{center}
 
 \vfill
+^1^ \small GeoDa Center for Geospatial Computation and Analysis, School of Geographical Sciences and Urban Planning, Arizona State University, Tempe, AZ. email: srey@asu.edu 
 
+^2^ \small I have benefited from the insightful comments of Eric Heikkila who served as discussant for this address. Any remaining errors are my responsibility.
 \newpage
 
 # Introduction
@@ -108,6 +118,7 @@ This is reflected in the NSF requiring a data management component in all resear
 
 The third pressure flowing from academia is reflected in the University of California's (UC) recent adoption of its Open Access Policy [@University-of-California:2013ud] in which faculty grant a license to UC prior to any contractual agreement with publishers.
 This permits the UC to archive the research in its eScholarship system thus providing access to the public at no charge.
+
 The open access model has enormous potential for fueling wider dissemination of and access to scientific research, and it is often held in high regard by the scholarly community for this very reason.
 However, in large part the open access movement can be viewed as a reaction by commercial publishers to respond to these pressures.
 Moreover, the model has not been without its problems, some of which are threatening the basic integrity of scientific publishing.
@@ -176,7 +187,7 @@ That access is only granted by the CRC which faces difficult choices in determin
 
 
 Data hoarding is not limited to institutions as the problem can be found at the individual level as well.
-Our existing tenure and reward systems stress the number of publications produced,  and for researchers who have invested time and resources in constructing or acquiring unique data sets it is logical to seek a return on that investment by maximizing their exclusive use of the data.
+Our existing tenure and reward systems stress the number of publications produced,  and for researchers who have invested time and resources in constructing or acquiring unique data sets it is rational to seek a return on that investment by maximizing their exclusive use of the data.
 However, the individual scholar model doesn't really scale well and the opportunity costs from the scientist restricting access to the data by the wider scientific community have to be considered.
 After all, if the data is really wonderful, just image what might flow from releasing it to the field.
 
@@ -242,7 +253,7 @@ Indeed the central role of data in this context is reflected in an alternative n
 Regional science has been slow to engage with this new paradigm, and at times has been hostile to the exploratory nature of much of this work.
 I think that hostility reflects traditional paradigms dominating economics where theory informed specifications are viewed in high regard, while exploratory data analysis is often dismissed as measurement without theory.
 Yet, in an increasingly interdependent and complex world, one which is also generating unprecedented and overwhelming amounts of empirical data, the gap between what extant theory can shed light upon and what remains unknown will only widen.
-If we don't change our ways, we, regional science, will risk the criticism of practicing theory without measurement. In a world of big data over reliance on theory will limit what we can contribute to science.
+If we don't change our ways, we, regional science, will risk the criticism of practicing theory without measurement. In a world of big data over-reliance on theory will limit what we can contribute to science.
 
 
 There are positive developments however.
@@ -255,8 +266,9 @@ These do not, however, have to be mutually exclusive and I would argue they can 
 Interoperability and open modeling are vital to our ability to move regional science into the high performance computing era.
 Much of our regional science modeling toolkit consists of frameworks that were developed and designed for the single desktop era.
 In order to tap into the power offered by multiprocessing, cluster and grid computing architectures, a significant refactoring of this code base will be required [@Anselin:2011wt].
+
 While earlier I remarked that the current state of the science in regional modeling consists of individual modeling efforts that are largely isolated from one another, there are some important exceptions that point the way forward towards supporting a genuine form of model integration.
-The UrbanSim project developed since the mid 1990s is fully open source and released under the GPL.
+The UrbanSim project [@Waddell:2002aa] developed since the mid 1990s is fully open source and released under the GPL.
 Designed for use in operational planning it has enjoyed wide application across the U.S., Europe, Asia and Africa.
 The open source aspect has fueled both the application and development of UrbanSim, as researchers seeking to apply the modeling framework in their own projects are free to do so having full access to the source code.
 
@@ -274,13 +286,14 @@ Data analysis is not easy, and honest mistakes can be, and are, made.
 Uncovering those mistakes is vital to sciences self-correction mechanism. Yet, uncovering those mistakes is also not easy, especially in our current publishing system.
 Publication pressures exacerbate this by leaving scholars precious little time to fully document the research process that goes into the final publication of the manuscript.
 The lack of replication infrastructure is a major impediment to identifying errors of both nefarious and honest species.
-One possible antidote for this problem is to adopt  more open forms of collaboration. These would tap into  Linus's Law [@Himanen:2001dy]
+
+One possible antidote for this problem is to adopt  more open forms of collaboration. These would tap into  Linus' Law [@Himanen:2001dy]:
 
 >Given enough eyeballs all bugs are shallow.
 
 
-A fascinating example of open collaboration is the Polymath Project developed by [@Gowers:2009fk].
-Inspired by the open source practices seen in the Linux project and Wikipedia, Gowers began the project on his blog by beginning with a description of a research problem: namely to develop a proof of the Hales-Jewett Theorem in the realm of combinatorics.
+A fascinating example of open collaboration is the Polymath Project developed by @Gowers:2009fk.
+Inspired by the open source practices seen in the Linux project and Wikipedia, Gowers began the project on his blog with a description of a research problem: namely to develop a proof of the Hales-Jewett Theorem in the realm of combinatorics.
 He also provided links for background materials and rules of engagement designed to encourage peoples' and collaboration.
 
 
@@ -309,7 +322,8 @@ The open publication model also provides an entry point to access the data and m
 This lowers the barriers to reproducing reported work by other scientists.
 It is exciting to contemplate the impact that this could have on research in regional science.
 Take the case of the literature on regional convergence  where a number of meta-analyses have attempted a synthesis of what we know about the processes of regional growth [@De-Groot:2005zl].
-These entail an enormous amount of traditional literature review and careful extraction of estimation results from previous studies, the latter then used as inputs in meta-regressions to quantify the relationship between say speed of convergence and aspects of research design employed in the individual studies.
+These entail an enormous amount of traditional literature review and careful extraction of estimation results from previous studies, the latter then used as inputs in meta-regressions to quantify the relationship between say speed of convergence and aspects of research design employed in the individual studies.  That is an entirely different ballgame.
+
 But consider a meta-analysis on steroids where what is available to the meta-researcher is not just data in the form of the final estimation results of previous papers, but rather the original data, estimation code and software, and ancillary materials used to generate the reported estimation results.
 
 
@@ -335,7 +349,7 @@ The entire process was produced using open source tools, including GitHub for fi
 Several aspects of this process are worth noting.
 The process relied on technologies that were already familiar to this community of scholars who use code repositories for collaboration on the development of scientific software on a regular basis.
 In addition to the technologies,  the traditional roles of author, reviewer, and editor were mapped into those of participants in an open source software development model.
-In this model developers (i.e. authors) wishing to contribute a new software feature (i.e. article) to a field, issue a pull request (i.e. submission) to the project (i.e. journal).
+In this model developers (i.e., authors) wishing to contribute a new software feature (i.e., article) to a field, issue a pull request (i.e., submission) to the project (i.e., journal).
 That pull request (manuscript submission) is then reviewed by the community (editor and reviewers) and bug reports (referee reports) are submitted.
 The developer (author) then incorporates the feedback from the bug report (reviews) into the manuscript and updates the pull request (revision submission).
 
@@ -367,6 +381,7 @@ a bottom-up, grass-roots approach to change those institutions.
 
 Each of us in our own way can be a change agent in this regard.
 This address represents my attempt towards a contribution,  and I hope that this starts a discussion.
+
 Finally, I will leave you with a recommendation from his holiness the Dalai Lama that captures the spirit of open science:
 
 > Share your knowledge, it is a way to achieve immortality.
