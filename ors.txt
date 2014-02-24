@@ -12,15 +12,13 @@ If one were to  use *Open* as an adjective,  what would follow would be a discus
 An alternative meaning would have *Open* as a verb in which case the talk that follows would be a call to arms for regional scientists to engage with open science and open source. 
 
 
-Still another set of alternatives would see different punctuations of the tile, with a question mark as in *Open Regional Science?* or an exclamation point *Open Regional Science!* -  the former questioning whether regional science is truly open, the latter more of a challenge.  
-
 ---
 
-As should be clear in what follows, the thrust of my argument is that the verb and exclamation point interpretations are the correct ones. 
+As should be clear in what follows, my view is  the second interpretation is the correct one. 
 
-My reasons for adopting this path are two-fold.
+My reasons for  this  are two-fold.
 
-First, I have seen the impact that open source has had on scientific software development, primarily through my experiences with the packages STARS [@Rey:2006uh] and PySAL [@Rey:2010nc].
+First, I have personally seen the impact that open source has had on scientific software development, primarily through my experiences with the packages STARS [@Rey:2006uh] and PySAL [@Rey:2010nc].
 
 
 While software was my point of entry into this open world, the impacts have spread beyond better software development models to influence many aspects of my day to day existence as an academic regional scientists.  
@@ -29,26 +27,25 @@ These impacts, which I outline in more detail below, have been profoundly positi
 
 Second, I feel that we, the regional science community, have been largely disengaged from developments in open science.
 
-I am excited about the possibilities that such an engagement could have on the future of regional science and want to do all that I can to deepen and hasten that development.  
+I am excited about the possibilities that a deeper engagement could have on the future of regional science and want to do all that I can to deepen and hasten its development.  
 
 ---
 To do so I will contrast two worlds of science. 
 
 The first, and the one we regional scientists currently find ourselves embedded within, is what I will call *captured science*.  
 
-While this is our status quo, it is not generally what holds everywhere in the broader scientific community were a second and new type of science is operative. 
-
+While this is our status quo, it is not generally what holds everywhere in the broader scientific community where a second and new type of science is operative. 
 
 This is what I will call *open science*.  
 
 My purpose in this talk is to situate regional science within the paradigm of open science by arguing that our future should be linked to open data, open modeling, open software, open collaboration, and open publication.  
 ---
 
-I will begin by outlining what exactly I mean by captured science, highlighting the key characteristics of this world and pointing to some of the challenges and constraints it poses. 
+I will begin by outlining what exactly I mean by captured science, highlighting its key characteristics and pointing to some of the challenges and constraints it poses. 
 
 Some of these issues may be familiar to many of us but I think we, as a community, have not had a healthy open discussion about their implications. 
 
-I next move on to consider an alternative model of open science, what its components are and how regional science might benefit from migrating to this mode of operation and away from the current status quo. 
+I next move on to consider the alternative model of open science, what its components are, and how regional science might benefit from migrating to this model and away from the current status quo. 
 
 I close the talk with some thoughts about the likely future for open regional science.
 
@@ -60,15 +57,15 @@ I, and I suspect many of you, take the *science* part of regional science seriou
 
 We see science as one of the best constructions of human kind, running close to beer. 
 
-We hold it in such high esteem as science has the noble goals helping us to:
+We hold it in such high esteem as science delivered on the noble goals of:
 
-- uncover new knowledge
-- understand our world
-- improve our realities for the betterment of human kind
+- uncovering new knowledge
+- deepening our understanding of the world
+- improving our realities for the betterment of human kind
 
 Formal science had its origins in Descartes's *Discourse on Methods* written in 1637.  
 
-From the beginning the concept of reproducibility was at the core. 
+From the beginning the concept of reproducibility was at the core of science. 
 
 As @Schroeder:2013uq notes the motto of the Royal Society 1671
 
@@ -81,7 +78,7 @@ As @Schroeder:2013uq notes the motto of the Royal Society 1671
 
 A key development in the advancement of early science was the decision by the Royal Society to publish results in the form of letters as a way to hasten dissemination relative to book publication. 
 
-Both the format and the process of early scientific publishing had self-correction baked into them from the very beginning. 
+Both the format and process of early scientific publishing had self-correction baked into them from the very beginning. 
 
 Indeed,  the  use of three referees as a model for the review process dates back to this period.  
 
@@ -94,7 +91,7 @@ The expanse of science has given rise to new specializations that have developed
 
 Although a review of these efforts is beyond the scope of this talk, I want to employ one particular approach to mapping high dimensional data, the body of scientific knowledge being a special case, onto a sphere.
 
-This will serve as a metaphor for understanding the relationship between scientific collaborations between groups of scientists from different areas and the distances separating these collaborators in the knowledge space. 
+This will serve as a metaphor for understanding the relationship involving scientific collaborations between groups of scientists from different areas and the distances separating these collaborators in knowledge space. 
 
 ---
 Consider a map of scientific domains on a sphere where each domain is represented as a simple polygon. 
@@ -107,31 +104,14 @@ We can now measure the distance between each of the domains using say great circ
 
 We could adopt a spatial interaction model that incorporates this distance to measure the level of interaction between two domains $i$ and $j$ at time $t$.
 
-Within regional science, much ink has been spilled on the specification of $\alpha$ [@Fotheringham:1989fk], and it will take on a central role in the story that follows. 
+Within regional science, much ink has been spilled on the specification of  the distance decay parameter $\alpha$ [@Fotheringham:1989fk], and it will take on a central role in the story that follows. 
 
-The time index reflects the evolution of the associated parameters and distance metrics.
+We adopt a time index to reflect the evolution of the associated parameters and distance metrics.
 
 ---
 [^core]: I am simplifying things here and assuming that the "core" of a domain is located on the envelope (outer surface of our sphere, rather than internal to the sphere. This is in the spirit of the cutting edge argument where the latest publications are building on previous work.
 
 Let me further posit that the area of our sphere can be a proxy for the amount of scientific knowledge at time $t$ and is a function of its radius at time t r(t):
-
----
-
-The precise form of the evolution of our sphere depends upon the relative magnitudes of two forms of asymptotics [@Cressie:1993yv].
-
-If so called *in-fill asymptotics* dominate, there would be a densification of knowledge within each subfield without growth in $r$.
-
-In *expanding domain asymptotics*, as new advances appear, the density of knowledge within each subfield would be kept constant through growth in $r$.
-
-Of course popular metaphors of "pushing the envelope" suggest that expanding domain asymptotics should dominate, but let's assume that both forces are operative.
-
-If they are, we then have the paradoxical results that
-
-[1] distances between the cores of the domains will increase (due to the expanding domain), thus leading to a decline in inter-core interactions;
-
-and [2] there will be  increased interaction between the neighboring subareas at the edges of their domains, as well as intra-domain interactions.
-
 
 ---
 
@@ -233,7 +213,7 @@ footnote
 Questions of selectivity bias in @Bohannon:2013kx have been raised since the sample included only open access journals and not journals published under the traditional model.
 
 ---
-In addition to the problem of quality control in open access journals, another major challenge that arises in captured science is the roadblocks to replication and the weakening of sciences self-correction mechanism.  
+In addition to the problem of quality control in open access journals, another major challenge that arises in captured science is the roadblocks to reproducibility and the weakening of science's self-correction mechanism.  
 
 Prominent cases of plagiarism, data cooking, and fraud are to be found in the social sciences. 
 
@@ -247,7 +227,11 @@ Similar to the case of Doris Kearns Goodwin, the accused claimed that it was a s
 ---
 
 
-Closer to home for regional scientists is the Reinhart and Rogoff case which is a mixture of spreadsheet errors, omission of available data, favorable weighting and transcription. 
+Closer to home for regional scientists is the Reinhart and Rogoff paper which purported a debt-to-G.D.P. ratios above 90% dampened growth.
+
+The paper was widely cited in policy circles in support of austerity programs.
+
+However, examination of the study by others revealed  a mixture of spreadsheet errors, omission of available data, favorable weighting and transcription. 
 
 Follow-up studies have shown the magnitude of the effect is reduced when these changes are incorporated, but not the sign [@Herndon:2013uq].
 
@@ -258,20 +242,12 @@ One ray of shining light is that the heroes of these stories often tend to be gr
 They were able to do so because they had access to the data and methods underlying the original studies in question.
 
 
----
-Against these high profile cases of scientific fraud we must also be cognizant of less well recognized, but arguably more widespread and damaging forms of questionable scientific practices such as post-hoc theorizing, data fishing and so called p-value-hacking.  
-
-Estimates of the prevalence of dubious practices such as collecting more data after seeing whether results were significant or excluding data after looking at the impact of doing so, approach 100\% suggesting that rather than the exception, questionable research practices may constitute the "de facto research norm" [@John:2012fk pp.  
-
-525].
-
----
-
 ## Data Hoarding
 
-Several of these high profile cases of scientific fraud or error were uncovered because other researchers had access to the data and methods employed in the problematic studies.  
 
-In order for science's error-correction mechanisms to kick in a necessary condition will be that data underlying research projects be made accessible to the wider research community. Unfortunately, current institutional constraints and individual practices are standing in the way of realizing this.
+In order for science's error-correction mechanisms to kick in a necessary condition will be that data underlying research projects be made accessible to the wider research community.
+
+Unfortunately, current institutional constraints and individual practices are standing in the way of realizing this.
 
 ---
 ### Privacy Concerns
@@ -312,19 +288,6 @@ Although the CRCs are  successful in protecting privacy concerns I think it impo
 This is because replication of studies that come out of CRC research is difficult as any researcher seeking to do so requires access to the same data used in the original study. 
 
 That access is only granted by the CRC which faces difficult choices in determining what proposals get approved for access, and given the choice between proposals for new novel studies versus studies that seek to replicate previous studies, it is conceivable that the former may be viewed more favorably.
-
-
-
----
-Closely related to the issues surrounding CRCs are large data infrastructure projects funded by a variety of federal sources. 
-
-These long running projects such as the National Historic Geographic Information System (NHGIS) have served a wide array of social scientists by developing comprehensive GIS datasets that span multiple time periods and spatial resolutions. 
-
-The investments made in these projects have clearly yielded important benefits, and I in no way am criticizing the efforts of researchers at NHGIS. 
-
-I am, however, raising the question of alternative models for data infrastructure projects that involve a diversity of institutions that in turn may result in even greater returns.  
-
-Those models have not really been explored as there seems to be a form of institutional lock-in as the same institutions continue to secure funding to build on previous awards. 
 
 ---
 
@@ -382,7 +345,7 @@ This lack of interoperability is particularly worrisome given the growing recogn
 
 While the previous sections have painted a less than rosy portrait of the current state of science, the brush is not intended to be overly broad. 
 
-At the same time, I am also optimistic that rich opportunities lie before us and if we grasp them we can effect an stronger more open science going forward. 
+At the same time, I am also optimistic that rich opportunities lie before us and if we grasp them we can affect a stronger, more open science going forward. 
 
 Here I outline what I see as the key pillars of open science and the roles that regional scientists might play in their realization.
 
@@ -391,7 +354,7 @@ Here I outline what I see as the key pillars of open science and the roles that 
 
 ## Open Source 
 
-Much attention has been given to the open source movement and its impacts on many aspects of the modern world [@Rey:2009xy]. 
+Much attention has been given to the open source revolution and its impacts on many aspects of the modern world [@Rey:2009xy]. 
 
 Remarkably, these widespread and deep impacts had their origins in the seemingly obscure question of how software teams organized themselves. 
 
@@ -450,7 +413,7 @@ The rise of exploratory spatial data analysis, geocomputation, agent based model
 
 Very often the outcome of these lines of investigation are new types of questions arising from newly discovered empirical patterns, and this stands in stark contrast to the tradition approach of hypotheses based investigation. 
 
-These do not, however, have to be mutually exclusive and I would argue they are indeed complementary approaches.
+These do not, however, have to be mutually exclusive and I would argue they can be complementary approaches.
 
 ---
 ## Open Modeling
@@ -496,30 +459,6 @@ The lack of replication infrastructure is a major impediment to identifying erro
 
 One possible antidote for this problem is to adopt  more open forms of collaboration. These would tap into  Linus's Law [@Himanen:2001dy]: > Given enough eyeballs all bugs are shallow
 
----
-
-In other words, sunshine can be a strong disinfectant for the presence of scientific error as it strengthens the self-correction mechanism.  
-
-There are a range of open collaboration models that are possible differing in the extent to which the collaboration is implicit versus explicit. 
-
-An example of the implicit approach can be seen in this manuscript as I opted to make the entire writing process transparent by placing the drafts on GitHub.[^ors] By doing so I have made the materials available to anyone interested in reading the evolving manuscript. 
-
-Readers who take the time to submit bug reports, or pull requests containing suggestions for additions, deletions and edits would represent collaborators. 
-
-
-
-[^ors]: The GitHub repository for the paper is at https://github.com/sjsrey/ors
-
----
-While accessing feedback through the implicit collaboration model is a potential benefit, I think the real value in this model is that it captures the full evolution of the research artifact. 
-
-From a technical standpoint GitHub enables a tracking of the history of all the files in a project, not to mention off-site backup. 
-
-At the same time, deciding to open up your project at a very early stage does have a subtle, but important, influence on how you approach your work. 
-
-In the end, it does not really matter to me whether collaborators are realized in bug reports (or feature requests) - just knowing that potentially there are readers externalizes Adam Smith's impartial observer [@Smith:2001fk].  
-
-And it does so very early in the process rather than at the final stage of manuscript submission.
 
 ---
 An example of moving towards the more explicit form of open collaboration is the Polymath Project developed by [@Gowers:2009fk].  
@@ -529,13 +468,12 @@ Inspired by the open source practices seen in the Linux project and Wikipedia, G
 He also provided links for background materials and rules of engagement designed to encourage peoples' engagement and collaboration.
 
 
-
 ---
 The project began on February 1 of 2009, and had its first contribution 7 hours latter from a UBC mathematician. 
 
 Comments quickly followed from a diverse array of individuals spanning the spectrum from an Arizona high school math teacher to a winner of a Fields Medal. 
 
-Shortly after one month from beginning the project accumulated over 800 contributions representing 170,000 words and by early March the collective effort had generated an elementary proof.  
+Shortly after one month from beginning, the project accumulated over 800 contributions representing 170,000 words and by early March the collective effort had generated an elementary proof.  
 
 This initial success of the Polymath project has been extended to other math problems, and similar open source collaborative models have been employed in other fields including biology, physics and computer science.  
 
@@ -543,39 +481,11 @@ More broadly, one can point to the popularity of sites such as Stack Exchange,  
 
 These models provide new pathways for pushing the limits of our problem solving abilities. 
 
-At the same time, they raise a number of questions as they represent a very different way to do science.
-
----
-On a project with hundreds, or possibly thousands, of contributors the specification of authorship is unclear. 
-
-The Polymath project  employs a group pseudonym (similar to a corporate author) and then links back to the full record on the blog.  
-
-Preserving that record is also an open challenge since if the site is no longer maintained the record would vanish. 
-
-It is early days in the field of digital preservation but there is some prior art in the US Library of Congress to preserve a selection of legal blogs.  
-
-Ironically, in the same issue of Nature the article [@Neylon:2009uq] following the Gower piece was arguing for the alluring powers of Google Wave as a platform for scientists to use in open collaboration. 
-
-I remember the excitement and buzz around Google Wave very well as we went all in on it during the early phases of PySAL.  
-
-Unfortunately, as Google is wont to do, they killed Google Wave.
-
-
-
 ---
 
-The separation lines between the different components of open science are at times blurry. 
-
-In the case of the PolyMath project, there is a little of everything at work - Gower and his colleagues decided to rely on open collaboration by publishing early (day one problem statement) and often (170,000 words). 
-
-The wiki and blog captured the full record of problem development, discussion, false starts, dead ends, and ultimately solution, clearly a case of the live research article if ever there was one (open publication). 
-
-As these materials are freely available to any interested party possessing Internet connectivity it is an exemplar of open access.
-
-
-
----
 I would like to propose a question to all of us here today: "What would be an open problem in regional science that we all could contribute to?"
+
+Don't answer now, we can discuss it over drinks later at the reception.
 
 ---
 
@@ -617,15 +527,6 @@ The entire process was produced using open source tools, including GitHub for fi
 Authors were provided with templates to build their papers and these templates using *ReStructuredText* were made available via a *forking* of the proceedings GitHub repository.
 
 
-
-When their paper was ready for submission, the authors issued a *pull request*. 
-
-Once the pull request was merged, the editors contacted referees via a web form and the reviews were then integrated into the GitHub repository. 
-
-Authors were then asked to respond to the comments and submit a new pull request for the revised version. 
-
-The final accepted versions of the papers were published in the proceedings [@scipy:2013vn] as an open-access publication distributed under the terms of the *Creative Commons Attribution License*. 
-
 ---
 Several aspects of this process are worth noting. 
 
@@ -640,8 +541,8 @@ That pull request (manuscript submission) is then reviewed by the community (edi
 The developer (author) then incorporates the feedback from the bug report (reviews) into the manuscript and updates the pull request (revision submission). 
 
 
-
 ---
+
 At the end of the process the project maintainer (editor), has to make a final decision. 
 
 The pull request would be merged in the case where the paper is accepted, or simply closed but not merged if the paper were rejected. 
@@ -665,10 +566,6 @@ The time to publish an article from the date of submission is typically 1-2 year
 
 The form of journals means that software and data are generally not included as part of the publication. 
 
-And, the costs of commercial publishing are high, both on the production side of things where estimates are and average of 500 Euros per paper, but also on the access side of the coin where costs to read the same paper average 30 Euros [@Schroeder:2013uq].
-
-
-
 ---
 
 Because of our reliance on hard copy journals, too much attention has been placed on documents as the only research artifact - data and software are not part of the scientific corpus. 
@@ -689,18 +586,6 @@ As a result, reproducibility is almost invariably not possible in the current mo
 
 The open science model offers a way out of this morass.
 
----
-Coupled with the limits to reproducibility associated with the captured science publication model, are institutional pressures that work against reproducibility.  
-
-Publish or perish has been the mantra we have adopted, leaving little or no time for ensuring that what we publish could in fact be reproduced by future scholars. 
-
-At the same time, the technical solutions to implement the open publishing models are already with us. 
-
-Yet, issues of copyright when authors and referees become collaborators need ironing out. 
-
-It appears that the major stumbling blocks to the open publication model are institutional rather than technical [@Ahlqvist:2013vn].
-
-
 
 ---
 # Conclusion
@@ -715,17 +600,17 @@ Our choice is whether that engagement takes an active or passive form.
 
 If it is passive, I fear we will have missed an opportunity for reinvention. 
 
-Most of us here work in academia, which has been recognized as the second most conservative institution every invented, the first being to classic opera [@Sui:2014by].  
+Most of us here work in academia, which has been recognized as the second most conservative institution every invented, the first being classic opera [@Sui:2014by].  
 
-Instead, I think a bottom-up, grass-roots approach to change is the path to success. 
-
+In other words, we can't wait for the institutions to change on their own, we mush take 
+ a bottom-up, grass-roots approach to change those institutions.
+ 
 Each of us in our own way can be a change agent in this regard.
 
 This address represents my attempt towards a contribution,  and I hope that this starts a discussion.  
 
-To close this talk I think regional scientists (actually all scientists) would do well by taking the Dalai Lama's recommendation to heart: 
+In the spirit of open science I will leave you with a recommendation from the Dalai Lama:
 
 > Share your knowledge, it is a way to achieve immortality.
 
-
-Thank you for your attention
+Thank you for your attention.
