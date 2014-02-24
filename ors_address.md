@@ -2,7 +2,11 @@
 % Sergio J. Rey
 % WRSA Presidential Address, February 18, 2013
 
-## Introduction
+\vfill
+
+\newpage
+
+# Introduction
 The title of this talk could have multiple meanings.
 If one were to  use *Open* as an adjective,  what would follow would be a discussion of the many ways in which our world of regional science has embraced open science, an important offspring of the open source revolution.
 An alternative meaning would have *Open* as a verb in which case the talk that follows would be a call to arms for regional scientists to engage with open science and open source.
@@ -30,7 +34,7 @@ I next move on to consider the alternative model of open science, what its compo
 I close the talk with some thoughts about the likely future for open regional science.
 
 
-## Science: Riches and Challenges
+# Science: Riches and Challenges
 I, and I suspect many of you, take the *science* part of regional science seriously.
 We see science as one of the best constructions of the human kind, running close to beer.
 We hold it in such high regard as science has delivered on the noble goals of:
@@ -68,7 +72,7 @@ Generally speaking, this will reflect the costs of overcoming the distance betwe
 My thesis is that, in general terms, we have seen changes in the institutions of science which originally worked to dampen this effect to a world where increasing access costs have been exacerbating this effect, and this transformation has everything to do with a walling off of science to capture economic rents.
 
 
-### Captured Science
+## Captured Science
 There are multiple channels through which science has become increasingly commercialized since the heady days of Descartes.
 Perhaps the most widely debated of these is the commercialization of scientific publishing.
 The costs of scientific publication has attracted much criticism from members of the academy.
@@ -86,7 +90,7 @@ Commercial publishers counter these claims by pointing to the role that journal 
 Rejection by high prestige journals serves to filter manuscripts to the most appropriate outlets and lowers the search costs for future researchers.
 
 
-### Open Access
+## Open Access
 A recent development in scientific publishing has been the move to the so called open access publication model.
 Although it can take on different forms, the basic premise is that once a scientific paper has been published, and requisite fees paid, it is made freely available to interested readers.
 The model has gained much momentum, as of 2011 estimates are that some 50\% of all scientific papers published are in some form of open access.
@@ -146,7 +150,7 @@ In order for science's error-correction mechanisms to kick in a necessary condit
 Unfortunately, current institutional constraints and individual practices are standing in the way of realizing this.
 
 
-### Privacy Concerns
+## Privacy Concerns
 There are important concerns regarding the protection of personal information on the one hand, and the rich set of empirical analyses that micro data support on the other.
 A number of strategies have been explored to strike this balance.
 Anonymization of public records attempt to minimize the risk of revealing information about individuals.
@@ -160,7 +164,7 @@ Linking this with the GIC data, the researcher was able to determine that only s
 That person was William Weld, the state's governor.
 
 
-### Data Silos
+## Data Silos
 Clearly there are problems with anonymization procedures and a very active research agenda is developing around privatization [@Reiter:2012vn].
 An alternative  is the use of safe havens as secure sites for data containing sensitive person information with access being granted to authorized researchers.
 In the US, Census Research Centers (CRC) play this role and offer remarkable opportunities for regional scientists to have access to micro data subject to a number of restrictions designed to ensure confidentiality.
@@ -350,7 +354,7 @@ The organization of the review process akin to  an open source software developm
 It takes a village to publish an article.
 
 
-## Conclusion
+# Conclusion
 While my hope is that regional science fully embrace open science, my best guess is that the way forward will represent a mixture of open and proprietary regional science.
 In other domains, this mixed model has been highly successful [@Hippel:2004td].
 This hybrid model will, however, represent a rebalancing of many components of regional science as it engages with open science.
@@ -369,6 +373,6 @@ Finally, I will leave you with a recommendation from his holiness the Dalai Lama
 
 Thank you for your attention.
 
-## References
+# References
 
 
