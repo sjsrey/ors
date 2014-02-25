@@ -1,6 +1,6 @@
 %Open Regional Science
 % Sergio J. Rey^1,^^2^
-% February 18, 2013 
+% February 18, 2014 
 
 \vspace{1 in}
 \begin{center}
