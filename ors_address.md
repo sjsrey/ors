@@ -63,7 +63,7 @@ As @Schroeder:2013uq notes the motto of the Royal Society founded in 1671 was
 
 
 A key development in the advancement of early science was the decision by the Royal Society to publish results in the form of letters as a way to hasten dissemination relative to book publication.
-Both the format and process of early scientific publishing had self-correction baked into them from the very beginning.
+Both the format and process of scientific publishing had self-correction baked into them from the very beginning.
 Indeed,  the  use of three referees as a model for the review process dates back to this period.
 At the risk of a gross simplification, this model has been successful on the whole as the amount of knowledge produced by the scientific process has grown enormously.
 One consequence of this success is that  the age of the generalist has long been eclipsed and it is  simply impossible for any one scientist to be conversant in the ocean of specializations we now swim in.
@@ -120,7 +120,7 @@ The third pressure flowing from academia is reflected in the University of Calif
 This permits the UC to archive the research in its eScholarship system thus providing access to the public at no charge.
 
 The open access model has enormous potential for fueling wider dissemination of and access to scientific research, and it is often held in high regard by the scholarly community for this very reason.
-However, in large part the open access movement can be viewed as a reaction by commercial publishers to respond to these pressures.
+However, in large part the open access movement can be viewed as a reaction by commercial publishers to respond to the three pressures mentioned above.
 Moreover, the model has not been without its problems, some of which are threatening the basic integrity of scientific publishing.
 
 
@@ -253,7 +253,7 @@ Indeed the central role of data in this context is reflected in an alternative n
 Regional science has been slow to engage with this new paradigm, and at times has been hostile to the exploratory nature of much of this work.
 I think that hostility reflects traditional paradigms dominating economics where theory informed specifications are viewed in high regard, while exploratory data analysis is often dismissed as measurement without theory.
 Yet, in an increasingly interdependent and complex world, one which is also generating unprecedented and overwhelming amounts of empirical data, the gap between what extant theory can shed light upon and what remains unknown will only widen.
-If we don't change our ways, we, regional science, will risk the criticism of practicing theory without measurement. In a world of big data over-reliance on theory will limit what we can contribute to science.
+If we don't change our ways, we, regional science, will risk the criticism of practicing theory without measurement. In a world of big data, over-reliance on theory will limit what we can contribute to science.
 
 
 There are positive developments however.
@@ -301,7 +301,7 @@ The project began on February 1 of 2009, and had its first contribution 7 hours 
 Comments quickly followed from a diverse array of individuals spanning the spectrum from an Arizona high school math teacher to a winner of a Fields Medal.
 Shortly after one month from beginning, the project accumulated over 800 contributions representing 170,000 words and by early March the collective effort had generated an elementary proof.
 This initial success of the Polymath project has been extended to other math problems, and similar open source collaborative models have been employed in other fields including biology, physics and computer science.
-More broadly, one can point to the popularity of sites such as Stack Exchange,  a community-powered question and answer forum where programers frequent in seeking help on problems, as evidence that this approach scales well.
+More broadly, one can point to the popularity of sites such as Stack Exchange,  a community-powered question and answer forum programmers frequent in seeking help on problems, as evidence that this approach scales well.
 These models provide new pathways for pushing the limits of our problem solving abilities.
 
 
@@ -322,9 +322,9 @@ The open publication model also provides an entry point to access the data and m
 This lowers the barriers to reproducing reported work by other scientists.
 It is exciting to contemplate the impact that this could have on research in regional science.
 Take the case of the literature on regional convergence  where a number of meta-analyses have attempted a synthesis of what we know about the processes of regional growth [@De-Groot:2005zl].
-These entail an enormous amount of traditional literature review and careful extraction of estimation results from previous studies, the latter then used as inputs in meta-regressions to quantify the relationship between say speed of convergence and aspects of research design employed in the individual studies.  That is an entirely different ballgame.
+These entail an enormous amount of traditional literature review and careful extraction of estimation results from previous studies, the latter then used as inputs in meta-regressions to quantify the relationship between say speed of convergence and aspects of research design employed in the individual studies.  
 
-But consider a meta-analysis on steroids where what is available to the meta-researcher is not just data in the form of the final estimation results of previous papers, but rather the original data, estimation code and software, and ancillary materials used to generate the reported estimation results.
+But consider a meta-analysis on steroids where what is available to the meta-researcher is not just data in the form of the final estimation results of previous papers, but rather the original data, estimation code and software, and ancillary materials used to generate the reported estimation results.That is an entirely different ballgame.
 
 
 Because of our reliance on hard copy journals, too much attention has been placed on documents as the only research artifact - data and software are not part of the scientific corpus.
@@ -376,7 +376,7 @@ This hybrid model will, however, represent a rebalancing of many components of r
 Our choice is whether that engagement takes an active or passive form.
 If it is passive, I fear we will have missed an opportunity for reinvention.
 Most of us here work in academia, which has been recognized as the second most conservative institution every invented, the first being classic opera [@Sui:2014by].
-In other words, we can't wait for the institutions to change on their own, we mush take
+In other words, we can't wait for the institutions to change on their own, we must take
 a bottom-up, grass-roots approach to change those institutions.
 
 Each of us in our own way can be a change agent in this regard.
