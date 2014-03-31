@@ -13,7 +13,7 @@ San Diego, California
 \vfill
 ^1^ \small GeoDa Center for Geospatial Computation and Analysis, School of Geographical Sciences and Urban Planning, Arizona State University, Tempe, AZ. email: srey@asu.edu 
 
-^2^ \small I have benefited from the insightful comments of Eric Heikkila who served as discussant for this address. Any remaining errors are my responsibility.
+^2^ \small I have benefited from the insightful comments of Daniel Arribas-Bel, Janet Franklin, Eric Heikkila, Randall Jackson, Janet Kohlhase,  Julia Koschinsky, and Terry Rey. Any remaining errors are my responsibility.
 \newpage
 
 # Introduction
@@ -22,7 +22,7 @@ If one were to  use *Open* as an adjective,  what would follow would be a discus
 An alternative meaning would have *Open* as a verb in which case the talk that follows would be a call to arms for regional scientists to engage with open science and open source.
 
 
-As should be clear in what follows, I hold the second inteprertation to be correct, and this for two reasons.
+As should be clear in what follows, I hold the second interpretation to be correct, and this for two reasons.
 First, I have personally seen the impact that open source has had on scientific software development, primarily through my experiences with the packages STARS [@Rey:2006uh] and PySAL [@Rey:2010nc].
 While software was my point of entry into this open world, the impacts have spread beyond better software development models to influence many aspects of my day-to-day existence as an academic regional scientist.
 These impacts, which I outline in more detail below, have been profoundly positive.
@@ -105,7 +105,7 @@ Rejection by high prestige journals serves to filter manuscripts to the most app
 ## Open Access
 A recent development in scientific publishing has been the move to the so called open access publication model.
 Although it can take on different forms, the basic premise is that once a scientific paper has been published, and requisite fees paid, it is made freely available to interested readers.
-The model has gained much momentum; as of 2011 estimates are that some 50\% of all scientific papers published are in some form of open access.
+The model has gained much momentum; as of 2011 estimates are that some 50\% of all scientific papers published are in some form of open access.\footnote{At the time of writing, all the leading regional science journals offered some form of open access.} 
 It is useful to take a look at the pressures that have driven its evolution.
 
 
@@ -322,12 +322,15 @@ It is exciting to contemplate the impact that this could have on research in reg
 Take the case of the literature on regional convergence  where a number of meta-analyses have attempted a synthesis of what we know about the processes of regional growth [@De-Groot:2005zl].
 These entail an enormous amount of traditional literature review and careful extraction of estimation results from previous studies, the latter then being used as inputs in meta-regressions to quantify the relationship between say speed of convergence and aspects of research design employed in the individual studies.  
 
-But, consider a meta-analysis on steroids where what is available to the meta-researcher is not just data in the form of the final estimation results of previous papers, but rather the original data, estimation code and software, and ancillary materials used to generate the reported estimation results.That is an entirely different ballgame.
+But, consider a meta-analysis on steroids where what is available to the meta-researcher is not just data in the form of the final estimation results of previous papers, but rather the original data, estimation code and software, and ancillary materials used to generate the reported estimation results. That is an entirely different ballgame.
 
 
-Because of our reliance on hard copy journals, too much attention has been placed on documents as the only research artifact - data and software are not part of the scientific corpus.
-Meta-analysis of research areas becomes prohibitively expensive, and this severely constrains the synthesis of knowledge.
-All of this leads to major problems of irreproducibility.  Essentially what is being compromised is:
+Because of our reliance on hard copy journals, too much attention has been
+placed on documents as the only research artifact - data and software are not
+part of the scientific corpus.  Meta-analysis of research areas becomes
+prohibitively expensive, and this severely constrains the synthesis of
+knowledge.  All of this leads to major problems of irreproducibility.
+Essentially what is being compromised is:
 
 
 >Science's capacity for self-correction comes from its openness to scrutiny and challenges [@Boulton:2012kx]
