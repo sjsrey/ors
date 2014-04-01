@@ -105,13 +105,16 @@ Rejection by high prestige journals serves to filter manuscripts to the most app
 ## Open Access
 A recent development in scientific publishing has been the move to the so called open access publication model.
 Although it can take on different forms, the basic premise is that once a scientific paper has been published, and requisite fees paid, it is made freely available to interested readers.
-The model has gained much momentum; as of 2011 estimates are that some 50\% of all scientific papers published are in some form of open access.\footnote{At the time of writing, all the leading regional science journals offered some form of open access.} 
-It is useful to take a look at the pressures that have driven its evolution.
+The model has gained much momentum; as of 2011 estimates are that some 50\% of all scientific papers published are in some form of open access [@Van-Noorden:2013aa]. The leading regional science journals have all adopted some form of open access, although there is variation in the fees charged to the authors: Annals of Regional Science (\$3000), International Regional Science Review (\$1500), Journal of Regional Science (\$3000), Papers in Regional Science (\$3000), Regional Science and Urban Economics (\$1800).
 
 
 Three general forces have been responsible for open access coming into being.
-First, and most prominently, is the widespread disenchantment by the academic community with the traditional commercial publishing model.
-This is reflected in such documents as *The Cost of Knowledge*, signed by some 14,000 scientists who pledged to no longer participate in commercial scientific publishing, from refusing to submit their articles to journals under the traditional model, to declining referee requests or serving in any aspect of the editorial process.
+First, and most prominently, is the widespread disenchantment by the academic
+community with the traditional commercial publishing model.  This is reflected
+in such documents as *The Cost of Knowledge*, signed by some 14,000 scientists
+who pledged to no longer participate in commercial scientific publishing, from
+refusing to submit their articles to journals under the traditional model, to
+declining referee requests or serving in any aspect of the editorial process.
 This was a key component of the boycott of Elsevier.
 
 
@@ -163,7 +166,7 @@ In order for science's error-correction mechanisms to kick in,   data underlying
 Unfortunately, current institutional constraints and individual practices are standing in the way of realizing this.
 
 
-## Privacy Concerns
+### Privacy Concerns
 There are important concerns regarding the protection of personal information on the one hand, and the rich set of empirical analyses that micro data support on the other.
 A number of strategies have been explored to strike this balance.
 Anonymization of public records attempt to minimize the risk of revealing information about individuals.
@@ -178,7 +181,7 @@ Linking this with the GIC data, the researcher was able to determine that only s
 That person was William Weld, the state's governor.
 
 
-## Data Silos
+### Data Silos
 Clearly there are problems with anonymization procedures, and a very active research agenda is developing around privatization [@Reiter:2012vn].
 An alternative  is the use of safe havens as secure sites for data containing sensitive personal information, with access being granted to authorized researchers.
 In the US, Census Research Centers (CRC) play this role and offer remarkable opportunities for regional scientists to have access to micro data subject to a number of restrictions designed to ensure confidentiality.
@@ -344,7 +347,9 @@ The open science model offers a way out of this morass.
 
 
 There are signs that alternative open models for scientific publishing are beginning to gain traction.
-A recent example that I had experience with was the publication of the conference proceedings for the 2013 Scientific Computing with Python (SciPy2013) conference.
+The European Data Watch Extended Project is building a publication-related data archive to support replication and reproducibility within economics. As part of that effort it maintains a comprehensive listing of data availability policies and replication policies of major economics journals.\footnote{\url{http://www.edawax.de/wp-content/uploads/2012/07/Data_Policies_WP2.pdf}.} Increasingly these journals are requiring as a condition of acceptence that the data underlying the paper be made readily avialble to any researcher for the purposes of publication.\footnote{Unfortunately, none of the five leading regional science journals,  discussed earlier, have data availability policies.} 
+
+A second example of an open model for publication,  that I had experience with,  was the production of the conference proceedings for the 2013 Scientific Computing with Python (SciPy2013) conference.
 The entire process was produced using open source tools, including GitHub, for file submission, reviewing and ultimately publishing.
 
 
