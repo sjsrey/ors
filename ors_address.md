@@ -26,8 +26,10 @@ As should be clear in what follows, I hold the second interpretation to be corre
 First, I have personally seen the impact that open source has had on scientific software development, primarily through my experiences with the packages STARS [@Rey:2006uh] and PySAL [@Rey:2010nc].
 While software was my point of entry into this open world, the impacts have spread beyond better software development models to influence many aspects of my day-to-day existence as an academic regional scientist.
 These impacts, which I outline in more detail below, have been profoundly positive.
-Second, I feel that we, the regional science community, have been largely disengaged from developments in open science.
-I am excited about the possibilities that a deeper engagement could have on the future of regional science and want to do all that I can to hasten its development.
+Second, I feel that we, the regional science community, have been largely
+disengaged from developments in open science.  I am excited about the
+possibilities that a deeper engagement could offer to the future of regional
+science and want to do all that I can to hasten its development.
 
 
 To do so I will contrast two worlds of science.  The first, and the one we
@@ -87,11 +89,11 @@ My thesis is that, in general terms, we have seen changes from a world in which 
 ## Captured Science
 There are multiple channels through which science has become increasingly commercialized since the heady days of Descartes.
 Perhaps the most widely debated of these is the commercialization of scientific publishing.
-The costs of scientific publication has attracted much criticism from members of the academy.
+The costs of scientific publication have attracted much criticism from members of the academy.
 A well known lament is that the scientific community carries out the peer review process largely gratis yet the commercial journal publishers charge billions of dollars per year for access to the final scientific product.
 
 
-Although the true costs of access to journals is often obscured by non-disclosure agreements that university libraries must sign to access journals, some estimates put the annual revenue of the science-publishing industry at $9.4 billion in 2011 with an average revenue per article of roughly \$5,000, average per article costs  around \$3,500-4,000, and profit margins at 20-30\% [@Van-Noorden:2013lq].
+Although the true cost of access to journals is often obscured by non-disclosure agreements that university libraries must sign to access journals, some estimates put the annual revenue of the science-publishing industry at $9.4 billion in 2011 with an average revenue per article of roughly \$5,000, average per article costs  around \$3,500-4,000, and profit margins at 20-30\% [@Van-Noorden:2013lq].
 These are Apple-like profit margins.
 Publishers own the copyright of the paper and have enclosed the theory within the confines of the article.
 Software and data are generally not to be found, even in cases where the paper access costs can be borne.
@@ -108,7 +110,7 @@ Although it can take on different forms, the basic premise is that once a scient
 The model has gained much momentum; as of 2011 estimates are that some 50\% of all scientific papers published are in some form of open access [@Van-Noorden:2013aa]. The leading regional science journals have all adopted some form of open access, although there is variation in the fees charged to the authors: Annals of Regional Science (\$3000), International Regional Science Review (\$1500), Journal of Regional Science (\$3000), Papers in Regional Science (\$3000), Regional Science and Urban Economics (\$1800).
 
 
-Three general forces have been responsible for open access coming into being.
+Given its rise in popularity, it is important to examine the general forces behind open access. 
 First, and most prominently, is the widespread disenchantment by the academic
 community with the traditional commercial publishing model.  This is reflected
 in such documents as *The Cost of Knowledge*, signed by some 14,000 scientists
@@ -118,8 +120,11 @@ declining referee requests or serving in any aspect of the editorial process.
 This was a key component of the boycott of Elsevier.
 
 
-A second pressure reflects movements by governments to begin requiring that research supported by federal funding make the findings and data publicly available.
-This is reflected in the US National Science Foundation requiring a data management component in all research proposals with accessibility as a central concern.
+A second pressure reflects movements by governments to begin requiring that
+research supported by federal funding make the findings and data publicly
+available.  This is reflected in the US National Science Foundation requiring a
+data management component in all research proposals with accessibility as a
+central concern.
 
 The third pressure flowing from academia is reflected in the University of California's (UC) recent adoption of its Open Access Policy [@University-of-California:2013ud] in which faculty grant a license to UC prior to any contractual agreement with publishers.
 This permits the UC to archive the research in its eScholarship system, thus providing access to the public at no charge.
@@ -162,14 +167,14 @@ One ray of shining light is that the heroes of these stories often tend to be gr
 They were able to do so because they had access to the data and methods underlying the original studies in question.
 
 ## Data Hoarding
-In order for science's error-correction mechanisms to kick in,   data underlying research projects must be made accessible to the wider research community.
+For science's error-correction mechanisms to kick in,   data underlying research projects must be made accessible to the wider research community.
 Unfortunately, current institutional constraints and individual practices are standing in the way of realizing this.
 
 
 ### Privacy Concerns
 There are important concerns regarding the protection of personal information on the one hand, and the rich set of empirical analyses that micro data support on the other.
 A number of strategies have been explored to strike this balance.
-Anonymization of public records attempt to minimize the risk of revealing information about individuals.
+Anonymization of public records attempts to minimize the risk of revealing information about individuals.
 However, this has its limits as a number of high profile failures have demonstrated.
 
 One example was the case of the State of Massachusetts Group Insurance Commission (GIC), the agency responsible for purchasing health insurance for state employees [@Sweeney:2005uq].
@@ -183,25 +188,45 @@ That person was William Weld, the state's governor.
 
 ### Data Silos
 Clearly there are problems with anonymization procedures, and a very active research agenda is developing around privatization [@Reiter:2012vn].
-An alternative  is the use of safe havens as secure sites for data containing sensitive personal information, with access being granted to authorized researchers.
-In the US, Census Research Centers (CRC) play this role and offer remarkable opportunities for regional scientists to have access to micro data subject to a number of restrictions designed to ensure confidentiality.
+An alternative  is the use of safe havens as secure sites for data containing
+sensitive personal information, with access being granted to authorized
+researchers.  In the US, Census Research Centers (CRC) play this role and offer
+remarkable opportunities for regional scientists to have access to micro data
+subject to a number of restrictions designed to ensure confidentiality.
 
 
-Although the CRCs are  successful in protecting privacy concerns, it important to keep in mind that they also place limits on the network effect and science's self-correcting mechanism.
-This is because replication of studies that come out of CRC research is difficult, as any researcher seeking to do so requires access to the same data used in the original study.
-That access is only granted by the CRC which faces difficult choices in determining what proposals get approved for access. Given the choice between proposals for new novel studies versus studies that seek to replicate previous studies, it is conceivable that the former may be viewed more favorably.
+Although the CRCs are  successful in protecting privacy concerns, it important
+to keep in mind that they also place limits on the network effect and science's
+self-correcting mechanism.  This is because replication of studies that come
+out of CRC research is difficult, as any researcher seeking to do so requires
+access to the same data used in the original study.  That access is only
+granted by the CRC which faces difficult choices in determining what proposals
+get approved for access. Given the choice between proposals for new novel
+studies versus studies that seek to replicate previous studies, it is
+conceivable that the former may be viewed more favorably.\footnote{CRC also requires that research enhance the data used in the approved research projects, and this also likely works against proposals that seek to replicate previously funded studies.}
 
 
-Data hoarding is not limited to institutions, as the problem can be found at the individual level as well.
-Our existing tenure and reward systems stress the number of publications produced,  and for researchers who have invested time and resources in constructing or acquiring unique data sets it is rational to seek a return on that investment by maximizing their exclusive use of the data.
-However, the individual scholar model doesn't really scale well, and one must consider the opportunity costs from the scientist restricting access to the data by the wider scientific community.
-After all, if the data are really so wonderful, just imagine what might flow from releasing it to the field!
+Data hoarding is not limited to institutions as the problem can be found at the
+individual level as well.  Our existing tenure and reward systems stress the
+number of publications produced,  and for researchers who have invested time
+and resources in constructing or acquiring unique data sets it is rational to
+seek a return on that investment by maximizing their exclusive use of the data.
+However, the individual scholar model doesn't really scale well, and one must
+consider the opportunity costs from the scientist restricting access to the
+data by the wider scientific community.  After all, if the data are really so
+wonderful, just imagine what might flow from releasing it to the field!
 
 
-This does not have to be a zero sum game where the private gains are sacrificed for social goods - we can tweak the reward structure and attribution norms to make data provision a first class contribution to the scientific process.
-In other words, rather than the single scholar producing a series of 5 papers with the exclusive use of the data, she could produce one article and releases the data.
-This in turn empowers a larger group of scholars to generate vastly more than 5 papers using the same data, with each of these papers citing the single paper produced by the data generating/contributing scholar.
-The citations to her original article would grow exponentially in this world rather than linearly in the hoarding model.
+This does not have to be a zero sum game where the private gains are sacrificed
+for social goods - we can tweak the reward structure and attribution norms to
+	make data provision a first class contribution to the scientific process.
+	In other words, rather than the single scholar producing a series of 5
+	papers with the exclusive use of the data, she could produce one article
+	and releases the data.  This in turn empowers a larger group of scholars to
+	generate vastly more than 5 papers using the same data, with each of these
+	papers citing the single paper produced by the data generating/contributing
+	scholar.  The citations to her original article would grow exponentially in
+	this world rather than linearly in the hoarding model.
 
 
 ## Modeling Islands
@@ -209,12 +234,12 @@ Since the early days of regional science, Walter Isard envisioned that integrati
 It is sobering to contrast that grand vision with today's state of our modeling science.
 To a very real extent, integration of different modeling efforts has fallen far short of this vision.
 Rather than a rich ecosystem  of interconnected modeling components, the silo business model appears to have become dominant.
-In part this reflects the economics of the regional modeling business where the development, continued enhancement, and support of modeling frameworks requires stable and constant financial support.
+In part this reflects the economics of the regional modeling business where the development, continued enhancement, and support of modeling frameworks requires stable and continual financial support.
 
 
 At the same time, we as a community of regional modelers have paid scant attention to model interoperability.
-A search of the leading proprietary regional models (e.g., REMI, IMPLAN) failed to turn up any references to application programing interfaces (API) which could be used to couple different modeling frameworks together.
-The finger should not just be pointed at proprietary modeling systems, as the academic community has also largely ignored interoperability concerns.
+A search of the leading proprietary regional models (e.g., REMI, IMPLAN) failed to turn up any references to application programing interfaces (API) that could be used to couple different modeling frameworks together.
+The finger should not just be pointed at proprietary modeling systems as the academic community has also largely ignored interoperability concerns.
 Indeed, developers of alternative modeling frameworks are often viewed as competitors rather than as potential collaborators.
 
 
@@ -251,7 +276,7 @@ For science to be truly open, two components need to be operative.
 ## Open Data
 The increasing availability of open data is playing a pivotal role in the evolution of the so called *fourth paradigm of science*.
 The classic pairing of experiment and theory (first and second paradigms) were married to the third paradigm of large-scale computational simulation in the mid-20th century.
-In this triad, data have provided observations about phenomena and were either collected to test particular theories or generated as output in process based simulations about those phenomena.
+In this triad, data have provided observations about phenomena and either collected to test particular theories or generated as output in process based simulations of those phenomena.
 In the fourth paradigm, data assumes a more leading role. Applications of exploratory and data mining technologies to massive and heterogeneous datasets are increasingly being used to generate, rather than test, new hypotheses.
 Indeed the central role of data in this context is reflected in an alternative name for this fourth paradigm:  *data-intensive science* [@Tolle:2011fk].
 
@@ -264,14 +289,14 @@ If we don't change our ways, we regional scientists will incite the criticism of
 
 There are positive developments, however.
 The rise of exploratory spatial data analysis, geocomputation, agent based models, microsimulation, data mining, and related new computationally based methods are enabling an expansion of the scope of regional science.
-Very often the outcome of these lines of investigation are new types of questions arising from newly discovered empirical patterns, and this stands in stark contrast to the tradition approach of hypotheses based investigation.
+Very often the results of these lines of investigation are new types of questions arising from newly discovered empirical patterns, and this stands in stark contrast to the tradition approach of hypotheses based investigation.
 These do not, however, have to be mutually exclusive and I would argue they can be complementary approaches.
 
 
 ## Open Modeling
 Interoperability and open modeling are crucial for moving regional science into the high performance computing era.
 Much of our regional science modeling toolkit consists of frameworks that were developed and designed for the single desktop era.
-In order to tap into the power offered by multiprocessing, cluster and grid computing architectures, a significant refactoring of this code base will be required [@Anselin:2011wt].
+Affording the power of multiprocessing, cluster and grid computing architectures will require a significant refactoring of this code [@Anselin:2011wt].
 
 While earlier I remarked that the current state of the science in regional modeling consists of individual modeling efforts that are largely isolated from one another, there are some important exceptions that point the way forward towards supporting a genuine form of model integration.
 The UrbanSim project [@Waddell:2002aa]  is fully open source and released under the GPL.
@@ -302,8 +327,8 @@ A fascinating example of open collaboration is the Polymath Project developed by
 Inspired by the open source practices seen in the Linux project and Wikipedia, Gowers began the project on his blog with a description of a research problem: namely to develop a proof of the Hales-Jewett Theorem in the realm of combinatorics.
 He also provided links for background materials and rules of engagement designed to encourage peoples' and collaboration.
 
-The project began on February 1 of 2009, and had its first contribution 7 hours latter from a UBC mathematician.
-Comments quickly followed from a diverse array of individuals spanning the spectrum from an Arizona high school math teacher to a winner of a Fields Medal.
+The project began on February 1 of 2009, and had its first contribution 7 hours later from a UBC mathematician.
+Comments quickly followed from a diverse array of individuals spanning the spectrum from an Arizona high school math teacher to a Fields Medal winner.
 Within a few weeks of its inception, the project had accumulated over 800 contributions comprising 170,000 words and by early March the collective effort had generated an elementary proof.
 This initial success of the Polymath project has been extended to other math problems, and similar open source collaborative models have been employed in other fields including biology, physics and computer science.
 More broadly, one can point to the popularity of sites such as Stack Exchange,  a community-powered question and answer forum programmers frequent in seeking help on problems, as evidence that this approach scales well.
@@ -332,8 +357,7 @@ Because of our reliance on hard copy journals, too much attention has been
 placed on documents as the only research artifact - data and software are not
 part of the scientific corpus.  Meta-analysis of research areas becomes
 prohibitively expensive, and this severely constrains the synthesis of
-knowledge.  All of this leads to major problems of irreproducibility.
-Essentially what is being compromised is:
+knowledge.  All of this leads to major problems of irreproducibility, since:
 
 
 >Science's capacity for self-correction comes from its openness to scrutiny and challenges [@Boulton:2012kx]
@@ -347,7 +371,7 @@ The open science model offers a way out of this morass.
 
 
 There are signs that alternative open models for scientific publishing are beginning to gain traction.
-The European Data Watch Extended Project is building a publication-related data archive to support replication and reproducibility within economics. As part of that effort it maintains a comprehensive listing of data availability policies and replication policies of major economics journals.\footnote{\url{http://www.edawax.de/wp-content/uploads/2012/07/Data_Policies_WP2.pdf}.} Increasingly these journals are requiring as a condition of acceptence that the data underlying the paper be made readily avialble to any researcher for the purposes of publication.\footnote{Unfortunately, none of the five leading regional science journals,  discussed earlier, have data availability policies.} 
+The European Data Watch Extended Project is building a publication-related data archive to support replication and reproducibility within economics. As part of that effort it maintains a comprehensive listing of data availability policies and replication policies of major economics journals.\footnote{\url{http://www.edawax.de/wp-content/uploads/2012/07/Data_Policies_WP2.pdf}.} Increasingly these journals are requiring,  as a condition of acceptance, that the data underlying the paper be made readily available to any researcher for the purposes of replication and reproducibility. Unfortunately, none of the five leading regional science journals  discussed earlier have data availability policies. 
 
 A second example of an open model for publication,  that I had experience with,  was the production of the conference proceedings for the 2013 Scientific Computing with Python (SciPy2013) conference.
 The entire process was produced using open source tools, including GitHub, for file submission, reviewing and ultimately publishing.
@@ -376,7 +400,7 @@ It takes a village to publish an article.
 
 
 # Conclusion
-Notwithstanding my sincere hope that regional scientists fully embrace open science, more realistically the way forward will likely be forged by some combination of
+Notwithstanding my sincere hope that regional scientists embrace open science, more realistically the way forward will likely be forged by some combination of
 open and proprietary endeavors.
 In other domains, this mixed model has been highly successful [@Hippel:2004td].
 This hybrid model will, however, represent a rebalancing of many components of regional science as it engages with open science.
